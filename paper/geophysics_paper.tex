@@ -1,5 +1,6 @@
 %\documentclass[paper]{geophysics}
 \documentclass[paper,revised]{geophysics}
+\usepackage{cleveref} %for cref
 
 % An example of defining macros
 \newcommand{\rs}[1]{\mathstrut\mbox{\scriptsize\rm #1}}
@@ -37,12 +38,40 @@ Austin, TX 78713-8924}
 
 \section{Introduction}
 
-This is an introduction. \LaTeX\ is a \new{powerful} document
-typesetting system \cite[]{lamport}. An excellent reference is
-\cite[]{kopka}. The new \textsf{geophysics.cls} class complies with
-the \LaTeX2e\ standard. \old{We had something else written here but
-  decided to get rid of it}.
+The nonlinear relation between the physical properties of earth and natural phenomina expalin the wave behaviour is responsible for FWI to stuck in local minima if the starting model is not lie within the basin of attraction. in this both are used together because both have advantages and disadvantages global is best in exploration and local is best in exploitation. PSO is easily parallelized.
+method \ref{method}
+\section{Methodology}
+\label{method}
+This approach involves two steps. First, a coarse velocity model is prepared using PSO by optimizing the depth, interface velocity, and the rate of change of velocity between interfaces. This model serves as an initial model for conventional gradient-based FWI in the second step.
+\subsection{Particle Swarm Optimization}
+Particle swarm optimization is a stochastic method was formulated by James Kennedy and Russel Eberhart in 1995 when both are involving in understanding the social behaviour of folk birds used for locating food finally this conclude to a mathematical expression a by simulating the behavior of birds further this is used to solve optimization problems. They found the basic fundamental on which birds food finding work is their ability of communication with each other. In this process every bird knows their current \(x_i(t)\), and best position \(p_i(t)\) by computing the fitness value using cost function, every bird also know the best position  \(g(t)\) of folk by sharing their own best positions. The movement of every bird for next step is guided by their own, folk's best position, and by the velocity with which particle is travelling. This process is repeated at every step and finally a globaly best position is achieved by the collective work of all birds. The mathematical expression of this natural phenomina is explained in equation \ref{eqn:pso1}, \ref{eqn:pso2}.
+\begin{itemize}
+	\item \( \mathbf{x}_i(t) \) be the position of particle \( i \) at iteration \( t \).
+	\item \( \mathbf{v}_i(t) \) be the velocity of particle \( i \) at iteration \( t \).
+	\item \( \mathbf{p}_i(t) \) be the personal best position of particle \( i \) until iteration \( t \).
+	\item \( \mathbf{g}(t) \) be the global best position among all particles until iteration \( t \).
+	\item \( w \) be the inertia weight.
+	\item \( c_1 \) and \( c_2 \) be the cognitive and social acceleration coefficients, respectively.
+	\item \( r_1 \) and \( r_2 \) be random numbers uniformly distributed in the range \([0, 1]\).
+\end{itemize}
 
+The velocity and position update rules for each particle are given by:
+\begin{equation}
+	\label{eqn:pso1}
+	\mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))	
+\end{equation}
+
+\begin{equation}
+	\label{eqn:pso2}
+	\mathbf{x}_i(t+1) = \mathbf{x}_i(t) + \mathbf{v}_i(t+1)	
+\end{equation}
+
+Where:
+\begin{itemize}
+	\item \( w \) controls the influence of the previous velocity (inertia).
+	\item \( c_1 \) and \( c_2 \) represent the trust of the particle in itself and in the swarm, respectively.
+	\item \( r_1 \) and \( r_2 \) introduce stochasticity to the particle's movement.
+\end{itemize}
 \section*{Theory}
 
 This is another section. 
@@ -70,7 +99,7 @@ D^{(n)}(\omega) \, \,
 P_{m}^{(n)}(\mathbf{x}_S) \ \ \ .
 \label{SVDray}
 \end{equation}
-
+\ref{SVDray}
 Note that the macro for the \verb#\tensor# command has been changed to
 force tensors to be bold uppercase, in compliance with current SEG
 submission standards. This is so that documents typeset to the old
@@ -89,51 +118,12 @@ Figure~\ref{fig:waves} shows what it is about.
 
 \subsubsection{Multiplot} 
 
-Sometimes it is convenient to put two or more figures from different
-files in an array (see Figure~\ref{fig:exph,exgr}). Individual plots
-are Figures~\ref{fig:exph} and~\ref{fig:exgr}.
-
-\multiplot{2}{exph,exgr}{width=0.4\textwidth}
-{This figure is specified in the document by \newline \texttt{
-    $\backslash$multiplot\{2\}\{exph,exgr\}\{width=0.4$\backslash$textwidth\}\{This caption.\}}.
-}
 
 The first argument of the \texttt{multiplot} command specifies the
 number of plots per row.
 
 \subsection{Tables}
 
-The discussion is summarized in Table~\ref{tbl:example}.
-
-\tabl{example}{This table is specified in the document by \texttt{
-    $\backslash$tabl\{example\}\{This caption.\}\{\ldots\}}.
-}{
-  \begin{center}
-    \begin{tabular}{|c|c|c|}
-      \hline
-      \multicolumn{3}{|c|}{Table Example} \\
-      \hline
-      migration\rule[-2ex]{0ex}{5ex} & 
-      $\omega \rightarrow k_z$ & 
-      $k_y^2+k-z^2\cos^2 \psi=4\omega^2/v^2$ \\
-      \hline
-      \parbox{1in}{zero-offset\\diffraction}\rule[-4ex]{0ex}{8ex} &
-      $k_z\rightarrow\omega_0$ &
-      $k_y^2+k_z^2=4\omega_0^2/v^2$ \\
-      \hline
-      DMO+NMO\rule[-2ex]{0in}{5ex} & $\omega\rightarrow\omega_0$ & 
-      $\frac{1}{4}
-      v^2k_y^2\sin^2\psi+\omega_0^2\cos^2\psi=\omega^2$ \\
-      \hline
-      radial DMO\rule[-2ex]{0in}{5ex} & $\omega\rightarrow\omega_s$ &
-      $\frac{1}{4}v^2k_y^2\sin^2\psi+\omega_s^2=\omega^2$\\
-      \hline
-      radial NMO\rule[-2ex]{0in}{5ex} & $\omega_s\rightarrow\omega_0$ &
-      $\omega_0\cos\psi=\omega_s$\\
-      \hline
-    \end{tabular}
-  \end{center}
-}
 
 \begin{acknowledgments}
 I wish to thank Ivan P\v{s}en\v{c}\'{\i}k and Fr\'ed\'eric Billette
