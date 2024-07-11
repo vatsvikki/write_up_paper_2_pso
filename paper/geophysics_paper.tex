@@ -80,9 +80,15 @@ This contribution of different parameters for succes of PSO make it is necessary
 \begin{enumerate}
 	\item Accuracy with parameters: In this experiment optimization is performed for all test functions with different \(c_1\), \(c_2\), and inertia weights as shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski}. To deal with the inherent randomness of this stochastic method we have perform 50 runs and take the average valus of all as a final optimized values. Accuracy in percentage is calculated using the the equation \ref{eqn:accuracy}.
 	\begin{equation}
-		Accuracy (\%) = 100 - \left| \frac{actual value - optimized value}{actual value - maximum offset} \right| \times 100
+		Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluated \ value}{optimal \ value - maximum \ deviation} \right| \times 100
 		\label{eqn:accuracy}
 	\end{equation}
+Where:
+\begin{itemize}
+	\item \(Optimal \  value\), best possible value of the objective function.
+	\item \(Evaluated \ value\), value of the objective function at a given point in the feasible domain.
+	\item \(maximum \ deviation\), largest difference between the optimized value and the actual values.
+\end{itemize}
 	\begin{sidewaysfigure}	
 		\includegraphics[width=\paperwidth]{Fig/ackley_para_vs_accuracy.jpeg}
 		\caption{Optimization of the Ackley function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}

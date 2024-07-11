@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  11 JUL 2024 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  11 JUL 2024 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,60 +214,60 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Fig/ackley_para_vs_accuracy.jpeg, id=20, 7849.325pt x 6059.63875pt>
 File: Fig/ackley_para_vs_accuracy.jpeg Graphic file (type jpg)
 <use Fig/ackley_para_vs_accuracy.jpeg>
-Package pdftex.def Info: Fig/ackley_para_vs_accuracy.jpeg  used on input line 8
-7.
+Package pdftex.def Info: Fig/ackley_para_vs_accuracy.jpeg  used on input line 9
+3.
 (pdftex.def)             Requested size: 614.295pt x 474.14783pt.
 <Fig/griewank_para_vs_accuracy.jpeg, id=21, 7849.325pt x 6059.63875pt>
 File: Fig/griewank_para_vs_accuracy.jpeg Graphic file (type jpg)
 <use Fig/griewank_para_vs_accuracy.jpeg>
 Package pdftex.def Info: Fig/griewank_para_vs_accuracy.jpeg  used on input line
- 92.
+ 98.
 (pdftex.def)             Requested size: 614.295pt x 474.14783pt.
 <Fig/rastrigin_para_vs_accuracy.jpeg, id=22, 7892.48625pt x 6029.52625pt>
 File: Fig/rastrigin_para_vs_accuracy.jpeg Graphic file (type jpg)
 <use Fig/rastrigin_para_vs_accuracy.jpeg>
 Package pdftex.def Info: Fig/rastrigin_para_vs_accuracy.jpeg  used on input lin
-e 97.
+e 103.
 (pdftex.def)             Requested size: 614.295pt x 469.21553pt.
 <Fig/styblinski_para_vs_accuracy.jpeg, id=23, 7849.325pt x 6059.63875pt>
 File: Fig/styblinski_para_vs_accuracy.jpeg Graphic file (type jpg)
 <use Fig/styblinski_para_vs_accuracy.jpeg>
 Package pdftex.def Info: Fig/styblinski_para_vs_accuracy.jpeg  used on input li
-ne 102.
+ne 108.
 (pdftex.def)             Requested size: 614.295pt x 474.14783pt.
 <./Fig/waves.pdf, id=24, 768.23009pt x 423.50221pt>
 File: ./Fig/waves.pdf Graphic file (type pdf)
 <use ./Fig/waves.pdf>
-Package pdftex.def Info: ./Fig/waves.pdf  used on input line 149.
+Package pdftex.def Info: ./Fig/waves.pdf  used on input line 155.
 (pdftex.def)             Requested size: 433.62pt x 239.04008pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-149.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 149.
+155.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 155.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 149.
+(Font)              for symbol `textbraceleft' on input line 155.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\OT1/cmr/m/n/12 Figure 5: |This fig-ure is spec-i-fied in the doc-u-ment by
  []
 
 [3] [4 <./Fig/ackley_para_vs_accuracy.jpeg>] [5 <./Fig/griewank_para_vs_accurac
 y.jpeg>] [6 <./Fig/rastrigin_para_vs_accuracy.jpeg>] [7 <./Fig/styblinski_para_
 vs_accuracy.jpeg>] [8 <./Fig/waves.pdf>]
-Underfull \hbox (badness 8132) in paragraph at lines 204--204
+Underfull \hbox (badness 8132) in paragraph at lines 210--210
 []\OT1/cmr/m/n/12 Figure B-1: |This fig-ure is
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 204--204
+Underfull \hbox (badness 3449) in paragraph at lines 210--210
 \OT1/cmr/m/n/12 spec-i-fied in the doc-u-ment by
  []
 
 
-Overfull \hbox (29.45482pt too wide) in paragraph at lines 204--204
+Overfull \hbox (29.45482pt too wide) in paragraph at lines 210--210
 \OMS/cmtt/m/n/12 n$\OT1/cmtt/m/n/12 sideplot\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 
 errgrp\OMS/cmtt/m/n/12 gf\OT1/cmtt/m/n/12 width=0.8$\OMS/cmtt/m/n/12 n$\OT1/cmt
 t/m/n/12 text-
@@ -276,22 +276,22 @@ t/m/n/12 text-
 <./Fig/errgrp.pdf, id=49, 289.08pt x 192.72pt>
 File: ./Fig/errgrp.pdf Graphic file (type pdf)
 <use ./Fig/errgrp.pdf>
-Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 204.
+Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 210.
 (pdftex.def)             Requested size: 208.1405pt x 138.75827pt.
 
-Overfull \hbox (3.91661pt too wide) in paragraph at lines 204--204
+Overfull \hbox (3.91661pt too wide) in paragraph at lines 210--210
 [][] 
  []
 
 File: "geophysics_paper.tex"  (verbatim)
 [9 <./Fig/errgrp.pdf>]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 208--208
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \author{Joe Dellinger\footnotemark[1] and Sergey Fomel\footn
 otemark[2]}[] 
  []
 
 
-Overfull \hbox (2011.68121pt too wide) in paragraph at lines 208--208
+Overfull \hbox (2011.68121pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 The nonlinear relation between the physical properties of ea
 rth and natural phenomina expalin the wave behaviour is responsible for FWI to 
 stuck in local minima if the starting model is not lie within the basin of attr
@@ -301,13 +301,13 @@ easily parallelized.[]
  []
 
 
-Overfull \hbox (233.28033pt too wide) in paragraph at lines 208--208
+Overfull \hbox (233.28033pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 Some of the appealing facts of PSO are its convenience, simp
 licity and easiness of implementation requiring.[] 
  []
 
 
-Overfull \hbox (918.70567pt too wide) in paragraph at lines 208--208
+Overfull \hbox (918.70567pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 The prominent features of PSO are its easy implementation, r
 obustness to control parameters and computation efficiency compared with other 
 existing heuristic algorithms such as genetic algorithm in a continuous problem
@@ -315,7 +315,7 @@ existing heuristic algorithms such as genetic algorithm in a continuous problem
  []
 
 
-Overfull \hbox (1295.38086pt too wide) in paragraph at lines 208--208
+Overfull \hbox (1295.38086pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 This approach involves two steps. First, a coarse velocity m
 odel is prepared using PSO by optimizing the depth, interface velocity, and the
  rate of change of velocity between interfaces. This model serves as an initial
@@ -323,7 +323,7 @@ odel is prepared using PSO by optimizing the depth, interface velocity, and the
  []
 
 
-Overfull \hbox (6482.38342pt too wide) in paragraph at lines 208--208
+Overfull \hbox (6482.38342pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 Particle Swarm Optimization (PSO) is a stochastic method dev
 eloped by James Kennedy and Russell Eberhart in 1995. Inspired by the social be
 havior of birds flocking to find food, they formulated a mathematical model to 
@@ -342,67 +342,67 @@ n update equation \ref{eqn:pso2}.[]
  []
 
 
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 208--208
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( \mathbf{x}_i(t) \) be the position of particle \( i
  \) at iteration \( t \).[] 
  []
 
 
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 208--208
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( \mathbf{v}_i(t) \) be the velocity of particle \( i
  \) at iteration \( t \).[] 
  []
 
-
-Overfull \hbox (196.23032pt too wide) in paragraph at lines 208--208
+[10]
+Overfull \hbox (196.23032pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( \mathbf{p}_i(t) \) be the personal best position of
  particle \( i \) until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 208--208
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( \mathbf{g}(t) \) be the global best position among 
 all particles until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 208--208
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) be the cognitive and social ac
 celeration coefficients, respectively.[] 
  []
 
 
-Overfull \hbox (146.83029pt too wide) in paragraph at lines 208--208
+Overfull \hbox (146.83029pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) be random numbers uniformly di
 stributed in the range \([0, 1]\).[] 
  []
 
-[10]
-Overfull \hbox (350.6054pt too wide) in paragraph at lines 208--208
+
+Overfull \hbox (350.6054pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_
 i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 208--208
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( w \) controls the influence of the previous velocit
 y (inertia).[] 
  []
 
 
-Overfull \hbox (227.10533pt too wide) in paragraph at lines 208--208
+Overfull \hbox (227.10533pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) represent the trust of the par
 ticle in itself and in the swarm, respectively.[] 
  []
 
 
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 208--208
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) introduce stochasticity to the
  particle's movement.[] 
  []
 
 
-Overfull \hbox (5309.13284pt too wide) in paragraph at lines 208--208
+Overfull \hbox (5309.13284pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 Inertia weight \((w)\), acceleration coefficients \((c_1,\) 
 \(c_2)\), population size of swarm, and iterations are the controlling paramete
 rs influence the updates. Inertia weight is most important tuning parameter in 
@@ -419,7 +419,7 @@ f iterations affects all iterative optimization algorithms same is true for PSO
  []
 
 
-Overfull \hbox (3197.2818pt too wide) in paragraph at lines 208--208
+Overfull \hbox (3197.2818pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 This contribution of different parameters for succes of PSO 
 make it is necessary to decide the combination of these parameters precisely. w
 e have performed experiments to find the optimal combination of this values, fo
@@ -431,7 +431,7 @@ give a best convergence. these experiments as follows.[]
  []
 
 
-Overfull \hbox (2567.43149pt too wide) in paragraph at lines 208--208
+Overfull \hbox (2567.43149pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \item Accuracy with parameters: In this experiment optimizat
 ion is performed for all test functions with different \(c_1\), \(c_2\), and in
 ertia weights as shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig
@@ -442,92 +442,110 @@ he equation \ref{eqn:accuracy}.[]
  []
 
 
-Overfull \hbox (282.68036pt too wide) in paragraph at lines 208--208
-[]\OT1/cmtt/m/n/12 Accuracy (\%) = 100 - \left| \frac{actual value - optimized 
-value}{actual value - maximum offset} \right| \times 100[] 
+Overfull \hbox (362.9554pt too wide) in paragraph at lines 214--214
+[]\OT1/cmtt/m/n/12 Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluat
+ed \ value}{optimal \ value - maximum \ deviation} \right| \times 100[] 
  []
 
 
-Overfull \hbox (245.63034pt too wide) in paragraph at lines 208--208
+Overfull \hbox (23.33023pt too wide) in paragraph at lines 214--214
+[]\OT1/cmtt/m/n/12 \item \(Optimal \  value\), best possible value of the objec
+tive function.[] 
+ []
+
+
+Overfull \hbox (190.05531pt too wide) in paragraph at lines 214--214
+[]\OT1/cmtt/m/n/12 \item \(Evaluated \ value\), value of the objective function
+ at a given point in the feasible domain.[] 
+ []
+
+
+Overfull \hbox (183.88031pt too wide) in paragraph at lines 214--214
+[]\OT1/cmtt/m/n/12 \item \(maximum \ deviation\), largest difference between th
+e optimized value and the actual values.[] 
+ []
+
+
+Overfull \hbox (245.63034pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \caption{Optimization of the Ackley function with varying in
 ertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
-
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 208--208
+[11]
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \includegraphics[width=\paperwidth]{Fig/griewank_para_vs_acc
 uracy.jpeg}[] 
  []
 
 
-Overfull \hbox (257.98035pt too wide) in paragraph at lines 208--208
+Overfull \hbox (257.98035pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \caption{Optimization of the Griewank function with varying 
 inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 208--208
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \includegraphics[width=\paperwidth]{Fig/rastrigin_para_vs_ac
 curacy.jpeg}[] 
  []
 
 
-Overfull \hbox (264.15535pt too wide) in paragraph at lines 208--208
+Overfull \hbox (264.15535pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \caption{Optimization of the Rastrigin function with varying
  inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
-[11]
-Overfull \hbox (17.15523pt too wide) in paragraph at lines 208--208
+
+Overfull \hbox (17.15523pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \includegraphics[width=\paperwidth]{Fig/styblinski_para_vs_a
 ccuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (301.20537pt too wide) in paragraph at lines 208--208
+Overfull \hbox (301.20537pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \caption{Optimization of the Styblinski-Tang function with v
 arying inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 208--208
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 214--214
 []\OT1/cmtt/m/n/12 \tensor{P}_{M\rightarrow R} \; \tensor{D} \; \tensor{P}_{S\r
 ightarrow M}[] 
  []
 
 [12]
-Overfull \hbox (54.20525pt too wide) in paragraph at lines 208--208
+Overfull \hbox (54.20525pt too wide) in paragraph at lines 214--214
 []    \OT1/cmtt/m/n/12 $\backslash$plot\{waves\}\{width=$\backslash$textwidth\}
 \{This caption.\}}.[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 208--208
-[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
-right]^2} +[] 
- []
-
-
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 208--208
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 214--214
 []  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
 right]^2} +[] 
  []
 
 [13]
-Overfull \hbox (115.95528pt too wide) in paragraph at lines 208--208
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 214--214
+[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
+right]^2} +[] 
+ []
+
+
+Overfull \hbox (115.95528pt too wide) in paragraph at lines 214--214
 []    \OT1/cmtt/m/n/12 $\backslash$sideplot\{errgrp\}\{width=0.8$\backslash$tex
 t\-width\}\{This caption.\}}.[] 
  []
 
 File: "geophysics_reference.bib"  (verbatim)
 [14]
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 212--212
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 218--218
 []  \OT1/cmtt/m/n/12 title  = {Inversion linearis\'ee multi-param\`etres via la
  th\'eorie des rais},[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 212--212
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 218--218
 []  \OT1/cmtt/m/n/12 school = {Institut Fran\c{c}ais du P\'etrole - University 
 Paris VII},[] 
  []
@@ -540,7 +558,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  5191 strings out of 481239
  91505 string characters out of 5920377
- 349056 words of memory out of 5000000
+ 350056 words of memory out of 5000000
  20422 multiletter control sequences out of 15000+600000
  539083 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -559,7 +577,7 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (16 pages, 29365125 bytes).
+Output written on geophysics_paper.pdf (16 pages, 29365823 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
