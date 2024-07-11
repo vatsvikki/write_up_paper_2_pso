@@ -75,7 +75,16 @@ Where:
 	\item \( r_1 \) and \( r_2 \) introduce stochasticity to the particle's movement.
 \end{itemize}
 Inertia weight \((w)\), acceleration coefficients \((c_1,\) \(c_2)\), population size of swarm, and iterations are the controlling parameters influence the updates. Inertia weight is most important tuning parameter in PSO algorithm which provide a balance between exploration and exploitation abilities of PSO by tuning the contribution of velocity. the value of weight between 0.4 to 0.9 provide a good convergence. \((c_1,\) \(c_2)\) are cognitive and social coefficients decide by the confidence on particle's own and swarms' best position this influence the updated velocity. number of particles in swarm also affect the convergence as search space is increased with number of particles and provide a better convergence, experimentally it was studied that arround 30 particels are good for finding the solution within optimal iterations. number of iterations affects all iterative optimization algorithms same is true for PSO.
-this contribution of different parameters make it is necessary to decide the combination of these parameters precisely because these parameters affect the performance of PSO.
+\\
+This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function. this experiment help to choose the optimim value of optimization coeefiecient and finaaly PSO is applied to Schwefel function with parameters choosen frm previous experiment to get parameters which give a best convergence. these experiments as follows.
+\begin{enumerate}
+	\item Influence of iterations on particle size: In this experiment optimization is performed for all test functions with different \(c_1\), \(c_2\), and inertia weights as shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski}. To deal with the inherent randomness of this stochastic method we have perform 50 runs and take the average valus of all as a final optimized values.
+	\begin{sidewaysfigure}
+		\label{fig:ackley}
+		\includegraphics[width=\paperwidth]{Fig/ackley_para_vs_accuracy.jpeg}
+		\caption{Ackley function optimization dependency with different inertia, \(c_1\), and \(c_2\) coefficients.}
+	\end{sidewaysfigure} 
+\end{enumerate}
 \section*{Theory}
 
 This is another section. 
