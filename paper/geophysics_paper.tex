@@ -46,7 +46,7 @@ method \ref{method}
 \label{method}
 This approach involves two steps. First, a coarse velocity model is prepared using PSO by optimizing the depth, interface velocity, and the rate of change of velocity between interfaces. This model serves as an initial model for conventional gradient-based FWI in the second step.
 \subsection{Particle Swarm Optimization}
-Particle Swarm Optimization (PSO) is a stochastic method developed by James Kennedy and Russell Eberhart in 1995. Inspired by the social behavior of birds flocking to find food, they formulated a mathematical model to simulate this behavior. This model is widely applied to solve various optimization problems. They identified that the fundamental principle guiding birds' food-finding behavior is their ability to communicate with each other. Each bird in the process knows its current position \((x_i(t))\) and best position \((p_i(t))\), determined by evaluating the fitness using a cost function. Additionally, each bird shares its best position with others, contributing to the collective knowledge of the flock's best position \((g(t))\). Each bird's next movement is adjusted by its own best, the flock's best, and its current position. This iterative process continues at each step, ultimately converging towards a globally optimal position through the collaborative effort of all birds. This natural phenomenon is mathematically described by velocity \ref{eqn:pso1}, and position update equation \ref{eqn:pso2}.
+Particle Swarm Optimization (PSO) is a stochastic method developed by James Kennedy and Russell Eberhart in 1995. Inspired by the social behavior of birds flocking to find food, they formulated a mathematical model to simulate this behavior. This model is widely applied to solve various optimization problems. They identified that the fundamental principle guiding birds' food-finding behavior is their ability to communicate with each other. Each bird in the process knows its current position \((x_i(t))\) and best position \((p_i(t))\), determined by evaluating the fitness using a cost function. Additionally, each bird shares its best position with others, contributing to the collective knowledge of the flock's best position \((g(t))\). Each bird's next movement is adjusted by its own best, the flock's best, and its current position. This iterative process continues at each step, ultimately converging towards a globally optimal position through the collaborative effort of all birds.This natural phenomenon is mathematically described by the velocity update equation \ref{eqn:pso_1} and the position update equation \ref{eqn:pso_2}.
 \begin{itemize}
 	\item \( \mathbf{x}_i(t) \) be the position of particle \( i \) at iteration \( t \).
 	\item \( \mathbf{v}_i(t) \) be the velocity of particle \( i \) at iteration \( t \).
@@ -58,14 +58,14 @@ Particle Swarm Optimization (PSO) is a stochastic method developed by James Kenn
 \end{itemize}
 
 The velocity and position update rules for each particle are given by:
-\begin{equation}
-	\label{eqn:pso1}
+\begin{equation}	
 	\mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))	
+	\label{eqn:pso_1}
 \end{equation}
 
-\begin{equation}
-	\label{eqn:pso2}
+\begin{equation}	
 	\mathbf{x}_i(t+1) = \mathbf{x}_i(t) + \mathbf{v}_i(t+1)	
+	\label{eqn:pso_2}
 \end{equation}
 
 Where:
@@ -74,46 +74,89 @@ Where:
 	\item \( c_1 \) and \( c_2 \) represent the trust of the particle in itself and in the swarm, respectively.
 	\item \( r_1 \) and \( r_2 \) introduce stochasticity to the particle's movement.
 \end{itemize}
-Inertia weight \((w)\), acceleration coefficients \((c_1,\) \(c_2)\), population size of swarm, and iterations are the controlling parameters influence the updates. Inertia weight is most important tuning parameter in PSO algorithm which provide a balance between exploration and exploitation abilities of PSO by tuning the contribution of velocity. the value of weight between 0.4 to 0.9 provide a good convergence. \((c_1,\) \(c_2)\) are cognitive and social coefficients decide by the confidence on particle's own and swarms' best position this influence the updated velocity. number of particles in swarm also affect the convergence as search space is increased with number of particles and provide a better convergence, experimentally it was studied that arround 30 particels are good for finding the solution within optimal iterations. number of iterations affects all iterative optimization algorithms same is true for PSO.
+\subsection{Optimization Parameters}
+The updates in the Particle Swarm Optimization (PSO) algorithm are influenced by several controlling parameters, including the inertia weight \((w)\), acceleration coefficients \((c_1\) and \(c_2)\), population size of the swarm, and the number of iterations. Among these, the inertia weight is the most critical tuning parameter as it balances the exploration and exploitation capabilities of PSO by adjusting the contribution of the particle's previous velocity. An inertia weight value between 0.4 and 0.9 is generally found to provide good convergence. The cognitive and social coefficients \((c_1\) and \(c_2)\) represent the confidence in a particle's own best position and the swarm's best position, respectively, and they influence the updated velocity of the particles. The number of particles in the swarm also affects convergence; as the number of particles increases, the search space expands, potentially leading to better convergence. Experimental studies have shown that a swarm size of around 30 particles is generally effective for finding solutions within optimal iterations. The number of iterations, as with all iterative optimization algorithms, significantly impacts the performance of PSO.
 \\
-This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function. this experiment help to choose the optimim value of optimization coeefiecient and finaaly PSO is applied to Schwefel function with parameters choosen frm previous experiment to get parameters which give a best convergence. these experiments as follows.
-\begin{enumerate}
-<<<<<<< HEAD
-	\item Accuracy with parameters: In this experiment optimization is performed for all test functions with different \(c_1\), \(c_2\), and inertia weight \((w)\) as shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski}. To deal with the inherent randomness of this stochastic method we have perform 50 runs and take the average valus of all as a final optimized values. Accuracy in percentage is calculated using the the equation \ref{eqn:accuracy}.
-=======
-	\item Accuracy with parameters: In this experiment optimization is performed for all described test functions with different \(c_1\), \(c_2\), and inertia weights as shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski}. To deal with the inherent randomness of this stochastic method we have perform 50 runs and take the average valus of all as a final optimized values. Accuracy in percentage is calculated using the the equation \ref{eqn:accuracy}.
->>>>>>> 6ed0ddfd9ab075da82508a906152054baf4bc495
-	\begin{equation}
-		Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluated \ value}{optimal \ value - maximum \ deviation} \right| \times 100
-		\label{eqn:accuracy}
-	\end{equation}
+This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski} respectively. These experiments are performed to determine the optimal value of the optimization coefficient and examine the relationship between the number of iterations and swarm size. Since both swarm size and iteration count impact computational time, it is essential to balance these factors to achieve effective optimization while minimizing computational costs. To fairly compare the effects of swarm size and the number of iterations, the rate of increase for both parameters is kept consistent. Following this, PSO is applied to the Schwefel function using the parameters chosen from the previous experiment to achieve the parameters that lead to the best convergence. To analyze performance, accuracy is evaluated based on the maximum deviation using equation \ref{eqn:accuracy}. Further details of these experiments are outlined below.
+\begin{equation}
+	Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluated \ value}{optimal \ value - maximum \ deviation} \right| \times 100
+	\label{eqn:accuracy}
+\end{equation}
 Where:
 \begin{itemize}
 	\item \(Optimal \  value\), best possible value of the objective function.
 	\item \(Evaluated \ value\), value of the objective function at a given point in the feasible domain.
-	\item \(maximum \ deviation\), largest difference between the optimized value and the actual values.
+	\item \(Maximum \ deviation\), largest difference between the optimized value and the actual values.
 \end{itemize}
-	\begin{sidewaysfigure}	
-		\includegraphics[width=\paperwidth]{Fig/ackley_para_vs_accuracy.jpeg}
-		\caption{Optimization of the Ackley function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
-		\label{fig:ackley}
-	\end{sidewaysfigure} 
-	\begin{sidewaysfigure}	
-		\includegraphics[width=\paperwidth]{Fig/griewank_para_vs_accuracy.jpeg}
-		\caption{Optimization of the Griewank function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
-		\label{fig:griewank}
-	\end{sidewaysfigure} 
-	\begin{sidewaysfigure}	
-		\includegraphics[width=\paperwidth]{Fig/rastrigin_para_vs_accuracy.jpeg}
-		\caption{Optimization of the Rastrigin function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
-		\label{fig:rastrigin}
-	\end{sidewaysfigure} 
-	\begin{sidewaysfigure}	
-		\includegraphics[width=\paperwidth]{Fig/styblinski_para_vs_accuracy.jpeg}
-		\caption{Optimization of the Styblinski-Tang function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
-		\label{fig:styblinski}
-	\end{sidewaysfigure} 
+\begin{enumerate}
+	\item Accuracy with Parameters: In this experiment, optimization is conducted for all specified test functions using varying values of \(c_1\), \(c_2\), and inertia weights, as illustrated in figures \ref{fig:acc_ackley}, \ref{fig:acc_griewank}, \ref{fig:acc_rastrigin}, and \ref{fig:acc_styblinski}. To address the inherent randomness of this stochastic method, we perform 50 runs with 1000 iterations and calculate the average of these results as the final optimized values. 
+%\begin{figure}	
+%	\includegraphics[width=\paperwidth]{Fig/ackley.png}
+%	\caption{Ackley function.}
+%	\label{fig:ackley}
+%\end{figure} 
+%\begin{figure}	
+%	\includegraphics[width=\paperwidth]{Fig/griewank.png}
+%	\caption{Griewank function.}
+%	\label{fig:griewank}
+%\end{figure}
+%\begin{figure}	
+%	\includegraphics[width=\paperwidth]{Fig/rastrigin.png}
+%	\caption{Rastrigin function.}
+%	\label{fig:rastrigin}
+%\end{figure}
+%\begin{figure}	
+%	\includegraphics[width=\paperwidth]{Fig/styblinski.png}
+%	\caption{Styblinski-Tang function.}
+%	\label{fig:styblinski}
+%\end{figure}
+	
+This experiment concludes that a combination of inertia weights between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6 and 1.8 results in improved accuracy. 
+%	\begin{sidewaysfigure}	
+%		\includegraphics[width=\paperwidth]{Fig/ackley_para_vs_accuracy.jpeg}
+%		\caption{Optimization of the Ackley function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
+%		\label{fig:acc_ackley}
+%	\end{sidewaysfigure} 
+%	\begin{sidewaysfigure}	
+%		\includegraphics[width=\paperwidth]{Fig/griewank_para_vs_accuracy.jpeg}
+%		\caption{Optimization of the Griewank function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
+%		\label{fig:acc_griewank}
+%	\end{sidewaysfigure} 
+%	\begin{sidewaysfigure}	
+%		\includegraphics[width=\paperwidth]{Fig/rastrigin_para_vs_accuracy.jpeg}
+%		\caption{Optimization of the Rastrigin function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
+%		\label{fig:acc_rastrigin}
+%	\end{sidewaysfigure} 
+%	\begin{sidewaysfigure}	
+%		\includegraphics[width=\paperwidth]{Fig/styblinski_para_vs_accuracy.jpeg}
+%		\caption{Optimization of the Styblinski-Tang function with varying inertia weights, \(c_1\), and \(c_2\) coefficients.}
+%		\label{fig:acc_styblinski}
+%	\end{sidewaysfigure} 
+
+	\item Accuracy with iterations: Here, accuracy is assessed while maintaining a constant swarm size of 30 and an initial iteration count of 1000, which is then increased by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, to examine how the number of iterations impacts accuracy across all test functions. The results indicate that as the number of iterations increases, accuracy improves, reaching a maximum close to 100 \% when iterations are increased to 10 times, as illustrated in figure \ref{fig:acc_itr}.
+%	\begin{figure}	
+%		\includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_accuracy.jpeg}
+%		\caption{Accuracy variation with iterations keeping the swarm size at 30 for all test functions.}
+%		\label{fig:acc_itr}
+%	\end{figure}
+	
+	\item Acuuracy with swarm size: In this study, accuracy is evaluated across all tests by varying the swarm size, starting with 30 particles and increasing it by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, while keeping the number of iterations constant at 1000. The findings indicate that as the swarm size increases, accuracy improves to approximately 70 \%.
 \end{enumerate}
+From these three experiments, it is concluded that an optimal combination of inertia weights between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6 and 1.8 leads to enhanced accuracy. Additionally, increasing the number of iterations relative to the number of particles is beneficial, as it provide improved accuracy while maintaining similar computational costs.
+\\
+Parameters which are performing well in above experiments withtest functions are used to check the rate of convergence for Schwefel function shown in figure \ref{fig:schwefel} this is another test function for which only objective function with iteration is studied as in figure \ref{fig:con_schwefel}. the aim to do this study is to get a combination of optimzation parameters such that a better rate of convergence can be achieved so that a good optimizaed resuklt can be obtaoined with in less number of iterations.
+%\begin{figure}	
+%	\includegraphics[width=0.8\paperwidth]{Fig/schwefel.png}
+%	\caption{Schwefel function.}
+%	\label{fig:schwefel}
+%\end{figure}
+
+%\begin{figure}	
+%	\includegraphics[width=0.8\paperwidth]{Fig/con_vs_itr.jpg}
+%	\caption{Objective function versus iteration for Schwefel function.}
+%	\label{fig:con_schwefel}
+%\end{figure}
+
 \section*{Theory}
 
 This is another section. 
