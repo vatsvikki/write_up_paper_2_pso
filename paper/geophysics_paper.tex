@@ -160,7 +160,7 @@ The parameters that performed well in the previous experiments with test functio
 \subsection{Model Parameterization}
 The seismic model includes physical parameters defined at densely packed grid points, often in the thousands, leading to an exponentially expanding search space that complicates the implementation of PSO. Therefore, it is essential to create a method for defining these velocity models with fewer parameters before implementing PSO, ensuring that the resulting output model can effectively serve as an initial model for FWI. 
 \\
-We propose a technique to define a depth-velocity profile at sparsely horizontal positions with the depth of interfaces (\(c_i\)), where \(i\) is representing the \(i^{th}\) interface, rate of change (\(g_i\)) of velocity between \((i - 1)^{th}\) to \(i^th\) interface, and velocity (\(v_i\)) of model below the \(i^th\) interface,  These multiple depth-velocity profiles sparasly located are interpolated and smoothened for preparing an initial model. it is also assumed that two interface donot intersect each other whihc is gelological not possible. 
+We propose a technique to define as depth-velocity profile at sparsely horizontal positions with the depth of interfaces (\(c_i\)), where \(i\) is representing the \(i^{th}\) interface, rate of change (\(g_i\)) of velocity between \((i - 1)^{th}\) to \(i^th\) interface, and velocity (\(v_i\)) of model below the \(i^th\) interface,  These multiple depth-velocity profiles sparasly located are interpolated for preparing an initial model. it is also assumed that two interface donot intersect each other whihc is gelological not possible. 
 \section*{Theory}
 
 This is another section. 
