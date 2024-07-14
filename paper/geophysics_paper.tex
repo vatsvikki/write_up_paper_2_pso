@@ -169,7 +169,7 @@ We propose a technique to define model with depth-velocity profile at sparse hor
 %\end{figure}
 
 \subsection{Implementation}
-in this implimentation of FWI we have sparsaly select the shots and invert the near offset trace. For inverting these shots major peaks are selected and inversion is done only for these peaks, these major peaks for nearoffset trace most probably are due to the reflectors just beneath the shot. Initially this inversion is started with a starting model having a uniform velocity same as the upper surface, with this uniform model inversion is done for each peak prograssively. their may be confusion with the peaks due to the reflector and multiples during the inversion but this model is not modified with the multiples becuase these multiples are due to the reflector which are already justifed.
+In this implimentation of this inversion strategy for preparing intial mode we have sparsaly select the shots and invert the near offset trace to get velocity-depth profiles. For inverting these shots major seismic peaks are selected which are most probably due to the reflectors just beneath the shot. Initially this inversion is started with a uniform velocity same as the upper surface, with this uniform model inversion is done for each peak prograssively. their may be confusion with the peaks due to the reflector and multiples during the inversion but this model is not modified with the multiples becuase these multiples are due to the reflector which are already justifed.
 
 \section*{Theory}
 
