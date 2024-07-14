@@ -160,12 +160,15 @@ The parameters that performed well in the previous experiments with test functio
 \subsection{Model Parameterization}
 The seismic model includes physical parameters defined at densely packed grid points, often in the thousands, leading to an exponentially expanding search space that complicates the implementation of PSO. Therefore, it is essential to create a method for defining these velocity models with fewer parameters before implementing PSO, ensuring that the resulting output model can effectively serve as an initial model for FWI. 
 \\
-We propose a technique to define as depth-velocity profile at sparsely horizontal positions  as shown in figure \ref{fig:parameterization.jpg} with the depth of interfaces (\(c_i^k\)), where \(i\) is representing the \(i^{th}\) interface for \(k^{th}\)depth-velocity profile, (\(g_i^k\)) is rate of change of velocity between \((i - 1)^{th}\) to \(i^th\) interface, and velocity (\(v_i^k\)) of model at \(i^th\) interface,  These multiple depth-velocity profiles sparasly located are interpolated for preparing an initial model. it is also assumed that two interface donot intersect each other whihc is gelological not possible. we have also bounded the search space with geologically possible physical parameters.
+We propose a technique to define model with depth-velocity profile at sparse horizontal positions, as illustrated in Figure \ref{fig:parameterization.jpg}. This model represents a layered marine environment, where the velocity gradually increases with depth, ranging from 1500 to 4700 m/s. Additionally, it features a low-velocity layer situated between two high-velocity layers. The depth of interfaces (\(c_i^k\)), where \(i\) is representing the \(i^{th}\) interface for \(k^{th}\)depth-velocity profile, (\(g_i^k\)) is rate of change of velocity between \((i - 1)^{th}\) to \(i^th\) interface, and velocity (\(v_i^k\)) of model at \(i^th\) interface,  These multiple depth-velocity profiles sparasly located are interpolated for preparing an initial model. it is also assumed that two interface donot intersect each other whihc is gelological not possible. we have also bounded the search space with geologically possible physical parameters. PSO focuses to optimize on these three parameters for every layer for preparing an initial model.
+
 %\begin{figure}	
 %	\includegraphics[width=0.8\paperwidth]{Fig/parameterization.jpg}
 %	\caption{layered model.}
 %	\label{fig:parameterization}
 %\end{figure}
+
+\subsection{Implementation}
 
 
 \section*{Theory}
