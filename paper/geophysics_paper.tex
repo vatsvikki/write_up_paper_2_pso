@@ -169,18 +169,22 @@ We propose a technique to define model with depth-velocity profile at sparse hor
 %\end{figure}
 
 \subsection{Implementation}
-The work flow of this implementation is shown in figure \ref{fig:work_flow}, it starts with a uniform initial model having the velocity same as the upper layer, and three paramteters which are depth, and velocity of interface, and rate of change of velocity as a input parameters which are initialize to zero. synthetic trace for this model is prepared which is compared with the obserevd data 
-We have sparsaly select the shot locations and invert the near offset trace to get velocity-depth profile for that particular shot.  these near offset seismic traces are most probably due to the reflectors just beneath the shot location, these peaks are selected to guide the optimization for inverting the data to get the major interfaces. we provide a flexiblity to the time of the selected peak because its not always that much acccurate to select the peak. The Optimization is strated progressively for with uppermost peak, the inverted model for this particular peak serve as an initial model for inversion of next peak consequenctly another interface corresponding to peak is inverted. the peaks due to the multiple will not affect the model much because the interface resulting the multiple is already justified. this process is repeated for all selected shots and finally with these inverted reflector a 2D intial model is prepared with the interpolation and smoothens which servs as an intial model for FWI. 
-
-
-
-this process is repeated for multiple shots.     there may be confusion with the peaks psicking between the reflection and multiples  but this model is not modified with the inversion of multiples becuase these multiples are due to the reflector which are already justifed.
+The workflow of this implementation is illustrated in Figure \ref{fig:work_flow}. It shows that initial model preparation begins with a uniform 1D depth-velocity profile as the initial model, where the velocity is same as upper layer and three parameters—depth, velocity at the interface, and the rate of change of velocity—are used as input parameters initially which are set to zero. A synthetic trace for this model is generated and compared to the observed data using the L2 norm, as described by equation \ref{eqn:l2norm}.
+The observed data consists only near-offset data, where the major peaks are likely caused by reflectors directly beneath the shot location. These major peaks are selected from the observed data to guide the inversion process, focusing on inverting the major reflectors progressively. The inverted model justifying a particular peak used as an initial model for the next one. This process is repeated until the inversion successfully accounts for all the selected peaks for a shot. We allow flexibility in the timing of the selected peaks since it is not always precise to pinpoint the exact peak. The peaks resulting from multiples will not significantly impact the model because the interfaces causing these multiples have already been accounted.
+We sparsely select the shot locations and repeat this process for all chosen shots. Using the inverted reflectors from these shots, we create an initial model through cubic spline interpolation and smoothing. This serves as the initial model for FWI.
 
 \begin{figure}	
-	\includegraphics[width=0.8\paperwidth]{Fig/flow_chart.png}
+	\includegraphics[width=0.5\paperwidth]{Fig/flow_chart.png}
 	\caption{Work-flow.}
 	\label{fig:work_flow}
 \end{figure}
+
+\begin{equation}
+	O(syn^k, obs^k) = \sqrt{\sum_{i=1}^{N} \left( syn^k - obs^k \right)^2}
+	\label{eqn:l2norm}
+\end{equation}
+
+Where \(obs^k\) and \(syn^k\) denote the observed data and synthetic data generated from the model, respectively, and \(N\) represents the total number of samples.
 
 \section*{Theory}
 
