@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  14 JUL 2024 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  15 JUL 2024 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,8 +260,8 @@ LaTeX Warning: Reference `fig:con_schwefel' on page 4 undefined on input line 1
 LaTeX Warning: Reference `fig:parameterization.jpg' on page 4 undefined on inpu
 t line 163.
 
-[4]
-<./Fig/waves.pdf, id=27, 768.23009pt x 423.50221pt>
+[4] [5]
+<./Fig/waves.pdf, id=31, 768.23009pt x 423.50221pt>
 File: ./Fig/waves.pdf Graphic file (type pdf)
 <use ./Fig/waves.pdf>
 Package pdftex.def Info: ./Fig/waves.pdf  used on input line 216.
@@ -280,7 +280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []\OT1/cmr/m/n/12 Figure 1: |This fig-ure is spec-i-fied in the doc-u-ment by
  []
 
-[5] [6 <./Fig/waves.pdf>]
+[6 <./Fig/waves.pdf>]
 Underfull \hbox (badness 8132) in paragraph at lines 271--271
 []\OT1/cmr/m/n/12 Figure B-1: |This fig-ure is
  []
@@ -346,7 +346,7 @@ odel is prepared using PSO by optimizing the depth, interface velocity, and the
  model for conventional gradient-based FWI in the second step.[] 
  []
 
-
+[8]
 Overfull \hbox (6630.5835pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 Particle Swarm Optimization (PSO) is a stochastic method dev
 eloped by James Kennedy and Russell Eberhart in 1995. Inspired by the social be
@@ -377,7 +377,7 @@ Overfull \hbox (91.25526pt too wide) in paragraph at lines 275--275
  \) at iteration \( t \).[] 
  []
 
-[8]
+
 Overfull \hbox (196.23032pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 \item \( \mathbf{p}_i(t) \) be the personal best position of
  particle \( i \) until iteration \( t \).[] 
@@ -490,7 +490,7 @@ Overfull \hbox (183.88031pt too wide) in paragraph at lines 275--275
 e optimized value and the actual values.[] 
  []
 
-
+[9]
 Overfull \hbox (2505.68146pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 \item Accuracy with Parameters: In this experiment, optimiza
 tion is conducted for all specified test functions using varying values of \(c_
@@ -501,7 +501,7 @@ i}. To address the inherent randomness of this stochastic method, we perform 50
 nal optimized values.[] 
  []
 
-[9]
+
 Overfull \hbox (758.1556pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 This experiment concludes that a combination of inertia weig
 hts between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) va
@@ -567,7 +567,7 @@ mproves, reaching a maximum close to 100 \% when iterations are increased to 10
  times, as illustrated in figure \ref{fig:acc_itr}.[] 
  []
 
-
+[10]
 Overfull \hbox (10.98022pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 % \includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_ac
 curacy.jpeg}[] 
@@ -579,7 +579,7 @@ Overfull \hbox (177.7053pt too wide) in paragraph at lines 275--275
 arm size at 30 for all test functions.}[] 
  []
 
-[10]
+
 Overfull \hbox (1789.3811pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 \item Acuuracy with swarm size: In this study, accuracy is e
 valuated across all tests by varying the swarm size, starting with 30 particles
@@ -649,16 +649,22 @@ pace is restricted to feasible physical parameters. With these constraints, PSO
  []
 
 
-Overfull \hbox (3771.55708pt too wide) in paragraph at lines 275--275
+Overfull \hbox (6575.00847pt too wide) in paragraph at lines 275--275
 []\OT1/cmtt/m/n/12 In this implimentation of this inversion strategy for prepar
-ing intial mode we have sparsaly select the shots and invert the near offset tr
-ace to get velocity-depth profiles. For inverting these shots major seismic pea
-ks are selected which are most probably due to the reflectors just beneath the 
-shot. Initially this inversion is started with a uniform velocity same as the u
-pper surface, with this uniform model inversion is done for each peak prograssi
-vely. their may be confusion with the peaks due to the reflector and multiples 
-during the inversion but this model is not modified with the multiples becuase 
-these multiples are due to the reflector which are already justifed.[] 
+ing intial mode we have sparsaly select the shot locations and invert the near 
+offset trace to get velocity-depth profile for that particular shot. this proce
+ss is repeated for multiple shots and for inverting these shots major seismic p
+eaks are selected from near offset seismic trace which are most probably due to
+ the reflectors just beneath the shot location, these peaks are selected to gui
+de the optimization for inverting the data to get the major interfaces. we have
+ already provide a flexiblity to the time of the selected peak because its not 
+always that much acccurate to select the peak. Initially this inversion is star
+ted with a uniform velocity same as the upper layer, and optimization is strate
+d progressively for with uppermost peak, the inverted model for this particular
+ peak serve as an initial model for inversion of next peak.  there may be confu
+sion with the peaks psicking between the reflection and multiples  but this mod
+el is not modified with the inversion of multiples becuase these multiples are 
+due to the reflector which are already justifed.[] 
  []
 
 [11]
@@ -693,7 +699,7 @@ t\-width\}\{This caption.\}}.[]
 
 [13]
 File: "geophysics_reference.bib"  (verbatim)
-
+ [14]
 Overfull \hbox (66.55525pt too wide) in paragraph at lines 279--279
 []  \OT1/cmtt/m/n/12 title  = {Inversion linearis\'ee multi-param\`etres via la
  th\'eorie des rais},[] 
@@ -705,7 +711,7 @@ Overfull \hbox (4.80522pt too wide) in paragraph at lines 279--279
 Paris VII},[] 
  []
 
-[14] (./geophysics_paper.bbl) [15] (./geophysics_paper.aux)
+[15] (./geophysics_paper.bbl) [16] (./geophysics_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -716,7 +722,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5165 strings out of 481239
  90669 string characters out of 5920377
- 351056 words of memory out of 5000000
+ 352056 words of memory out of 5000000
  20402 multiletter control sequences out of 15000+600000
  539083 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -735,10 +741,10 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (15 pages, 203264 bytes).
+Output written on geophysics_paper.pdf (16 pages, 203935 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
