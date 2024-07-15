@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  15 JUL 2024 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  15 JUL 2024 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,13 +261,12 @@ LaTeX Warning: Reference `fig:parameterization.jpg' on page 4 undefined on inpu
 t line 163.
 
 [4]
-<Fig/flow_chart.png, id=27, 901.3675pt x 816.04875pt>
-File: Fig/flow_chart.png Graphic file (type png)
-<use Fig/flow_chart.png>
-Package pdftex.def Info: Fig/flow_chart.png  used on input line 177.
-(pdftex.def)             Requested size: 307.14749pt x 278.0755pt.
- [5]
-<./Fig/waves.pdf, id=32, 768.23009pt x 423.50221pt>
+
+LaTeX Warning: Reference `fig:work_flow' on page 5 undefined on input line 172.
+
+
+[5]
+<./Fig/waves.pdf, id=30, 768.23009pt x 423.50221pt>
 File: ./Fig/waves.pdf Graphic file (type pdf)
 <use ./Fig/waves.pdf>
 Package pdftex.def Info: ./Fig/waves.pdf  used on input line 231.
@@ -283,10 +282,10 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]\OT1/cmr/m/n/12 Figure 2: |This fig-ure is spec-i-fied in the doc-u-ment by
+[]\OT1/cmr/m/n/12 Figure 1: |This fig-ure is spec-i-fied in the doc-u-ment by
  []
 
-[6 <./Fig/flow_chart.png>] [7 <./Fig/waves.pdf>]
+[6 <./Fig/waves.pdf>]
 Underfull \hbox (badness 8132) in paragraph at lines 286--286
 []\OT1/cmr/m/n/12 Figure B-1: |This fig-ure is
  []
@@ -303,7 +302,7 @@ errgrp\OMS/cmtt/m/n/12 gf\OT1/cmtt/m/n/12 width=0.8$\OMS/cmtt/m/n/12 n$\OT1/cmt
 t/m/n/12 text-
  []
 
-<./Fig/errgrp.pdf, id=45, 289.08pt x 192.72pt>
+<./Fig/errgrp.pdf, id=38, 289.08pt x 192.72pt>
 File: ./Fig/errgrp.pdf Graphic file (type pdf)
 <use ./Fig/errgrp.pdf>
 Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 286.
@@ -314,7 +313,7 @@ Overfull \hbox (3.91661pt too wide) in paragraph at lines 286--286
  []
 
 File: "geophysics_paper.tex"  (verbatim)
-[8 <./Fig/errgrp.pdf>]
+[7 <./Fig/errgrp.pdf>]
 Overfull \hbox (4.80522pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 \author{Joe Dellinger\footnotemark[1] and Sergey Fomel\footn
 otemark[2]}[] 
@@ -336,7 +335,7 @@ Overfull \hbox (233.28033pt too wide) in paragraph at lines 290--290
 licity and easiness of implementation requiring.[] 
  []
 
-
+[8]
 Overfull \hbox (918.70567pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 The prominent features of PSO are its easy implementation, r
 obustness to control parameters and computation efficiency compared with other 
@@ -407,7 +406,7 @@ Overfull \hbox (146.83029pt too wide) in paragraph at lines 290--290
 stributed in the range \([0, 1]\).[] 
  []
 
-[9]
+
 Overfull \hbox (350.6054pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 \mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_
 i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))
@@ -478,7 +477,7 @@ Overfull \hbox (362.9554pt too wide) in paragraph at lines 290--290
 ed \ value}{optimal \ value - maximum \ deviation} \right| \times 100[] 
  []
 
-
+[9]
 Overfull \hbox (23.33023pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 \item \(Optimal \  value\), best possible value of the objec
 tive function.[] 
@@ -507,7 +506,7 @@ i}. To address the inherent randomness of this stochastic method, we perform 50
 nal optimized values.[] 
  []
 
-[10]
+
 Overfull \hbox (758.1556pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 This experiment concludes that a combination of inertia weig
 hts between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) va
@@ -556,7 +555,7 @@ Overfull \hbox (29.50523pt too wide) in paragraph at lines 290--290
 _accuracy.jpeg}[] 
  []
 
-
+[10]
 Overfull \hbox (313.55537pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Styblinski-Tang function with
  varying inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
@@ -604,7 +603,7 @@ rations relative to the number of particles is beneficial, as it provide improv
 ed accuracy while maintaining similar computational costs.[] 
  []
 
-[11]
+
 Overfull \hbox (7241.9088pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 The parameters that performed well in the previous experimen
 ts with test functions are used to evaluate the rate of convergence for the Sch
@@ -687,23 +686,29 @@ te an initial model through cubic spline interpolation and smoothing. This serv
 es as the initial model for FWI.[] 
  []
 
-
-Overfull \hbox (572.9055pt too wide) in paragraph at lines 290--290
-[]\OT1/cmtt/m/n/12 Where \(obs^k\) and \(syn^k\) denote the observed data and s
-ynthetic data generated from the model, respectively, and \(N\) represents the 
-total number of samples.[] 
+[11]
+Overfull \hbox (789.03061pt too wide) in paragraph at lines 290--290
+[]\OT1/cmtt/m/n/12 Where \(obs^k\) and \(syn^k\) indicate the observed data and
+ synthetic data generated from the model, respectively; \(k\) refers to the sho
+t number, and \(N\) represents the total number of samples.[] 
  []
 
-[12]
+
 Overfull \hbox (10.98022pt too wide) in paragraph at lines 290--290
 []\OT1/cmtt/m/n/12 \tensor{P}_{M\rightarrow R} \; \tensor{D} \; \tensor{P}_{S\r
 ightarrow M}[] 
  []
 
-
+[12]
 Overfull \hbox (54.20525pt too wide) in paragraph at lines 290--290
 []    \OT1/cmtt/m/n/12 $\backslash$plot\{waves\}\{width=$\backslash$textwidth\}
 \{This caption.\}}.[] 
+ []
+
+
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 290--290
+[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
+right]^2} +[] 
  []
 
 [13]
@@ -713,19 +718,13 @@ right]^2} +[]
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 290--290
-[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
-right]^2} +[] 
- []
-
-[14]
 Overfull \hbox (115.95528pt too wide) in paragraph at lines 290--290
 []    \OT1/cmtt/m/n/12 $\backslash$sideplot\{errgrp\}\{width=0.8$\backslash$tex
 t\-width\}\{This caption.\}}.[] 
  []
 
 File: "geophysics_reference.bib"  (verbatim)
-[15]
+[14]
 Overfull \hbox (66.55525pt too wide) in paragraph at lines 294--294
 []  \OT1/cmtt/m/n/12 title  = {Inversion linearis\'ee multi-param\`etres via la
  th\'eorie des rais},[] 
@@ -737,7 +736,7 @@ Overfull \hbox (4.80522pt too wide) in paragraph at lines 294--294
 Paris VII},[] 
  []
 
-[16] (./geophysics_paper.bbl) [17] (./geophysics_paper.aux)
+[15] (./geophysics_paper.bbl) [16] (./geophysics_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -746,10 +745,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5177 strings out of 481239
- 90864 string characters out of 5920377
- 351056 words of memory out of 5000000
- 20411 multiletter control sequences out of 15000+600000
+ 5168 strings out of 481239
+ 90713 string characters out of 5920377
+ 352056 words of memory out of 5000000
+ 20405 multiletter control sequences out of 15000+600000
  539083 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,54p,1341b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -767,10 +766,10 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (17 pages, 260214 bytes).
+Output written on geophysics_paper.pdf (16 pages, 206110 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

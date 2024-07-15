@@ -173,18 +173,18 @@ The workflow of this implementation is illustrated in Figure \ref{fig:work_flow}
 The observed data consists only near-offset data, where the major peaks are likely caused by reflectors directly beneath the shot location. These major peaks are selected from the observed data to guide the inversion process, focusing on inverting the major reflectors progressively. The inverted model justifying a particular peak used as an initial model for the next one. This process is repeated until the inversion successfully accounts for all the selected peaks for a shot. We allow flexibility in the timing of the selected peaks since it is not always precise to pinpoint the exact peak. The peaks resulting from multiples will not significantly impact the model because the interfaces causing these multiples have already been accounted.
 We sparsely select the shot locations and repeat this process for all chosen shots. Using the inverted reflectors from these shots, we create an initial model through cubic spline interpolation and smoothing. This serves as the initial model for FWI.
 
-\begin{figure}	
-	\includegraphics[width=0.5\paperwidth]{Fig/flow_chart.png}
-	\caption{Work-flow.}
-	\label{fig:work_flow}
-\end{figure}
+%\begin{figure}	
+%	\includegraphics[width=0.5\paperwidth]{Fig/flow_chart.png}
+%	\caption{Work-flow.}
+%	\label{fig:work_flow}
+%\end{figure}
 
 \begin{equation}
 	O(syn^k, obs^k) = \sqrt{\sum_{i=1}^{N} \left( syn^k - obs^k \right)^2}
 	\label{eqn:l2norm}
 \end{equation}
 
-Where \(obs^k\) and \(syn^k\) denote the observed data and synthetic data generated from the model, respectively, and \(N\) represents the total number of samples.
+Where \(obs^k\) and \(syn^k\) indicate the observed data and synthetic data generated from the model, respectively; \(k\) refers to the shot number, and \(N\) represents the total number of samples.
 
 \section*{Theory}
 
