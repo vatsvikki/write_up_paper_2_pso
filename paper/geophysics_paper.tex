@@ -169,7 +169,18 @@ We propose a technique to define model with depth-velocity profile at sparse hor
 %\end{figure}
 
 \subsection{Implementation}
-In this implimentation of this inversion strategy for preparing intial mode we have sparsaly select the shot locations and invert the near offset trace to get velocity-depth profile for that particular shot. this process is repeated for multiple shots and for inverting these shots major seismic peaks are selected from near offset seismic trace which are most probably due to the reflectors just beneath the shot location, these peaks are selected to guide the optimization for inverting the data to get the major interfaces. we have already provide a flexiblity to the time of the selected peak because its not always that much acccurate to select the peak. Initially this inversion is started with a uniform velocity same as the upper layer, and optimization is strated progressively for with uppermost peak, the inverted model for this particular peak serve as an initial model for inversion of next peak.  there may be confusion with the peaks psicking between the reflection and multiples  but this model is not modified with the inversion of multiples becuase these multiples are due to the reflector which are already justifed.
+The work flow of this implementation is shown in figure \ref{fig:work_flow}, it starts with a uniform initial model having the velocity same as the upper layer, and three paramteters which are depth, and velocity of interface, and rate of change of velocity as a input parameters which are initialize to zero. synthetic trace for this model is prepared which is compared with the obserevd data 
+We have sparsaly select the shot locations and invert the near offset trace to get velocity-depth profile for that particular shot.  these near offset seismic traces are most probably due to the reflectors just beneath the shot location, these peaks are selected to guide the optimization for inverting the data to get the major interfaces. we provide a flexiblity to the time of the selected peak because its not always that much acccurate to select the peak. The Optimization is strated progressively for with uppermost peak, the inverted model for this particular peak serve as an initial model for inversion of next peak consequenctly another interface corresponding to peak is inverted. the peaks due to the multiple will not affect the model much because the interface resulting the multiple is already justified. this process is repeated for all selected shots and finally with these inverted reflector a 2D intial model is prepared with the interpolation and smoothens which servs as an intial model for FWI. 
+
+
+
+this process is repeated for multiple shots.     there may be confusion with the peaks psicking between the reflection and multiples  but this model is not modified with the inversion of multiples becuase these multiples are due to the reflector which are already justifed.
+
+\begin{figure}	
+	\includegraphics[width=0.8\paperwidth]{Fig/flow_chart.png}
+	\caption{Work-flow.}
+	\label{fig:work_flow}
+\end{figure}
 
 \section*{Theory}
 
