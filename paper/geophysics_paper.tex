@@ -186,7 +186,7 @@ We sparsely select the shot locations and repeat this process for all chosen sho
 Where \(obs^k\) and \(syn^k\) indicate the observed data and synthetic data generated from the model, respectively; \(k\) refers to the shot number, and \(N\) represents the total samples.
 
 \subsection{Full Waveform Inversion}
-
+The model prepared using PSO serves as an initial model for FWI. Synthetic data is generated with this model and compared with the observed data, a process known as misfit calculation. Common methods for this calculation include the L2 norm, normalized cross-correlation function, Huber norm, and optimal transport function. The gradient of the objective function with respect to the model parameters is then calculated, which aids in updating the model. This iterative process ultimately leads to the recovery of velocity model.
 \section*{Theory}
 
 This is another section. 
