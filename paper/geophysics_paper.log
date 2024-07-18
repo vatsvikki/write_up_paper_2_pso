@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  18 JUL 2024 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  18 JUL 2024 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,15 +354,17 @@ e initial model in the basin of attraction of global minima.[]
  []
 
 
-Overfull \hbox (2857.65663pt too wide) in paragraph at lines 309--309
+Overfull \hbox (4111.18225pt too wide) in paragraph at lines 309--309
 []\OT1/cmtt/m/n/12 This problem of stucking with the local minima is associated
  with the starting model. This problem can be dealt with preapring the initial 
 model with the global optimization method becuase it have the ability to explor
 e all the search space to find a optimal solution without the intervention of h
 uman being as required in ray based tomography metyhods for preapring the intia
 l model by this it also reduce the chance of inclusion of human errors. this su
-permacy of global optimization motivated its utilization in seismic inversion.[
-] 
+permacy of global optimization motivated its utilization in prepasring the star
+ting model for calculas based seismic inversion methods. The reason behind comb
+ining the glopbal and lovcal optimization is the ability of them for exploratio
+n and exploitation of solution respectively.[] 
  []
 
 
@@ -822,7 +824,7 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (18 pages, 211734 bytes).
+Output written on geophysics_paper.pdf (18 pages, 211895 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
