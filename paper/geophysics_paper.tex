@@ -46,8 +46,12 @@ Since the formulaisation of the FWI it have been gone through a long journey of 
 \\
 This problem of stucking with the local minima is associated with the starting model. This problem can be dealt with preapring the initial model with the global optimization method becuase it have the ability to explore all the search space to find a optimal solution without the intervention of human being as required in ray based tomography metyhods for preapring the intial model by this it also reduce the chance of inclusion of human errors. this supermacy of global optimization motivated its utilization in prepasring the starting model for calculas based seismic inversion methods. The global optimization are inspired with the natural phenomina. the idea of preparing the initial model with the global optimization is because of the slow exploitation of these methods. once the initial model is prepared with the confidence that it lie in the basin of global minima then local optimization statred with this model because local minima methods have high exploitation rate.
 \\
-The most commonly used global optimization methods in seismic data inversion are simulated annealing (SA) (refernce), genetic algorithm (GA) (reference), and particle swarm optimization (PSO) (references).
+The most commonly used global optimization methods in seismic data inversion are simulated annealing (SA) (refernce), data and sen 2016 et al. used the VFSA for preapring the initial model in this two step process parameterization of model is accomplished by the zero offset section.
 
+ genetic algorithm (GA) (reference), and particle swarm optimization (PSO) (references).
+
+
+MattiaAleardi and Alferdo Mazzotti 2017 et al. proposed the seismic inversion with the GA with MCMC method to deal with the ucertainities in the search space.
 ESTABLISHED METHODS
 \\
 It is neccessary to use the parametriation to represent the model with limited number of parameters to reduce the complexity as well the computational time. we have implimented a parameterization strategy where a model can be defined with the depthof interface, reate of change of velocity between interface, and velocity of the interface. this reduce the number of paramters to multifolds to deal with the curse fo dimensionality associated with the number of parameters involved in the inversion.
