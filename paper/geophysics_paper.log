@@ -1,162 +1,163 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  20 JUL 2024 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  21 JUL 2024 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **geophysics_paper.tex
 (./geophysics_paper.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (./geophysics.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (./geophysics.cls
 Document Class: geophysics 2007/02/14 v3.0 Geophysics paper
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 ) (./seg.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks15
-\verbatim@line=\toks16
+(c:/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
 \verbatim@in@stream=\read2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
+(c:/texlive/2022/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-\tab@position=\count175
-\tab@size=\count176
-\listing@line=\count177
+\tab@position=\count193
+\tab@size=\count194
+\listing@line=\count195
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count178
-\rotFPtop=\skip49
-\rotFPbot=\skip50
-\rot@float@box=\box45
-\rot@mess@toks=\toks17
+\c@r@tfl@t=\count196
+\rotFPtop=\skip50
+\rotFPbot=\skip51
+\rot@float@box=\box51
+\rot@mess@toks=\toks19
 )
-\c@@plots=\count179
+\c@@plots=\count197
 
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+(c:/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+(c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen137
-\captionmargin@=\dimen138
-\captionwidth=\dimen139
-\caption@tempdima=\dimen140
-\caption@indent=\dimen141
-\caption@parindent=\dimen142
-\caption@hangindent=\dimen143
+(c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count180
-\c@continuedfloat=\count181
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
 Package caption Info: rotating package is loaded.
 )
-\c@KVtest=\count182
-\sf@farskip=\skip51
-\sf@captopadj=\dimen144
-\sf@capskip=\skip52
-\sf@nearskip=\skip53
-\c@subfigure=\count183
-\c@subfigure@save=\count184
-\c@lofdepth=\count185
-\c@subtable=\count186
-\c@subtable@save=\count187
-\c@lotdepth=\count188
-\sf@top=\skip54
-\sf@bottom=\skip55
+\c@KVtest=\count266
+\sf@farskip=\skip52
+\sf@captopadj=\dimen151
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count267
+\c@subfigure@save=\count268
+\c@lofdepth=\count269
+\c@subtable=\count270
+\c@subtable@save=\count271
+\c@lotdepth=\count272
+\sf@top=\skip55
+\sf@bottom=\skip56
 )
-\c@sub@fig=\count189
-\c@@tabls=\count190
+\c@sub@fig=\count273
+\c@@tabls=\count274
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks18
-\SOUL@lasttoken=\toks19
-\SOUL@cmds=\toks20
-\SOUL@buffer=\toks21
-\SOUL@token=\toks22
-\SOUL@spaceskip=\skip56
-\SOUL@ttwidth=\dimen145
-\SOUL@uldp=\dimen146
-\SOUL@ulht=\dimen147
+\SOUL@word=\toks20
+\SOUL@lasttoken=\toks21
+\SOUL@cmds=\toks22
+\SOUL@buffer=\toks23
+\SOUL@token=\toks24
+\SOUL@spaceskip=\skip57
+\SOUL@ttwidth=\dimen152
+\SOUL@uldp=\dimen153
+\SOUL@ulht=\dimen154
 )
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(c:/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip57
-\bibsep=\skip58
+\bibhang=\skip58
+\bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count191
+\c@NAT@ctr=\count275
 )
 LaTeX Info: Redefining \refname on input line 332.
-\seg@abstract=\box46
-\c@@append=\count192
+\seg@abstract=\box52
+\c@@append=\count276
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+(c:/texlive/2022/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `subfig' support loaded on input line 3164.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count193
-\l__pdf_internal_box=\box47
+(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box53
 )
 (./geophysics_paper.aux)
 \openout1 = `geophysics_paper.aux'.
@@ -176,25 +177,25 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen148
-\scratchbox=\box48
-\nofMPsegments=\count195
-\nofMParguments=\count196
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen149
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
-\everyMPtoPDFconversion=\toks24
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count278
+\scratchdimen=\dimen155
+\scratchbox=\box54
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen156
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks26
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -207,100 +208,95 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 34.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--63
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-
-LaTeX Warning: Reference `fig:ackley' on page 4 undefined on input line 116.
+LaTeX Warning: Reference `fig:ackley' on page 4 undefined on input line 122.
 
 
-LaTeX Warning: Reference `fig:griewank' on page 4 undefined on input line 116.
+LaTeX Warning: Reference `fig:griewank' on page 4 undefined on input line 122.
 
 
-LaTeX Warning: Reference `fig:rastrigin' on page 4 undefined on input line 116.
+LaTeX Warning: Reference `fig:rastrigin' on page 4 undefined on input line 122.
 
 
 
-LaTeX Warning: Reference `fig:styblinski' on page 4 undefined on input line 116
+LaTeX Warning: Reference `fig:styblinski' on page 4 undefined on input line 122
 .
 
 [4]
 
-LaTeX Warning: Reference `fig:acc_ackley' on page 5 undefined on input line 128
+LaTeX Warning: Reference `fig:acc_ackley' on page 5 undefined on input line 134
 .
 
 
 LaTeX Warning: Reference `fig:acc_griewank' on page 5 undefined on input line 1
-28.
+34.
 
 
 LaTeX Warning: Reference `fig:acc_rastrigin' on page 5 undefined on input line 
-128.
+134.
 
 
 LaTeX Warning: Reference `fig:acc_styblinski' on page 5 undefined on input line
- 128.
+ 134.
 
 
-LaTeX Warning: Reference `fig:acc_itr' on page 5 undefined on input line 172.
+LaTeX Warning: Reference `fig:acc_itr' on page 5 undefined on input line 178.
 
 
-LaTeX Warning: Reference `fig:schwefel' on page 5 undefined on input line 183.
-
-
-LaTeX Warning: Reference `fig:con_schwefel' on page 5 undefined on input line 1
-83.
+LaTeX Warning: Reference `fig:schwefel' on page 5 undefined on input line 189.
 
 
 LaTeX Warning: Reference `fig:con_schwefel' on page 5 undefined on input line 1
-83.
+89.
+
+
+LaTeX Warning: Reference `fig:con_schwefel' on page 5 undefined on input line 1
+89.
 
 [5]
 
 LaTeX Warning: Reference `fig:parameterization.jpg' on page 6 undefined on inpu
-t line 199.
+t line 205.
 
 
-LaTeX Warning: Reference `fig:work_flow' on page 6 undefined on input line 208.
+LaTeX Warning: Reference `fig:work_flow' on page 6 undefined on input line 214.
 
 
 [6] [7]
-<./Fig/waves.pdf, id=39, 768.23009pt x 423.50221pt>
+<./Fig/waves.pdf, id=37, 768.23009pt x 423.50221pt>
 File: ./Fig/waves.pdf Graphic file (type pdf)
 <use ./Fig/waves.pdf>
-Package pdftex.def Info: ./Fig/waves.pdf  used on input line 268.
+Package pdftex.def Info: ./Fig/waves.pdf  used on input line 274.
 (pdftex.def)             Requested size: 433.62pt x 239.04008pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-268.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 268.
+274.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 274.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 268.
+(Font)              for symbol `textbraceleft' on input line 274.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []\OT1/cmr/m/n/12 Figure 1: |This fig-ure is spec-i-fied in the doc-u-ment by
  []
 
 [8 <./Fig/waves.pdf>]
-Underfull \hbox (badness 8132) in paragraph at lines 323--323
+Underfull \hbox (badness 8132) in paragraph at lines 329--329
 []\OT1/cmr/m/n/12 Figure B-1: |This fig-ure is
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 323--323
+Underfull \hbox (badness 3449) in paragraph at lines 329--329
 \OT1/cmr/m/n/12 spec-i-fied in the doc-u-ment by
  []
 
 
-Overfull \hbox (29.45482pt too wide) in paragraph at lines 323--323
+Overfull \hbox (29.45482pt too wide) in paragraph at lines 329--329
 \OMS/cmtt/m/n/12 n$\OT1/cmtt/m/n/12 sideplot\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 
 errgrp\OMS/cmtt/m/n/12 gf\OT1/cmtt/m/n/12 width=0.8$\OMS/cmtt/m/n/12 n$\OT1/cmt
 t/m/n/12 text-
@@ -309,22 +305,22 @@ t/m/n/12 text-
 <./Fig/errgrp.pdf, id=45, 289.08pt x 192.72pt>
 File: ./Fig/errgrp.pdf Graphic file (type pdf)
 <use ./Fig/errgrp.pdf>
-Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 323.
+Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 329.
 (pdftex.def)             Requested size: 208.1405pt x 138.75827pt.
 
-Overfull \hbox (3.91661pt too wide) in paragraph at lines 323--323
+Overfull \hbox (3.91661pt too wide) in paragraph at lines 329--329
 [][] 
  []
 
 File: "geophysics_paper.tex"  (verbatim)
 [9 <./Fig/errgrp.pdf>]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 327--327
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \author{Joe Dellinger\footnotemark[1] and Sergey Fomel\footn
 otemark[2]}[] 
  []
 
 
-Overfull \hbox (1610.30602pt too wide) in paragraph at lines 327--327
+Overfull \hbox (1610.30602pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 FWI is most efficient seismcic data inversion method due to 
 its ability to use all the sesmic phasesin the seimic data. This involves the s
 ynthetic and observed data comparison in basis of the difference between them i
@@ -332,8 +328,8 @@ nitial model is updated untill the synthetic data correspoing to the updated mo
 del satisfy the stopping criteria.[] 
  []
 
-
-Overfull \hbox (4432.28241pt too wide) in paragraph at lines 327--327
+[10]
+Overfull \hbox (4432.28241pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The amount of data involving in this method ehich is respons
 ible for getting a better image is also a reason for enhancing the nonlinear re
 lation between the data and physical parameters of the subsurface, it means the
@@ -348,7 +344,7 @@ he global minima.[]
  []
 
 
-Overfull \hbox (2746.50658pt too wide) in paragraph at lines 327--327
+Overfull \hbox (2746.50658pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Since the formulaisation of the FWI it have been gone throug
 h a long journey of developemnts to deal with challenges assiciated witht the n
 onlinearity such as multiscale focusing on low frequency data, normalized cros-
@@ -359,7 +355,7 @@ e initial model in the basin of attraction of global minima.[]
  []
 
 
-Overfull \hbox (5624.058pt too wide) in paragraph at lines 327--327
+Overfull \hbox (5624.058pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 This problem of stucking with the local minima is associated
  with the starting model. This problem can be dealt with preapring the initial 
 model with the global optimization method becuase it have the ability to explor
@@ -376,7 +372,7 @@ se local minima methods have high exploitation rate.[]
  []
 
 
-Overfull \hbox (1635.00603pt too wide) in paragraph at lines 327--327
+Overfull \hbox (1635.00603pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The most commonly used global optimization methods in seismi
 c data inversion are simulated annealing (SA) (refernce), genetic algorithm (GA
 ) (reference), and particle swarm optimization (PSO) (references). these method
@@ -385,49 +381,69 @@ ases having large number of parameters[]
  []
 
 
-Overfull \hbox (585.25551pt too wide) in paragraph at lines 327--327
+Overfull \hbox (585.25551pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 data and sen 2016 et al. used the VFSA for preapring the ini
 tial model in this two step process parameterization of model is accomplished b
 y the zero offset section.[] 
  []
 
-[10]
-Overfull \hbox (554.3805pt too wide) in paragraph at lines 327--327
+
+Overfull \hbox (554.3805pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Xin Fu et al. 2021 proposed a paralled VFSA algorithm  for 1
 .5D acoustic FWI where multiple model parameters are simultaneously updated acr
 oss multiple threads.[] 
  []
 
 
-Overfull \hbox (813.73062pt too wide) in paragraph at lines 327--327
+Overfull \hbox (813.73062pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Y. Shiba and K. Irikura implemented the Very Fast Simulated 
 Annealing (VFSA) algorithm to estimate earthquake displacement and demonstrated
  that VFSA outperforms the Genetic Algorithm (GA) in this task.[] 
  []
 
 
-Overfull \hbox (412.35542pt too wide) in paragraph at lines 327--327
+Overfull \hbox (412.35542pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Rafael mendes et al. 2024, used a training image to guide th
 e generation of realistic velocity model samples and enhance the convergence.[]
  
  []
 
 
-Overfull \hbox (461.75545pt too wide) in paragraph at lines 327--327
+Overfull \hbox (461.75545pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Datta et al., 2019 impliment the VFSA where the sedimentary 
 layers and salt bodies are represnted by set of interfaces and ellipses respect
 ively.[] 
  []
 
 
-Overfull \hbox (542.03049pt too wide) in paragraph at lines 327--327
+Overfull \hbox (579.0805pt too wide) in paragraph at lines 333--333
+[]\OT1/cmtt/m/n/12 Alfredo Mazzotti et al., 2016 proposed GA FWI method involve
+s parametrizing the subsurface with two grids: a coarse grid for inversion and 
+a fine grid for modeling.[] 
+ []
+
+
+Overfull \hbox (690.23056pt too wide) in paragraph at lines 333--333
+[]\OT1/cmtt/m/n/12 Malcolm Sambridge et al., 1992 compare the performance of GA
+s to Monte Carlo and  find that GAs can achieve better fits with fewer model pa
+rameters and are computationally efficient.[] 
+ []
+
+
+Overfull \hbox (264.15535pt too wide) in paragraph at lines 333--333
+[]\OT1/cmtt/m/n/12 Khiem T. Tran et al., 2012 demonstrates the potential of GA 
+ for improved characterization subsurface properties.[] 
+ []
+
+
+Overfull \hbox (542.03049pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 MattiaAleardi and Alferdo Mazzotti 2017 et al. proposed the 
 seismic inversion with the GA with MCMC method to deal with the ucertainities i
 n the search space.[] 
  []
 
 
-Overfull \hbox (2641.53152pt too wide) in paragraph at lines 327--327
+Overfull \hbox (2641.53152pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 It is neccessary to use the parametriation to represent the 
 model with limited number of parameters to reduce the complexity as well the co
 mputational time. we have implimented a parameterization strategy where a model
@@ -438,28 +454,28 @@ er of parameters involved in the inversion.[]
  []
 
 
-Overfull \hbox (622.30553pt too wide) in paragraph at lines 327--327
+Overfull \hbox (622.30553pt too wide) in paragraph at lines 333--333
 [] \OT1/cmtt/m/n/12 in this both are used together because both have advantages
  and disadvantages global is best in exploration and local is best in exploitat
 ion. PSO is easily parallelized.[] 
  []
 
 
-Overfull \hbox (233.28033pt too wide) in paragraph at lines 327--327
+Overfull \hbox (233.28033pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Some of the appealing facts of PSO are its convenience, simp
 licity and easiness of implementation requiring.[] 
  []
 
 
-Overfull \hbox (918.70567pt too wide) in paragraph at lines 327--327
+Overfull \hbox (918.70567pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The prominent features of PSO are its easy implementation, r
 obustness to control parameters and computation efficiency compared with other 
 existing heuristic algorithms such as genetic algorithm in a continuous problem
 .[] 
  []
 
-
-Overfull \hbox (1295.38086pt too wide) in paragraph at lines 327--327
+[11]
+Overfull \hbox (1295.38086pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 This approach involves two steps. First, a coarse velocity m
 odel is prepared using PSO by optimizing the depth, interface velocity, and the
  rate of change of velocity between interfaces. This model serves as an initial
@@ -467,7 +483,7 @@ odel is prepared using PSO by optimizing the depth, interface velocity, and the
  []
 
 
-Overfull \hbox (6797.30858pt too wide) in paragraph at lines 327--327
+Overfull \hbox (6797.30858pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Particle Swarm Optimization (PSO) is a stochastic method dev
 eloped by James Kennedy and Russell Eberhart in 1995. Inspired by the social be
 havior of birds flocking to find food, they formulated a mathematical model to 
@@ -487,67 +503,67 @@ o_2}.[]
  []
 
 
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 327--327
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( \mathbf{x}_i(t) \) be the position of particle \( i
  \) at iteration \( t \).[] 
  []
 
 
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 327--327
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( \mathbf{v}_i(t) \) be the velocity of particle \( i
  \) at iteration \( t \).[] 
  []
 
 
-Overfull \hbox (196.23032pt too wide) in paragraph at lines 327--327
+Overfull \hbox (196.23032pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( \mathbf{p}_i(t) \) be the personal best position of
  particle \( i \) until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 327--327
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( \mathbf{g}(t) \) be the global best position among 
 all particles until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 327--327
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) be the cognitive and social ac
 celeration coefficients, respectively.[] 
  []
 
 
-Overfull \hbox (146.83029pt too wide) in paragraph at lines 327--327
+Overfull \hbox (146.83029pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) be random numbers uniformly di
 stributed in the range \([0, 1]\).[] 
  []
 
-[11]
-Overfull \hbox (350.6054pt too wide) in paragraph at lines 327--327
+
+Overfull \hbox (350.6054pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_
 i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 327--327
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( w \) controls the influence of the previous velocit
 y (inertia).[] 
  []
 
 
-Overfull \hbox (227.10533pt too wide) in paragraph at lines 327--327
+Overfull \hbox (227.10533pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) represent the trust of the par
 ticle in itself and in the swarm, respectively.[] 
  []
 
 
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 327--327
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) introduce stochasticity to the
  particle's movement.[] 
  []
 
 
-Overfull \hbox (7050.4837pt too wide) in paragraph at lines 327--327
+Overfull \hbox (7050.4837pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The updates in the Particle Swarm Optimization (PSO) algorit
 hm are influenced by several controlling parameters, including the inertia weig
 ht \((w)\), acceleration coefficients \((c_1\) and \(c_2)\), population size of
@@ -567,7 +583,7 @@ tions. The number of iterations, as with all iterative optimization algorithms,
  []
 
 
-Overfull \hbox (7476.55891pt too wide) in paragraph at lines 327--327
+Overfull \hbox (7476.55891pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 This contribution of different parameters for succes of PSO 
 make it is necessary to decide the combination of these parameters precisely. w
 e have performed experiments to find the optimal combination of this values, fo
@@ -588,31 +604,31 @@ hese experiments are outlined below.[]
  []
 
 
-Overfull \hbox (362.9554pt too wide) in paragraph at lines 327--327
+Overfull \hbox (362.9554pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluat
 ed \ value}{optimal \ value - maximum \ deviation} \right| \times 100[] 
  []
 
 
-Overfull \hbox (23.33023pt too wide) in paragraph at lines 327--327
+Overfull \hbox (23.33023pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \(Optimal \  value\), best possible value of the objec
 tive function.[] 
  []
 
 
-Overfull \hbox (190.05531pt too wide) in paragraph at lines 327--327
+Overfull \hbox (190.05531pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \(Evaluated \ value\), value of the objective function
  at a given point in the feasible domain.[] 
  []
 
 
-Overfull \hbox (183.88031pt too wide) in paragraph at lines 327--327
+Overfull \hbox (183.88031pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item \(Maximum \ deviation\), largest difference between th
 e optimized value and the actual values.[] 
  []
 
-
-Overfull \hbox (2505.68146pt too wide) in paragraph at lines 327--327
+[12]
+Overfull \hbox (2505.68146pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item Accuracy with Parameters: In this experiment, optimiza
 tion is conducted for all specified test functions using varying values of \(c_
 1\), \(c_2\), and inertia weights, as illustrated in figures \ref{fig:acc_ackle
@@ -622,63 +638,63 @@ i}. To address the inherent randomness of this stochastic method, we perform 50
 nal optimized values.[] 
  []
 
-[12]
-Overfull \hbox (758.1556pt too wide) in paragraph at lines 327--327
+
+Overfull \hbox (758.1556pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 This experiment concludes that a combination of inertia weig
 hts between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) va
 lues between 0.6 and 1.8 results in improved accuracy.[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 327--327
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/ackley_para_vs_acc
 uracy.jpeg}[] 
  []
 
 
-Overfull \hbox (257.98035pt too wide) in paragraph at lines 327--327
+Overfull \hbox (257.98035pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Ackley function with varying 
 inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (17.15523pt too wide) in paragraph at lines 327--327
+Overfull \hbox (17.15523pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/griewank_para_vs_a
 ccuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (270.33035pt too wide) in paragraph at lines 327--327
+Overfull \hbox (270.33035pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Griewank function with varyin
 g inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (23.33023pt too wide) in paragraph at lines 327--327
+Overfull \hbox (23.33023pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/rastrigin_para_vs_
 accuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (276.50536pt too wide) in paragraph at lines 327--327
+Overfull \hbox (276.50536pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Rastrigin function with varyi
 ng inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (29.50523pt too wide) in paragraph at lines 327--327
+Overfull \hbox (29.50523pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/styblinski_para_vs
 _accuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (313.55537pt too wide) in paragraph at lines 327--327
+Overfull \hbox (313.55537pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Styblinski-Tang function with
  varying inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
-
-Overfull \hbox (2690.93155pt too wide) in paragraph at lines 327--327
+[13]
+Overfull \hbox (2690.93155pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item Accuracy with iterations: Here, accuracy is assessed w
 hile maintaining a constant swarm size of 30 and an initial iteration count of 
 1000, which is then increased by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, t
@@ -689,19 +705,19 @@ mproves, reaching a maximum close to 100 \% when iterations are increased to 10
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 327--327
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_ac
 curacy.jpeg}[] 
  []
 
 
-Overfull \hbox (177.7053pt too wide) in paragraph at lines 327--327
+Overfull \hbox (177.7053pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 % \caption{Accuracy variation with iterations keeping the sw
 arm size at 30 for all test functions.}[] 
  []
 
 
-Overfull \hbox (1789.3811pt too wide) in paragraph at lines 327--327
+Overfull \hbox (1789.3811pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \item Acuuracy with swarm size: In this study, accuracy is e
 valuated across all tests by varying the swarm size, starting with 30 particles
  and increasing it by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, while keepin
@@ -710,7 +726,7 @@ swarm size increases, accuracy improves to approximately 70 \%.[]
  []
 
 
-Overfull \hbox (2246.33133pt too wide) in paragraph at lines 327--327
+Overfull \hbox (2246.33133pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 From these experiments for finding the optimization paramete
 rs, it is concluded that an optimal combination of inertia weights between 0.5 
 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6
@@ -720,7 +736,7 @@ ed accuracy while maintaining similar computational costs.[]
  []
 
 
-Overfull \hbox (7241.9088pt too wide) in paragraph at lines 327--327
+Overfull \hbox (7241.9088pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The parameters that performed well in the previous experimen
 ts with test functions are used to evaluate the rate of convergence for the Sch
 wefel function, as shown in figure \ref{fig:schwefel}. This additional test fun
@@ -740,8 +756,8 @@ n are set as inertia at 0.6, \(c_1\) at 2.4, and \(c_2\) between 1.2 and 1.8.[]
  
  []
 
-[13]
-Overfull \hbox (2184.5813pt too wide) in paragraph at lines 327--327
+
+Overfull \hbox (2184.5813pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The seismic model includes physical parameters defined at de
 nsely packed grid points, often in the thousands, leading to an exponentially e
 xpanding search space that complicates the implementation of PSO. Therefore, it
@@ -751,7 +767,7 @@ n effectively serve as an initial model for FWI.[]
  []
 
 
-Overfull \hbox (6797.30858pt too wide) in paragraph at lines 327--327
+Overfull \hbox (6797.30858pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 We propose a technique to define model with 1D depth-velocit
 y profiles at sparse horizontal positions, as illustrated in Figure \ref{fig:pa
 rameterization.jpg} with white vertical lines. This model is representing a lay
@@ -771,7 +787,7 @@ odel.[]
  []
 
 
-Overfull \hbox (9341.40984pt too wide) in paragraph at lines 327--327
+Overfull \hbox (9341.40984pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The workflow of this implementation is illustrated in Figure
  \ref{fig:work_flow}. It shows that initial model preparation begins with a uni
 form 1D depth-velocity profile as the initial model, where the velocity is same
@@ -796,22 +812,22 @@ lready been accounted.[]
  []
 
 
-Overfull \hbox (1029.85573pt too wide) in paragraph at lines 327--327
+Overfull \hbox (1029.85573pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 We sparsely select the shot locations and repeat this proces
 s for all chosen shots. Using the inverted reflectors from these shots, we crea
 te an initial model through interpolation and smoothing. This serves as the ini
 tial model for FWI.[] 
  []
 
-
-Overfull \hbox (727.28058pt too wide) in paragraph at lines 327--327
+[14]
+Overfull \hbox (727.28058pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 Where \(obs^k\) and \(syn^k\) indicate the observed data and
  synthetic data generated from the model, respectively; \(k\) refers to the sho
 t number, and \(N\) represents the total samples.[] 
  []
 
 
-Overfull \hbox (2832.95662pt too wide) in paragraph at lines 327--327
+Overfull \hbox (2832.95662pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 The model prepared using PSO serves as an initial model for 
 FWI. Synthetic data is generated with this model and compared with the observed
  data, a process known as misfit calculation. Common methods for this calculati
@@ -821,45 +837,45 @@ optimal transport function. The gradient of the objective function with respect
 This iterative process ultimately leads to the recovery of velocity model.[] 
  []
 
-[14]
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 327--327
+
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 333--333
 []\OT1/cmtt/m/n/12 \tensor{P}_{M\rightarrow R} \; \tensor{D} \; \tensor{P}_{S\r
 ightarrow M}[] 
  []
 
-
-Overfull \hbox (54.20525pt too wide) in paragraph at lines 327--327
+[15]
+Overfull \hbox (54.20525pt too wide) in paragraph at lines 333--333
 []    \OT1/cmtt/m/n/12 $\backslash$plot\{waves\}\{width=$\backslash$textwidth\}
 \{This caption.\}}.[] 
  []
 
-[15]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 327--327
-[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
-right]^2} +[] 
- []
 
-
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 327--327
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 333--333
 []  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
 right]^2} +[] 
  []
 
 [16]
-Overfull \hbox (115.95528pt too wide) in paragraph at lines 327--327
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 333--333
+[]  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
+right]^2} +[] 
+ []
+
+
+Overfull \hbox (115.95528pt too wide) in paragraph at lines 333--333
 []    \OT1/cmtt/m/n/12 $\backslash$sideplot\{errgrp\}\{width=0.8$\backslash$tex
 t\-width\}\{This caption.\}}.[] 
  []
 
 File: "geophysics_reference.bib"  (verbatim)
 [17]
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 331--331
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 337--337
 []  \OT1/cmtt/m/n/12 title  = {Inversion linearis\'ee multi-param\`etres via la
  th\'eorie des rais},[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 331--331
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 337--337
 []  \OT1/cmtt/m/n/12 school = {Institut Fran\c{c}ais du P\'etrole - University 
 Paris VII},[] 
  []
@@ -873,30 +889,30 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5168 strings out of 481239
- 90713 string characters out of 5920377
- 350056 words of memory out of 5000000
- 20405 multiletter control sequences out of 15000+600000
- 539083 words of font info for 46 fonts, out of 8000000 for 9000
+ 5763 strings out of 476091
+ 107459 string characters out of 5795540
+ 1871324 words of memory out of 5000000
+ 26112 multiletter control sequences out of 15000+600000
+ 519032 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,54p,1647b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (19 pages, 215503 bytes).
+ 87i,11n,95p,1647b,412s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
+-super/sfrm1200.pfb>
+Output written on geophysics_paper.pdf (19 pages, 227883 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
