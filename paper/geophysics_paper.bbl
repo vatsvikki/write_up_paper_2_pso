@@ -6,9 +6,18 @@
 {\SortNoop{Cerveny}}\v{C}erven\'{y}, V.,  2000, Seismic ray method: Cambridge
   University Press.
 
+\bibitem[Datta and Sen, 2016]{Datta2016}
+Datta, D., and M.~K. Sen,  2016, {Estimating a starting model for full-waveform
+  inversion using a global optimization method}: Geophysics, {\bfseries 81},
+  R211--R223.
+
 \bibitem[Forgues, 1996]{forgues96}
 Forgues, E.,  1996, Inversion linearis\'ee multi-param\`etres via la th\'eorie
   des rais: PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
   VII.
+
+\bibitem[Fu et~al., 2021]{Fu2021}
+Fu, X., K.~A. Innanen, and C. Project,  2021, {A new parallel simulated
+  annealing algorithm for 1 . 5D acoustic full-waveform inversion}:  1--3.
 
 \end{thebibliography}

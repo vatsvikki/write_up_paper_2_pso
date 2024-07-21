@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  21 JUL 2024 05:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  21 JUL 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,106 +208,101 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 34.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--81
-
- []
-
-[1
+ [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 83--89
+Underfull \hbox (badness 10000) in paragraph at lines 85--91
 
  []
 
 [2] [3]
 
-LaTeX Warning: Reference `fig:ackley' on page 4 undefined on input line 140.
+LaTeX Warning: Reference `fig:ackley' on page 4 undefined on input line 142.
 
 
-LaTeX Warning: Reference `fig:griewank' on page 4 undefined on input line 140.
+LaTeX Warning: Reference `fig:griewank' on page 4 undefined on input line 142.
 
 
-LaTeX Warning: Reference `fig:rastrigin' on page 4 undefined on input line 140.
+LaTeX Warning: Reference `fig:rastrigin' on page 4 undefined on input line 142.
 
 
 
-LaTeX Warning: Reference `fig:styblinski' on page 4 undefined on input line 140
+LaTeX Warning: Reference `fig:styblinski' on page 4 undefined on input line 142
 .
 
 [4]
 
-LaTeX Warning: Reference `fig:acc_ackley' on page 5 undefined on input line 152
+LaTeX Warning: Reference `fig:acc_ackley' on page 5 undefined on input line 154
 .
 
 
 LaTeX Warning: Reference `fig:acc_griewank' on page 5 undefined on input line 1
-52.
+54.
 
 
 LaTeX Warning: Reference `fig:acc_rastrigin' on page 5 undefined on input line 
-152.
+154.
 
 
 LaTeX Warning: Reference `fig:acc_styblinski' on page 5 undefined on input line
- 152.
+ 154.
 
 
-LaTeX Warning: Reference `fig:acc_itr' on page 5 undefined on input line 196.
+LaTeX Warning: Reference `fig:acc_itr' on page 5 undefined on input line 198.
 
 [5]
 
-LaTeX Warning: Reference `fig:schwefel' on page 6 undefined on input line 207.
+LaTeX Warning: Reference `fig:schwefel' on page 6 undefined on input line 209.
 
 
 LaTeX Warning: Reference `fig:con_schwefel' on page 6 undefined on input line 2
-07.
+09.
 
 
 LaTeX Warning: Reference `fig:con_schwefel' on page 6 undefined on input line 2
-07.
+09.
 
 
 LaTeX Warning: Reference `fig:parameterization.jpg' on page 6 undefined on inpu
-t line 223.
+t line 225.
 
 [6]
 
-LaTeX Warning: Reference `fig:work_flow' on page 7 undefined on input line 232.
+LaTeX Warning: Reference `fig:work_flow' on page 7 undefined on input line 234.
 
 
 [7]
 <./Fig/waves.pdf, id=37, 768.23009pt x 423.50221pt>
 File: ./Fig/waves.pdf Graphic file (type pdf)
 <use ./Fig/waves.pdf>
-Package pdftex.def Info: ./Fig/waves.pdf  used on input line 292.
+Package pdftex.def Info: ./Fig/waves.pdf  used on input line 294.
 (pdftex.def)             Requested size: 433.62pt x 239.04008pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-292.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 292.
+294.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 294.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 292.
+(Font)              for symbol `textbraceleft' on input line 294.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []\OT1/cmr/m/n/12 Figure 1: |This fig-ure is spec-i-fied in the doc-u-ment by
  []
 
 [8] [9 <./Fig/waves.pdf>]
-Underfull \hbox (badness 8132) in paragraph at lines 347--347
+Underfull \hbox (badness 8132) in paragraph at lines 349--349
 []\OT1/cmr/m/n/12 Figure B-1: |This fig-ure is
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 347--347
+Underfull \hbox (badness 3449) in paragraph at lines 349--349
 \OT1/cmr/m/n/12 spec-i-fied in the doc-u-ment by
  []
 
 
-Overfull \hbox (29.45482pt too wide) in paragraph at lines 347--347
+Overfull \hbox (29.45482pt too wide) in paragraph at lines 349--349
 \OMS/cmtt/m/n/12 n$\OT1/cmtt/m/n/12 sideplot\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 
 errgrp\OMS/cmtt/m/n/12 gf\OT1/cmtt/m/n/12 width=0.8$\OMS/cmtt/m/n/12 n$\OT1/cmt
 t/m/n/12 text-
@@ -316,22 +311,22 @@ t/m/n/12 text-
 <./Fig/errgrp.pdf, id=48, 289.08pt x 192.72pt>
 File: ./Fig/errgrp.pdf Graphic file (type pdf)
 <use ./Fig/errgrp.pdf>
-Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 347.
+Package pdftex.def Info: ./Fig/errgrp.pdf  used on input line 349.
 (pdftex.def)             Requested size: 208.1405pt x 138.75827pt.
 
-Overfull \hbox (3.91661pt too wide) in paragraph at lines 347--347
+Overfull \hbox (3.91661pt too wide) in paragraph at lines 349--349
 [][] 
  []
 
 File: "geophysics_paper.tex"  (verbatim)
 [10 <./Fig/errgrp.pdf>]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 351--351
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \author{Joe Dellinger\footnotemark[1] and Sergey Fomel\footn
 otemark[2]}[] 
  []
 
 
-Overfull \hbox (1610.30602pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1610.30602pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 FWI is most efficient seismcic data inversion method due to 
 its ability to use all the sesmic phasesin the seimic data. This involves the s
 ynthetic and observed data comparison in basis of the difference between them i
@@ -340,7 +335,7 @@ del satisfy the stopping criteria.[]
  []
 
 
-Overfull \hbox (4432.28241pt too wide) in paragraph at lines 351--351
+Overfull \hbox (4432.28241pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The amount of data involving in this method ehich is respons
 ible for getting a better image is also a reason for enhancing the nonlinear re
 lation between the data and physical parameters of the subsurface, it means the
@@ -355,7 +350,7 @@ he global minima.[]
  []
 
 
-Overfull \hbox (2746.50658pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2746.50658pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Since the formulaisation of the FWI it have been gone throug
 h a long journey of developemnts to deal with challenges assiciated witht the n
 onlinearity such as multiscale focusing on low frequency data, normalized cros-
@@ -366,7 +361,7 @@ e initial model in the basin of attraction of global minima.[]
  []
 
 
-Overfull \hbox (5624.058pt too wide) in paragraph at lines 351--351
+Overfull \hbox (5624.058pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 This problem of stucking with the local minima is associated
  with the starting model. This problem can be dealt with preapring the initial 
 model with the global optimization method becuase it have the ability to explor
@@ -383,98 +378,98 @@ se local minima methods have high exploitation rate.[]
  []
 
 
-Overfull \hbox (1635.00603pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2085.78125pt too wide) in paragraph at lines 353--353
+[]\OT1/cmtt/m/n/12 In geophysics, many authors proposed global optimization met
+hods for geophysical data inversion such as \cite{Datta2016} used the VFSA for 
+preapring the initial model in this two step process parameterization of model 
+is accomplished by the zero offset section, \cite{Fu2021} proposed a paralled V
+FSA algorithm  for 1.5D acoustic FWI where model parameters are simultaneously 
+updated across multiple threads.[] 
+ []
+
+
+Overfull \hbox (832.25563pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The most commonly used global optimization methods in seismi
 c data inversion are simulated annealing (SA) (refernce), genetic algorithm (GA
-) (reference), and particle swarm optimization (PSO) (references). these method
-s are compared by Angleo Sajeva et al., 2017 to check the ability to deal the c
-ases having large number of parameters[] 
+) (reference), and particle swarm optimization (PSO) (references).[] 
  []
 
 
-Overfull \hbox (585.25551pt too wide) in paragraph at lines 351--351
-[]\OT1/cmtt/m/n/12 data and sen 2016 et al. used the VFSA for preapring the ini
-tial model in this two step process parameterization of model is accomplished b
-y the zero offset section.[] 
+Overfull \hbox (362.9554pt too wide) in paragraph at lines 353--353
+[]\OT1/cmtt/m/n/12 these methods are compared by Angleo Sajeva et al., 2017 to 
+check the ability to deal the cases having large number of parameters[] 
  []
 
 
-Overfull \hbox (554.3805pt too wide) in paragraph at lines 351--351
-[]\OT1/cmtt/m/n/12 Xin Fu et al. 2021 proposed a paralled VFSA algorithm  for 1
-.5D acoustic FWI where multiple model parameters are simultaneously updated acr
-oss multiple threads.[] 
- []
-
-
-Overfull \hbox (813.73062pt too wide) in paragraph at lines 351--351
+Overfull \hbox (813.73062pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Y. Shiba and K. Irikura implemented the Very Fast Simulated 
 Annealing (VFSA) algorithm to estimate earthquake displacement and demonstrated
  that VFSA outperforms the Genetic Algorithm (GA) in this task.[] 
  []
 
 
-Overfull \hbox (412.35542pt too wide) in paragraph at lines 351--351
+Overfull \hbox (412.35542pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Rafael mendes et al. 2024, used a training image to guide th
 e generation of realistic velocity model samples and enhance the convergence.[]
  
  []
 
 
-Overfull \hbox (461.75545pt too wide) in paragraph at lines 351--351
+Overfull \hbox (461.75545pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Datta et al., 2019 impliment the VFSA where the sedimentary 
 layers and salt bodies are represnted by set of interfaces and ellipses respect
 ively.[] 
  []
 
 
-Overfull \hbox (579.0805pt too wide) in paragraph at lines 351--351
+Overfull \hbox (579.0805pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Alfredo Mazzotti et al., 2016 proposed GA FWI method involve
 s parametrizing the subsurface with two grids: a coarse grid for inversion and 
 a fine grid for modeling.[] 
  []
 
 [11]
-Overfull \hbox (690.23056pt too wide) in paragraph at lines 351--351
+Overfull \hbox (690.23056pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Malcolm Sambridge et al., 1992 compare the performance of GA
 s to Monte Carlo and  find that GAs can achieve better fits with fewer model pa
 rameters and are computationally efficient.[] 
  []
 
 
-Overfull \hbox (264.15535pt too wide) in paragraph at lines 351--351
+Overfull \hbox (264.15535pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Khiem T. Tran et al., 2012 demonstrates the potential of GA 
  for improved characterization subsurface properties.[] 
  []
 
 
-Overfull \hbox (542.03049pt too wide) in paragraph at lines 351--351
+Overfull \hbox (542.03049pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 MattiaAleardi and Alferdo Mazzotti 2017 et al. proposed the 
 seismic inversion with the GA with MCMC method to deal with the ucertainities i
 n the search space.[] 
  []
 
 
-Overfull \hbox (48.03024pt too wide) in paragraph at lines 351--351
+Overfull \hbox (48.03024pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Yang Haijun et al., 2017 developed a PSO based method for im
 pedance inversion.[] 
  []
 
 
-Overfull \hbox (529.68048pt too wide) in paragraph at lines 351--351
+Overfull \hbox (529.68048pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Ranjit Shaw et al., 2007 demonstrates the effectiveness of P
 article Swarm Optimization (PSO) in inverting geophysical data for natural reso
 urce exploration.[] 
  []
 
 
-Overfull \hbox (572.9055pt too wide) in paragraph at lines 351--351
+Overfull \hbox (572.9055pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 K. Ding et al., 2015 focusing on the application of Particle
  Swarm Optimization (PSO) to solve geophysical inverse problems, specifically a
  1D-DC resistivity case.[] 
  []
 
 
-Overfull \hbox (1048.38074pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1048.38074pt too wide) in paragraph at lines 353--353
 [][]\OT1/cmtt/m/n/12 Ismail Kaplanvural et al., 2020 The research contributes t
 o the literature by demonstrating the ability of PSO to invert common-offset GP
 R traces and estimate dielectric properties, including conductivity and relativ
@@ -482,19 +477,31 @@ e magnetic permeability.[]
  []
 
 
-Overfull \hbox (72.73026pt too wide) in paragraph at lines 351--351
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 353--353
+[]\OT1/cmtt/m/n/12 Juan Luis Fern^^Sandez Mart^^S^^Pnez wt al. 2012 used PSO fo
+r reservoir characterization.[] 
+ []
+
+
+Overfull \hbox (153.0053pt too wide) in paragraph at lines 353--353
+[]\OT1/cmtt/m/n/12 Juan Luis Fern^^Sandez Mart^^S^^Pnez wt al. 2010 PSO algorit
+hm's application to the SP inverse problem.[] 
+ []
+
+
+Overfull \hbox (72.73026pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Ke Ding et al., 2015  compare the GA and PSO, conclude that 
 PSO outperform the GA.[] 
  []
 
 
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 351--351
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Oscar F. Mojica 2019 compare the GA and PSO, conclude that P
 SO outperform the GA.[] 
  []
 
 
-Overfull \hbox (1931.40617pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1931.40617pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Sajeva et al. (2017) presents a comparative analysis of four
  stochastic optimization methods|adaptive simulated annealing (ASA), genetic al
 gorithm (GA), neighborhood algorithm (NA), and particle swarm optimization (PSO
@@ -504,7 +511,7 @@ oblems.[]
  []
 
 
-Overfull \hbox (2641.53152pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2641.53152pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 It is neccessary to use the parametriation to represent the 
 model with limited number of parameters to reduce the complexity as well the co
 mputational time. we have implimented a parameterization strategy where a model
@@ -515,20 +522,20 @@ er of parameters involved in the inversion.[]
  []
 
 
-Overfull \hbox (622.30553pt too wide) in paragraph at lines 351--351
+Overfull \hbox (622.30553pt too wide) in paragraph at lines 353--353
 [] \OT1/cmtt/m/n/12 in this both are used together because both have advantages
  and disadvantages global is best in exploration and local is best in exploitat
 ion. PSO is easily parallelized.[] 
  []
 
 
-Overfull \hbox (233.28033pt too wide) in paragraph at lines 351--351
+Overfull \hbox (233.28033pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Some of the appealing facts of PSO are its convenience, simp
 licity and easiness of implementation requiring.[] 
  []
 
 
-Overfull \hbox (918.70567pt too wide) in paragraph at lines 351--351
+Overfull \hbox (918.70567pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The prominent features of PSO are its easy implementation, r
 obustness to control parameters and computation efficiency compared with other 
 existing heuristic algorithms such as genetic algorithm in a continuous problem
@@ -536,15 +543,15 @@ existing heuristic algorithms such as genetic algorithm in a continuous problem
  []
 
 
-Overfull \hbox (1295.38086pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1295.38086pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 This approach involves two steps. First, a coarse velocity m
 odel is prepared using PSO by optimizing the depth, interface velocity, and the
  rate of change of velocity between interfaces. This model serves as an initial
  model for conventional gradient-based FWI in the second step.[] 
  []
 
-
-Overfull \hbox (6797.30858pt too wide) in paragraph at lines 351--351
+[12]
+Overfull \hbox (6797.30858pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Particle Swarm Optimization (PSO) is a stochastic method dev
 eloped by James Kennedy and Russell Eberhart in 1995. Inspired by the social be
 havior of birds flocking to find food, they formulated a mathematical model to 
@@ -563,68 +570,68 @@ ty update equation \ref{eqn:pso_1} and the position update equation \ref{eqn:ps
 o_2}.[] 
  []
 
-[12]
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 351--351
+
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( \mathbf{x}_i(t) \) be the position of particle \( i
  \) at iteration \( t \).[] 
  []
 
 
-Overfull \hbox (91.25526pt too wide) in paragraph at lines 351--351
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( \mathbf{v}_i(t) \) be the velocity of particle \( i
  \) at iteration \( t \).[] 
  []
 
 
-Overfull \hbox (196.23032pt too wide) in paragraph at lines 351--351
+Overfull \hbox (196.23032pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( \mathbf{p}_i(t) \) be the personal best position of
  particle \( i \) until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 351--351
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( \mathbf{g}(t) \) be the global best position among 
 all particles until iteration \( t \).[] 
  []
 
 
-Overfull \hbox (171.5303pt too wide) in paragraph at lines 351--351
+Overfull \hbox (171.5303pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) be the cognitive and social ac
 celeration coefficients, respectively.[] 
  []
 
 
-Overfull \hbox (146.83029pt too wide) in paragraph at lines 351--351
+Overfull \hbox (146.83029pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) be random numbers uniformly di
 stributed in the range \([0, 1]\).[] 
  []
 
 
-Overfull \hbox (350.6054pt too wide) in paragraph at lines 351--351
+Overfull \hbox (350.6054pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \mathbf{v}_i(t+1) = w \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_
 i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 351--351
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( w \) controls the influence of the previous velocit
 y (inertia).[] 
  []
 
 
-Overfull \hbox (227.10533pt too wide) in paragraph at lines 351--351
+Overfull \hbox (227.10533pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( c_1 \) and \( c_2 \) represent the trust of the par
 ticle in itself and in the swarm, respectively.[] 
  []
 
 
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 351--351
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \( r_1 \) and \( r_2 \) introduce stochasticity to the
  particle's movement.[] 
  []
 
 
-Overfull \hbox (7050.4837pt too wide) in paragraph at lines 351--351
+Overfull \hbox (7050.4837pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The updates in the Particle Swarm Optimization (PSO) algorit
 hm are influenced by several controlling parameters, including the inertia weig
 ht \((w)\), acceleration coefficients \((c_1\) and \(c_2)\), population size of
@@ -644,7 +651,7 @@ tions. The number of iterations, as with all iterative optimization algorithms,
  []
 
 
-Overfull \hbox (7476.55891pt too wide) in paragraph at lines 351--351
+Overfull \hbox (7476.55891pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 This contribution of different parameters for succes of PSO 
 make it is necessary to decide the combination of these parameters precisely. w
 e have performed experiments to find the optimal combination of this values, fo
@@ -665,31 +672,31 @@ hese experiments are outlined below.[]
  []
 
 
-Overfull \hbox (362.9554pt too wide) in paragraph at lines 351--351
+Overfull \hbox (362.9554pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluat
 ed \ value}{optimal \ value - maximum \ deviation} \right| \times 100[] 
  []
 
 
-Overfull \hbox (23.33023pt too wide) in paragraph at lines 351--351
+Overfull \hbox (23.33023pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \(Optimal \  value\), best possible value of the objec
 tive function.[] 
  []
 
 
-Overfull \hbox (190.05531pt too wide) in paragraph at lines 351--351
+Overfull \hbox (190.05531pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \(Evaluated \ value\), value of the objective function
  at a given point in the feasible domain.[] 
  []
 
 
-Overfull \hbox (183.88031pt too wide) in paragraph at lines 351--351
+Overfull \hbox (183.88031pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item \(Maximum \ deviation\), largest difference between th
 e optimized value and the actual values.[] 
  []
 
-
-Overfull \hbox (2505.68146pt too wide) in paragraph at lines 351--351
+[13]
+Overfull \hbox (2505.68146pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item Accuracy with Parameters: In this experiment, optimiza
 tion is conducted for all specified test functions using varying values of \(c_
 1\), \(c_2\), and inertia weights, as illustrated in figures \ref{fig:acc_ackle
@@ -699,63 +706,63 @@ i}. To address the inherent randomness of this stochastic method, we perform 50
 nal optimized values.[] 
  []
 
-[13]
-Overfull \hbox (758.1556pt too wide) in paragraph at lines 351--351
+
+Overfull \hbox (758.1556pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 This experiment concludes that a combination of inertia weig
 hts between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) va
 lues between 0.6 and 1.8 results in improved accuracy.[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 351--351
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/ackley_para_vs_acc
 uracy.jpeg}[] 
  []
 
 
-Overfull \hbox (257.98035pt too wide) in paragraph at lines 351--351
+Overfull \hbox (257.98035pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Ackley function with varying 
 inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (17.15523pt too wide) in paragraph at lines 351--351
+Overfull \hbox (17.15523pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/griewank_para_vs_a
 ccuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (270.33035pt too wide) in paragraph at lines 351--351
+Overfull \hbox (270.33035pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Griewank function with varyin
 g inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (23.33023pt too wide) in paragraph at lines 351--351
+Overfull \hbox (23.33023pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/rastrigin_para_vs_
 accuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (276.50536pt too wide) in paragraph at lines 351--351
+Overfull \hbox (276.50536pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Rastrigin function with varyi
 ng inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (29.50523pt too wide) in paragraph at lines 351--351
+Overfull \hbox (29.50523pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/styblinski_para_vs
 _accuracy.jpeg}[] 
  []
 
 
-Overfull \hbox (313.55537pt too wide) in paragraph at lines 351--351
+Overfull \hbox (313.55537pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \caption{Optimization of the Styblinski-Tang function with
  varying inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
 
-Overfull \hbox (2690.93155pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2690.93155pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item Accuracy with iterations: Here, accuracy is assessed w
 hile maintaining a constant swarm size of 30 and an initial iteration count of 
 1000, which is then increased by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, t
@@ -765,20 +772,20 @@ mproves, reaching a maximum close to 100 \% when iterations are increased to 10
  times, as illustrated in figure \ref{fig:acc_itr}.[] 
  []
 
-
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 351--351
+[14]
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_ac
 curacy.jpeg}[] 
  []
 
-[14]
-Overfull \hbox (177.7053pt too wide) in paragraph at lines 351--351
+
+Overfull \hbox (177.7053pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 % \caption{Accuracy variation with iterations keeping the sw
 arm size at 30 for all test functions.}[] 
  []
 
 
-Overfull \hbox (1789.3811pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1789.3811pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \item Acuuracy with swarm size: In this study, accuracy is e
 valuated across all tests by varying the swarm size, starting with 30 particles
  and increasing it by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, while keepin
@@ -787,7 +794,7 @@ swarm size increases, accuracy improves to approximately 70 \%.[]
  []
 
 
-Overfull \hbox (2246.33133pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2246.33133pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 From these experiments for finding the optimization paramete
 rs, it is concluded that an optimal combination of inertia weights between 0.5 
 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6
@@ -797,7 +804,7 @@ ed accuracy while maintaining similar computational costs.[]
  []
 
 
-Overfull \hbox (7241.9088pt too wide) in paragraph at lines 351--351
+Overfull \hbox (7241.9088pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The parameters that performed well in the previous experimen
 ts with test functions are used to evaluate the rate of convergence for the Sch
 wefel function, as shown in figure \ref{fig:schwefel}. This additional test fun
@@ -818,7 +825,7 @@ n are set as inertia at 0.6, \(c_1\) at 2.4, and \(c_2\) between 1.2 and 1.8.[]
  []
 
 
-Overfull \hbox (2184.5813pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2184.5813pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The seismic model includes physical parameters defined at de
 nsely packed grid points, often in the thousands, leading to an exponentially e
 xpanding search space that complicates the implementation of PSO. Therefore, it
@@ -828,7 +835,7 @@ n effectively serve as an initial model for FWI.[]
  []
 
 
-Overfull \hbox (6797.30858pt too wide) in paragraph at lines 351--351
+Overfull \hbox (6797.30858pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 We propose a technique to define model with 1D depth-velocit
 y profiles at sparse horizontal positions, as illustrated in Figure \ref{fig:pa
 rameterization.jpg} with white vertical lines. This model is representing a lay
@@ -848,7 +855,7 @@ odel.[]
  []
 
 
-Overfull \hbox (9341.40984pt too wide) in paragraph at lines 351--351
+Overfull \hbox (9341.40984pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The workflow of this implementation is illustrated in Figure
  \ref{fig:work_flow}. It shows that initial model preparation begins with a uni
 form 1D depth-velocity profile as the initial model, where the velocity is same
@@ -873,7 +880,7 @@ lready been accounted.[]
  []
 
 
-Overfull \hbox (1029.85573pt too wide) in paragraph at lines 351--351
+Overfull \hbox (1029.85573pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 We sparsely select the shot locations and repeat this proces
 s for all chosen shots. Using the inverted reflectors from these shots, we crea
 te an initial model through interpolation and smoothing. This serves as the ini
@@ -881,14 +888,14 @@ tial model for FWI.[]
  []
 
 [15]
-Overfull \hbox (727.28058pt too wide) in paragraph at lines 351--351
+Overfull \hbox (727.28058pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 Where \(obs^k\) and \(syn^k\) indicate the observed data and
  synthetic data generated from the model, respectively; \(k\) refers to the sho
 t number, and \(N\) represents the total samples.[] 
  []
 
 
-Overfull \hbox (2832.95662pt too wide) in paragraph at lines 351--351
+Overfull \hbox (2832.95662pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 The model prepared using PSO serves as an initial model for 
 FWI. Synthetic data is generated with this model and compared with the observed
  data, a process known as misfit calculation. Common methods for this calculati
@@ -899,49 +906,104 @@ This iterative process ultimately leads to the recovery of velocity model.[]
  []
 
 
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 351--351
+Overfull \hbox (10.98022pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/12 \tensor{P}_{M\rightarrow R} \; \tensor{D} \; \tensor{P}_{S\r
 ightarrow M}[] 
  []
 
 [16]
-Overfull \hbox (54.20525pt too wide) in paragraph at lines 351--351
+Overfull \hbox (54.20525pt too wide) in paragraph at lines 353--353
 []    \OT1/cmtt/m/n/12 $\backslash$plot\{waves\}\{width=$\backslash$textwidth\}
 \{This caption.\}}.[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 351--351
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 353--353
 []  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
 right]^2} +[] 
  []
 
 [17]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 351--351
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 353--353
 []  \OT1/cmtt/m/n/12 \sqrt{\frac{1}{v^2} - \left[\frac{\partial t}{\partial g}\
 right]^2} +[] 
  []
 
 
-Overfull \hbox (115.95528pt too wide) in paragraph at lines 351--351
+Overfull \hbox (115.95528pt too wide) in paragraph at lines 353--353
 []    \OT1/cmtt/m/n/12 $\backslash$sideplot\{errgrp\}\{width=0.8$\backslash$tex
 t\-width\}\{This caption.\}}.[] 
  []
 
 File: "geophysics_reference.bib"  (verbatim)
 [18]
-Overfull \hbox (66.55525pt too wide) in paragraph at lines 355--355
+Overfull \hbox (66.55525pt too wide) in paragraph at lines 357--357
 []  \OT1/cmtt/m/n/12 title  = {Inversion linearis\'ee multi-param\`etres via la
  th\'eorie des rais},[] 
  []
 
 
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 355--355
+Overfull \hbox (4.80522pt too wide) in paragraph at lines 357--357
 []  \OT1/cmtt/m/n/12 school = {Institut Fran\c{c}ais du P\'etrole - University 
 Paris VII},[] 
  []
 
-[19] (./geophysics_paper.bbl) [20] (./geophysics_paper.aux)
+
+Overfull \hbox (11200.08575pt too wide) in paragraph at lines 357--357
+[]\OT1/cmtt/m/n/12 abstract = {Full-waveform inversion (FWI) has become a popul
+ar method to estimate elastic earth properties from seismograms. It is formulat
+ed as a data-fitting least-squares minimization problem that iteratively update
+s an initial velocity model with the scaled gradient of the misfit until a sati
+sfactory match between the real and synthetic data is obtained. However, such a
+ local optimization approach can converge to a local minimum if the starting mo
+del used is not close enough to an optimal model.We have developed a two-step p
+rocess in which we first estimate a starting model using a global optimization 
+method. Unlike local optimization methods, a global optimization method starts 
+with a random starting model and is not generally susceptible to be trapped in 
+a local minimum. The starting model for FWI that we aim to estimate is sparsely
+ parameterized and contains a set of interfaces and velocities that are used to
+ represent the entire velocity model. We have obtained the depth of the interfa
+ces and the velocities by minimizing the data misfit in the least-squares sense
+ using a global optimization method called very fast simulated annealing (VFSA)
+. Once the sparse velocity model was obtained from VFSA, we used that as a star
+ting model in a conventional gradient- based FWI to obtain the final model. We 
+have applied the proposed method to one synthetic data set and two field data s
+ets from offshore India. The proposed method was able to estimate a velocity mo
+del that was not cycle skipped for realistic frequency bands. We have demonstra
+ted that with the proper choice of model parameterization and optimization para
+meters, the global and gradient optimization algorithms converge in a finite nu
+mber of iterations. We have determined that the resulting algorithm is computat
+ionally feasible in two dimensions and accurate for practical implementation of
+ FWI.},[] 
+ []
+
+
+Overfull \hbox (826.08063pt too wide) in paragraph at lines 357--357
+[]\OT1/cmtt/m/n/12 file = {:C\:/Users/VIKAS/AppData/Local/Mendeley Ltd./Mendele
+y Desktop/Downloaded/Datta, Sen - 2016 - Estimating a starting model for full-w
+aveform inversion using a global optimization method(3).pdf:pdf},[] 
+ []
+
+
+Overfull \hbox (202.40532pt too wide) in paragraph at lines 357--357
+[]\OT1/cmtt/m/n/12 title = {{Estimating a starting model for full-waveform inve
+rsion using a global optimization method}},[] 
+ []
+
+
+Overfull \hbox (856.95564pt too wide) in paragraph at lines 357--357
+[]\OT1/cmtt/m/n/12 file = {:C\:/Users/VIKAS/AppData/Local/Mendeley Ltd./Mendele
+y Desktop/Downloaded/Fu, Innanen, Project - 2021 - A new parallel simulated ann
+ealing algorithm for 1 . 5D acoustic full-waveform inversion.pdf:pdf},[] 
+ []
+
+
+Overfull \hbox (190.05531pt too wide) in paragraph at lines 357--357
+[]\OT1/cmtt/m/n/12 title = {{A new parallel simulated annealing algorithm for 1
+ . 5D acoustic full-waveform inversion}},[] 
+ []
+
+[19] [20] (./geophysics_paper.bbl) [21] (./geophysics_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -950,13 +1012,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5764 strings out of 476091
- 107467 string characters out of 5795540
- 1869324 words of memory out of 5000000
- 26113 multiletter control sequences out of 15000+600000
+ 5771 strings out of 476091
+ 107568 string characters out of 5795540
+ 1871324 words of memory out of 5000000
+ 26120 multiletter control sequences out of 15000+600000
  519032 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,11n,95p,1647b,412s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,95p,1949b,412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-
@@ -971,10 +1033,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /public/cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
 -super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (20 pages, 230428 bytes).
+Output written on geophysics_paper.pdf (21 pages, 233492 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
