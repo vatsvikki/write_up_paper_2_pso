@@ -2,10 +2,10 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
-\bibitem[Aleardi and Mazzotti, 2017]{Aleardi}
-Aleardi, M., and A. Mazzotti,  2017, 1d elastic full-waveform inversion and
-  uncertainty estimation by means of a hybrid genetic algorithm–gibbs sampler
-  approach: Geophysical Prospecting, {\bfseries 65}, 64--85.
+\bibitem[Aleardi and Mazzotti, 2017]{Aleardi2017}
+Aleardi, M., and A. Mazzotti,  2017, {1D elastic full-waveform inversion and
+  uncertainty estimation by means of a hybrid genetic algorithm–Gibbs sampler
+  approach}: Geophysical Prospecting, {\bfseries 65}, 64--85.
 
 \bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}, 2000]{Cerveny}
 {\SortNoop{Cerveny}}\v{C}erven\'{y}, V.,  2000, Seismic ray method: Cambridge
@@ -61,6 +61,27 @@ Mendes, R., B. Kaelin, A. Mart{\'{i}}nez-Sansigre, Barbosa, C. Bentes, and
   Amorim,  2024, {Faster determination of an initial velocity model for
   full-waveform inversion based on simulated annealing}: Geophysics, {\bfseries
   89}, R187--R198.
+
+\bibitem[Mojica et~al., 2019]{Mojica2019}
+Mojica, O., P. Nogueira, R. Santana, and D. Relevo,  2019, {Building starting
+  models for full-waveform inversion using global optimization methods - A
+  comparison between Particle swarm optimization and genetic algorithm}:  1--4.
+
+\bibitem[Sajeva et~al., 2017]{Sajeva2017}
+Sajeva, A., M. Aleardi, B. Galuzzi, E. Stucchi, E. Spadavecchia, and A.
+  Mazzotti,  2017, {Comparing the performances of four stochastic optimisation
+  methods using analytic objective functions, 1D elastic full-waveform
+  inversion, and residual static computation}: Geophysical Prospecting,
+  {\bfseries 65}, 322--346.
+
+\bibitem[Sambridge and Drijkoningen, 1992]{Sambridge1992}
+Sambridge, M., and G. Drijkoningen,  1992, {Genetic algorithms in seismic
+  waveform inversion}: Geophysical Journal International, {\bfseries 109},
+  323--342.
+
+\bibitem[Schuster, ]{Schuster}
+Schuster, G.~T., ,
+\newblock {Seismic Inversion}.
 
 \bibitem[Shaw and Srivastava, 2007]{Shaw2007}
 Shaw, R., and S. Srivastava,  2007, {Particle swarm optimization: A new tool to

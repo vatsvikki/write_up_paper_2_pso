@@ -1,48 +1,66 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: geophysics_paper.aux
 The style file: seg.bst
 Database file #1: geophysics_reference.bib
+Repeated entry---line 269 of file geophysics_reference.bib
+ : @article{Sajeva2017
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 301 of file geophysics_reference.bib
+ : @article{Ding2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 325 of file geophysics_reference.bib
+ : @article{Sajeva2017
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Fu2021
-You've used 17 entries,
+Warning--empty journal in Mojica2019
+Warning--empty year in Schuster
+Warning--empty publisher in Schuster
+Warning--there's a number but no series in Schuster
+You can't pop an empty literal stack for entry Schuster
+while executing---line 1586 of file seg.bst
+You've used 21 entries,
             2639 wiz_defined-function locations,
-            828 strings with 9862 characters,
-and the built_in function-call counts, 7371 in all, are:
-= -- 804
-> -- 334
-< -- 10
-+ -- 114
-- -- 114
-* -- 654
-:= -- 1271
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 142
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 247
-empty$ -- 484
-format.name$ -- 143
-if$ -- 1500
+            853 strings with 10661 characters,
+and the built_in function-call counts, 9084 in all, are:
+= -- 989
+> -- 410
+< -- 13
++ -- 140
+- -- 140
+* -- 803
+:= -- 1562
+add.period$ -- 22
+call.type$ -- 21
+change.case$ -- 175
+chr.to.int$ -- 21
+cite$ -- 26
+duplicate$ -- 306
+empty$ -- 599
+format.name$ -- 175
+if$ -- 1848
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 56
-num.names$ -- 51
-pop$ -- 113
+missing$ -- 22
+newline$ -- 69
+num.names$ -- 63
+pop$ -- 146
 preamble$ -- 2
-purify$ -- 142
+purify$ -- 175
 quote$ -- 0
-skip$ -- 193
+skip$ -- 236
 stack$ -- 0
-substring$ -- 530
-swap$ -- 29
-text.length$ -- 2
+substring$ -- 648
+swap$ -- 36
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 1
-while$ -- 59
+type$ -- 122
+warning$ -- 5
+while$ -- 75
 width$ -- 0
-write$ -- 189
-(There was 1 warning)
+write$ -- 231
+(There were 4 error messages)
