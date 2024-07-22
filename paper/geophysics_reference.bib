@@ -460,3 +460,62 @@
 	volume = {167},
 	year = {2006}
 }
+
+@article{Guo2021,
+	abstract = {Seismic full waveform inversion (FWI) is a powerful method for estimating quantitative subsurface physical parameters from seismic data. As the FWI is a nonlinear problem, the linearized approach updates model iteratively from an initial model, which can get trapped in local minima. In the presence of a high-velocity contrast, such as at Moho, the reflection coefficient and recorded waveforms from wide-aperture seismic acquisition are extremely nonlinear around critical angles. The problem at the Moho is further complicated by the interference of lower crustal (Pg) and upper mantle (Pn) turning ray arrivals with the critically reflected Moho arrivals (PmP). In order to determine velocity structure near Moho, a nonlinear method should be used. We propose to solve this strong nonlinear FWI problem at Moho using a trans-dimensional Markov chain Monte Carlo (MCMC) method, where the earth model between lower crust and upper mantle is ideally parametrized with a 1-D assumption using a variable number of velocity interfaces. Different from common MCMC methods that require determining the number of unknown as a fixed prior before inversion, trans-dimensional MCMC allows the flexibility for an automatic estimation of both the model complexity (e.g. the number of velocity interfaces) and the velocity-depth structure from the data. We first test the algorithm on synthetic data using four representative Moho models and then apply to an ocean bottom seismometer (OBS) data from the Mid-Atlantic Ocean. A 2-D finite-difference solution of an acoustic wave equation is used for data simulation at each iteration of MCMC search, for taking into account the lateral heterogeneities in the upper crust, which is constrained from traveltime tomography and is kept unchanged during inversion; the 1-D model parametrization near Moho enables an efficient search of the trans-dimensional model space. Inversion results indicate that, with very little prior and the wide-aperture seismograms, the trans-dimensional FWI method is able to infer the posterior distribution of both the number of velocity interfaces and the velocity-depth model for a strong nonlinear problem, making the inversion a complete data-driven process. The distribution of interface matches the velocity discontinuities. We find that the Moho in the study area is a transition zone of.7 km, or a sharp boundary with velocities from around 7 km s-1 in the lower crust to 8 km s-1 of the upper mantle; both provide nearly identical waveform match for the field data. The ambiguity comes from the resolution limit of the band-limited seismic data and limited offset range for PmP arrivals.},
+	author = {Guo, Peng and Singh, Satish C. and Vaddineni, Venkata A. and Visser, Gerhard and Grevemeyer, Ingo and Saygin, Erdinc},
+	doi = {10.1093/gji/ggaa505},
+	file = {:home/vikas/Desktop/papers/ggaa505.pdf:pdf},
+	issn = {1365246X},
+	journal = {Geophysical Journal International},
+	keywords = {Body waves,Crustal imaging,Probability distributions,Waveform inversion},
+	number = {2},
+	pages = {1056--1078},
+	publisher = {Oxford University Press},
+	title = {{Nonlinear full waveform inversion of wide-aperture OBS data for Moho structure using a trans-dimensional Bayesian method}},
+	volume = {224},
+	year = {2021}
+}
+
+@article{Geng2018,
+	abstract = {Full-waveform inversion (FWI) is a highly non-linear inverse problem, normally solved iteratively, with each iteration involving an update constructed through linear operations on the residuals. Incorporating a flexible degree of non-linearity within each update may have important consequences for convergence rates, determination of low model wavenumbers and discrimination of parameters. We examine one approach for doing so, wherein higher order scattering terms are included within the sensitivity kernel during the construction of the descent direction, adjusting it away from that of the standard Gauss-Newton approach. These scattering terms are naturally admitted when we construct the sensitivity kernel by varying not the current but the to-be-updated model at each iteration. Linear and/or non-linear inverse scattering methodologies allow these additional sensitivity contributions to be computed from the current data residuals within any given update.We show that in the presence of pre-critical reflection data, the error in a second-order non-linear update to a background of s0 is, in our scheme, proportional to at most ($\Delta$s/s0)3 in the actual parameter jump $\Delta$s causing the reflection. In contrast, the error in a standard Gauss-Newton FWI update is proportional to ($\Delta$s/s0)2. For numerical implementation of more complex cases, we introduce a non-linear frequency-domain scheme, with an inner and an outer loop. A perturbation is determined from the data residuals within the inner loop, and a descent direction based on the resulting non-linear sensitivity kernel is computed in the outer loop. We examine the response of this non-linear FWI using acoustic single-parameter synthetics derived from the Marmousi model. The inverted results vary depending on data frequency ranges and initial models, but we conclude that the non-linear FWI has the capability to generate high-resolution model estimates in both shallow and deep regions, and to converge rapidly, relative to a benchmark FWI approach involving the standard gradient.},
+	author = {Geng, Yu and Pan, Wenyong and Innanen, Kristopher A.},
+	doi = {10.1093/gji/ggy002},
+	file = {:home/vikas/Desktop/papers/ggy002.pdf:pdf},
+	issn = {1365246X},
+	journal = {Geophysical Journal International},
+	keywords = {Inverse theory,Theoretical seismology,Wave scattering and diffraction,Waveform inversion},
+	number = {2},
+	pages = {739--756},
+	title = {{Frequency-domain full-waveform inversion with non-linear descent directions}},
+	volume = {213},
+	year = {2018}
+}
+
+@article{Crase1990,
+	abstract = {Nonlinear elastic waveform inversion has advanced to the point where it is now possible to invert real multiple-shot seismic data. The iterative gradient algorithm that we employ can readily accommodate robust minimization criteria which tend to handle many types of seismic noise better than the commonly used least-squares minimization criteria. Although there are many robust criteria from which to choose, we have tested only a few. In particular, the Cauchy criterion and the hyperbolic secant criterion perform very well. Although the real data set, which we invert using the sech criterion, is marine (pressure sources and receivers) and is very much dominated by unconverted P waves, we can, for the most part, resolve the short wavelengths of both P impedance and S impedance. -from Authors},
+	author = {Crase, E. and Pica, A. and Noble, M. and McDonald, J. and Tarantola, A.},
+	doi = {10.1190/1.1442864},
+	file = {:home/vikas/Downloads/1990-noble-geophysics-1.pdf:pdf},
+	issn = {00168033},
+	journal = {Geophysics},
+	number = {5},
+	pages = {527--538},
+	title = {{Robust elastic nonlinear waveform inversion: application to real data}},
+	volume = {55},
+	year = {1990}
+}
+
+@book{FitchnerETH2015,
+	abstract = {Inferring interior properties of the Sun from photospheric measurements of the seismic wavefield constitutes the helioseismic inverse problem. Deviations in seismic measurements (such as wave travel times) from their fiducial values estimated for a given model of the solar interior imply that the model is inaccurate. In this section, we implement iterative inversions to obtain the sub-surface structure of perturbations. The model can be successively improved using either steepest descent or Krylov-subspace techniques such as conjugate gradient, or limited-memory Broyden-Fletcher-Goldfarb-Shanno method.},
+	author = {Fitchner(ETH)},
+	booktitle = {SpringerBriefs in Mathematics},
+	doi = {https://doi.org/10.1007/978-3-642-15807-0},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Fitchner(ETH) - 2015 - Full waveform inversion.pdf:pdf},
+	isbn = {9783642158063},
+	issn = {21918201},
+	keywords = {Adjoint Method,Meridional Circulation,Solar Interior,Sound Speed,Travel Time},
+	pages = {75--103},
+	title = {{Full waveform inversion}},
+	year = {2015}
+}

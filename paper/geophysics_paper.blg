@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: geophysics_paper.aux
 The style file: plainnat.bst
-Illegal, another \bibstyle command---line 65 of file geophysics_paper.aux
+Illegal, another \bibstyle command---line 67 of file geophysics_paper.aux
  : \bibstyle
  :          {seg}
 I'm skipping whatever remains of this command
@@ -19,50 +19,51 @@ Repeated entry---line 325 of file geophysics_reference.bib
  : @article{Sajeva2017
  :                    ,
 I'm skipping whatever remains of this entry
+Warning--empty publisher in FitchnerETH2015
 Warning--empty journal in Fu2021
 Warning--empty journal in Gomez2017
 Warning--there's a number but no volume in Gomez2017
 Warning--empty journal in Mojica2019
 Warning--empty journal in Pratt1999
-You've used 28 entries,
+You've used 32 entries,
             2773 wiz_defined-function locations,
-            821 strings with 11200 characters,
-and the built_in function-call counts, 14585 in all, are:
-= -- 1373
-> -- 884
-< -- 18
-+ -- 298
-- -- 270
-* -- 1274
-:= -- 2292
-add.period$ -- 125
-call.type$ -- 28
-change.case$ -- 172
-chr.to.int$ -- 28
-cite$ -- 61
-duplicate$ -- 585
-empty$ -- 1077
-format.name$ -- 318
-if$ -- 3011
+            853 strings with 12038 characters,
+and the built_in function-call counts, 16772 in all, are:
+= -- 1573
+> -- 1029
+< -- 19
++ -- 347
+- -- 315
+* -- 1479
+:= -- 2641
+add.period$ -- 145
+call.type$ -- 32
+change.case$ -- 198
+chr.to.int$ -- 32
+cite$ -- 70
+duplicate$ -- 668
+empty$ -- 1234
+format.name$ -- 367
+if$ -- 3456
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 28
-newline$ -- 190
-num.names$ -- 112
-pop$ -- 277
+missing$ -- 33
+newline$ -- 218
+num.names$ -- 128
+pop$ -- 322
 preamble$ -- 2
-purify$ -- 146
+purify$ -- 169
 quote$ -- 0
-skip$ -- 473
+skip$ -- 535
 stack$ -- 0
-substring$ -- 608
-swap$ -- 45
+substring$ -- 697
+swap$ -- 49
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 303
-warning$ -- 5
-while$ -- 129
+type$ -- 342
+warning$ -- 6
+while$ -- 147
 width$ -- 0
-write$ -- 448
+write$ -- 514
 (There were 4 error messages)

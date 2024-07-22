@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  22 JUL 2024 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  22 JUL 2024 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,18 +332,17 @@ nding to the updated model satisfy the stopping criteria.[]
  []
 
 
-Overfull \hbox (4475.50743pt too wide) in paragraph at lines 315--315
-[]\OT1/cmtt/m/n/12 The amount of data involving in this method ehich providing 
-an advantage of getting a better image is also a reason for enhancing the nonli
-near relation between the data and physical parameters of the subsurface, it me
-ans the objective function prepared for the minimization is a multimodal functi
-on having a large number of minima and maxima as shown in FIGURE. this s respon
-sible for FWI to stuck in local minima if the starting model is not lie within 
-the basin of attraction. FWI is based on caluclas based optimization mehtods wh
-ich have the tendency to move towards the nearest extrema this make it imposibl
-e to converge to global minima if starting model is in local basin of attractio
-n. This make it neccesary to start the inversion with a inital model located ne
-ar to the global minima.[] 
+Overfull \hbox (4135.88226pt too wide) in paragraph at lines 315--315
+[]\OT1/cmtt/m/n/12 FWI is a nonlinear optimization problem \citep{Crase1990, Ge
+ng2018, Guo2021}, having a large number of localized minima and maxima as shown
+ in FIGURE, because of the non linear relation between the synthetic data and m
+odel parameters. This characteristic of objective function might be responsible
+ for FWI to stuck in local minima if the starting model is not lie within the b
+asin of attraction \citep{FitchnerETH2015}. FWI is based on caluclas based opti
+mization mehtods which have the tendency to move towards the nearest extrema th
+is make it imposible to converge to global minima if starting model is in local
+ized basin of attraction. This make it necessary to start the inversion with a 
+initial model located near to the global minima.[] 
  []
 
 
@@ -431,7 +430,7 @@ to multifolds to deal with the curse fo dimensionality associated with the numb
 er of parameters involved in the inversion.[] 
  []
 
-[11]
+
 Overfull \hbox (622.30553pt too wide) in paragraph at lines 315--315
 [] \OT1/cmtt/m/n/12 in this both are used together because both have advantages
  and disadvantages global is best in exploration and local is best in exploitat
@@ -460,7 +459,7 @@ odel is prepared using PSO by optimizing the depth, interface velocity, and the
  model for conventional gradient-based FWI in the second step.[] 
  []
 
-
+[11]
 Overfull \hbox (6797.30858pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/12 Particle Swarm Optimization (PSO) is a stochastic method dev
 eloped by James Kennedy and Russell Eberhart in 1995. Inspired by the social be
@@ -587,7 +586,7 @@ Overfull \hbox (362.9554pt too wide) in paragraph at lines 315--315
 ed \ value}{optimal \ value - maximum \ deviation} \right| \times 100[] 
  []
 
-[12]
+
 Overfull \hbox (23.33023pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/12 \item \(Optimal \  value\), best possible value of the objec
 tive function.[] 
@@ -605,7 +604,7 @@ Overfull \hbox (183.88031pt too wide) in paragraph at lines 315--315
 e optimized value and the actual values.[] 
  []
 
-
+[12]
 Overfull \hbox (2505.68146pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/12 \item Accuracy with Parameters: In this experiment, optimiza
 tion is conducted for all specified test functions using varying values of \(c_
@@ -659,7 +658,7 @@ Overfull \hbox (276.50536pt too wide) in paragraph at lines 315--315
 ng inertia weights, \(c_1\), and \(c_2\) coefficients.}[] 
  []
 
-[13]
+
 Overfull \hbox (29.50523pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/12 % \includegraphics[width=\paperwidth]{Fig/styblinski_para_vs
 _accuracy.jpeg}[] 
@@ -682,7 +681,7 @@ mproves, reaching a maximum close to 100 \% when iterations are increased to 10
  times, as illustrated in figure \ref{fig:acc_itr}.[] 
  []
 
-
+[13]
 Overfull \hbox (10.98022pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/12 % \includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_ac
 curacy.jpeg}[] 
@@ -900,7 +899,7 @@ Overfull \hbox (202.40532pt too wide) in paragraph at lines 319--319
 rsion using a global optimization method}},[] 
  []
 
-[18]
+
 Overfull \hbox (856.95564pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 file = {:C\:/Users/VIKAS/AppData/Local/Mendeley Ltd./Mendele
 y Desktop/Downloaded/Fu, Innanen, Project - 2021 - A new parallel simulated ann
@@ -913,7 +912,7 @@ Overfull \hbox (190.05531pt too wide) in paragraph at lines 319--319
  . 5D acoustic full-waveform inversion}},[] 
  []
 
-
+[18]
 Overfull \hbox (9835.41008pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {A source inversion method using very fast simula
 ted annealing is proposed to estimate the earthquake rupture process, and assoc
@@ -1002,7 +1001,7 @@ Overfull \hbox (301.20537pt too wide) in paragraph at lines 319--319
 for full-waveform inversion based on simulated annealing}},[] 
  []
 
-[19]
+
 Overfull \hbox (12342.46132pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {A good starting model is imperative in full-wave
 form inversion (FWI) because it solves a least-squares inversion problem using 
@@ -1046,7 +1045,7 @@ y Desktop/Downloaded/Datta et al. - 2019 - Full-waveform inversion of salt mode
 ls using shape optimization and simulated annealing(3).pdf:pdf},[] 
  []
 
-
+[19]
 Overfull \hbox (183.88031pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{Full-waveform inversion of salt models using shape
  optimization and simulated annealing}},[] 
@@ -1122,7 +1121,7 @@ Overfull \hbox (72.73026pt too wide) in paragraph at lines 319--319
 a Genetic Algorithm}},[] 
  []
 
-[20]
+
 Overfull \hbox (10273.8353pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {Conventional surface wave inversion for shallow 
 shear (S)-wave velocity relies on the generation of dispersion curves of Raylei
@@ -1167,7 +1166,7 @@ Overfull \hbox (214.75533pt too wide) in paragraph at lines 319--319
 rogeneity,Rayleigh waves,Waveform inversion},[] 
  []
 
-
+[20]
 Overfull \hbox (319.73038pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{Feasibility of waveform inversion of Rayleigh wave
 s for shallow shear-wave velocity using a genetic algorithm}},[] 
@@ -1268,7 +1267,7 @@ Overfull \hbox (171.5303pt too wide) in paragraph at lines 319--319
  seismic inversion of igneous rocks}},[] 
  []
 
-[21]
+
 Overfull \hbox (8199.03427pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {Particle swarm optimization (PSO) is a global op
 timization strategy that simulates the social behavior observed in a flock (swa
@@ -1297,7 +1296,7 @@ srivastava-2007-particle-swarm-optimization-a-new-tool-to-invert-geophysical-da
 ta.pdf:pdf},[] 
  []
 
-
+[21]
 Overfull \hbox (134.48029pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 keywords = {Genetic algorithms,Geomagnetism,Geophysical tech
 niques,Terrestrial electricity},[] 
@@ -1401,7 +1400,7 @@ Overfull \hbox (48.03024pt too wide) in paragraph at lines 319--319
 rm optimization}},[] 
  []
 
-[22]
+
 Overfull \hbox (4605.1825pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {We apply different particle swarm optimizers (PS
 O) to a history matching problem for the synthetic Stanford VI sand-and-shale r
@@ -1435,7 +1434,7 @@ Overfull \hbox (264.15535pt too wide) in paragraph at lines 319--319
 l Exposition and 80th Annual Meeting 2010, SEG 2010},[] 
  []
 
-
+[22]
 Overfull \hbox (227.10533pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{Reservoir characterization and inversion uncertain
 ty via a family of particle swarm optimizers}},[] 
@@ -1523,7 +1522,7 @@ misation methods using analytic objective functions, 1D elastic full-waveform i
 nversion, and residual static computation}},[] 
  []
 
-[23]
+
 Overfull \hbox (14404.91234pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {We compare the performances of four stochastic o
 ptimisation methods using four analytic objective functions and two highly non-
@@ -1571,7 +1570,7 @@ Overfull \hbox (603.78052pt too wide) in paragraph at lines 319--319
 hods using analytic.pdf:pdf},[] 
  []
 
-
+[23]
 Overfull \hbox (696.40556pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{Comparing the performances of four stochastic opti
 misation methods using analytic objective functions, 1D elastic full-waveform i
@@ -1671,7 +1670,7 @@ Overfull \hbox (85.08026pt too wide) in paragraph at lines 319--319
 telligence algorithms}},[] 
  []
 
-[24]
+
 Overfull \hbox (109.78027pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 author = {Mojica, Oscar and Nogueira, Peterson and Santana, 
 Rodrigo and Relevo, Daniel},[] 
@@ -1692,7 +1691,7 @@ on using global optimization methods - A comparison between Particle swarm opti
 mization and genetic algorithm}},[] 
  []
 
-
+[24]
 Overfull \hbox (14404.91234pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {We compare the performances of four stochastic o
 ptimisation methods using four analytic objective functions and two highly non-
@@ -1792,7 +1791,7 @@ Overfull \hbox (406.18042pt too wide) in paragraph at lines 319--319
 
  []
 
-[25]
+
 Overfull \hbox (9440.20988pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {Three parameters are needed to describe a perfec
 tly elastic, isotropic Earth. These may be the density $\rho$(x) and the Lame's
@@ -1829,7 +1828,7 @@ Overfull \hbox (72.73026pt too wide) in paragraph at lines 319--319
 mic reflection data}},[] 
  []
 
-
+[25]
 Overfull \hbox (974.2807pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {Fundamentals -- Deconvolution -- Velocity analys
 is, statics corrections, and stacking -- Migration -- Imaging beneath comples s
@@ -1930,7 +1929,7 @@ Overfull \hbox (887.83066pt too wide) in paragraph at lines 319--319
 ion with normalized zero-lag cross-correlation objective function.pdf:pdf},[] 
  []
 
-[26]
+
 Overfull \hbox (288.85536pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{Robust time-domain full waveform inversion with no
 rmalized zero-lag cross-correlation objective function}},[] 
@@ -1973,7 +1972,7 @@ ier, Romain and M{\'{e}}rigot, Quentin and Oudet, Edouard and Virieux, Jean},[]
  
  []
 
-
+[26]
 Overfull \hbox (974.2807pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley
  Desktop/Downloaded/M{\'{e}}tivier et al. - 2018 - Optimal transport for mitiga
@@ -2022,7 +2021,7 @@ Overfull \hbox (344.43039pt too wide) in paragraph at lines 319--319
  , Part 2 : Fault delineation in sediments using crosshole data}},[] 
  []
 
-[27]
+
 Overfull \hbox (9742.78503pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 abstract = {Estimating the model parameters from measured da
 ta generally consists of minimizing an error functional. A classic technique to
@@ -2056,37 +2055,190 @@ omputing the gradient of a functional with geophysical applications.pdf:pdf},[]
  
  []
 
-
+[27]
 Overfull \hbox (319.73038pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/12 title = {{A review of the adjoint-state method for computing
  the gradient of a functional with geophysical applications}},[] 
  []
 
-[28] (./geophysics_paper.bbl [29]
-Underfull \hbox (badness 2469) in paragraph at lines 174--178
+
+Overfull \hbox (16078.33817pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 abstract = {Seismic full waveform inversion (FWI) is a power
+ful method for estimating quantitative subsurface physical parameters from seis
+mic data. As the FWI is a nonlinear problem, the linearized approach updates mo
+del iteratively from an initial model, which can get trapped in local minima. I
+n the presence of a high-velocity contrast, such as at Moho, the reflection coe
+fficient and recorded waveforms from wide-aperture seismic acquisition are extr
+emely nonlinear around critical angles. The problem at the Moho is further comp
+licated by the interference of lower crustal (Pg) and upper mantle (Pn) turning
+ ray arrivals with the critically reflected Moho arrivals (PmP). In order to de
+termine velocity structure near Moho, a nonlinear method should be used. We pro
+pose to solve this strong nonlinear FWI problem at Moho using a trans-dimension
+al Markov chain Monte Carlo (MCMC) method, where the earth model between lower 
+crust and upper mantle is ideally parametrized with a 1-D assumption using a va
+riable number of velocity interfaces. Different from common MCMC methods that r
+equire determining the number of unknown as a fixed prior before inversion, tra
+ns-dimensional MCMC allows the flexibility for an automatic estimation of both 
+the model complexity (e.g. the number of velocity interfaces) and the velocity-
+depth structure from the data. We first test the algorithm on synthetic data us
+ing four representative Moho models and then apply to an ocean bottom seismomet
+er (OBS) data from the Mid-Atlantic Ocean. A 2-D finite-difference solution of 
+an acoustic wave equation is used for data simulation at each iteration of MCMC
+ search, for taking into account the lateral heterogeneities in the upper crust
+, which is constrained from traveltime tomography and is kept unchanged during 
+inversion; the 1-D model parametrization near Moho enables an efficient search 
+of the trans-dimensional model space. Inversion results indicate that, with ver
+y little prior and the wide-aperture seismograms, the trans-dimensional FWI met
+hod is able to infer the posterior distribution of both the number of velocity 
+interfaces and the velocity-depth model for a strong nonlinear problem, making 
+the inversion a complete data-driven process. The distribution of interface mat
+ches the velocity discontinuities. We find that the Moho in the study area is a
+ transition zone of.7 km, or a sharp boundary with velocities from around 7 km 
+s-1 in the lower crust to 8 km s-1 of the upper mantle; both provide nearly ide
+ntical waveform match for the field data. The ambiguity comes from the resoluti
+on limit of the band-limited seismic data and limited offset range for PmP arri
+vals.},[] 
+ []
+
+
+Overfull \hbox (356.7804pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 author = {Guo, Peng and Singh, Satish C. and Vaddineni, Venk
+ata A. and Visser, Gerhard and Grevemeyer, Ingo and Saygin, Erdinc},[] 
+ []
+
+
+Overfull \hbox (91.25526pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 keywords = {Body waves,Crustal imaging,Probability distribut
+ions,Waveform inversion},[] 
+ []
+
+
+Overfull \hbox (387.65541pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 title = {{Nonlinear full waveform inversion of wide-aperture
+ OBS data for Moho structure using a trans-dimensional Bayesian method}},[] 
+ []
+
+
+Overfull \hbox (12435.08636pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 abstract = {Full-waveform inversion (FWI) is a highly non-li
+near inverse problem, normally solved iteratively, with each iteration involvin
+g an update constructed through linear operations on the residuals. Incorporati
+ng a flexible degree of non-linearity within each update may have important con
+sequences for convergence rates, determination of low model wavenumbers and dis
+crimination of parameters. We examine one approach for doing so, wherein higher
+ order scattering terms are included within the sensitivity kernel during the c
+onstruction of the descent direction, adjusting it away from that of the standa
+rd Gauss-Newton approach. These scattering terms are naturally admitted when we
+ construct the sensitivity kernel by varying not the current but the to-be-upda
+ted model at each iteration. Linear and/or non-linear inverse scattering method
+ologies allow these additional sensitivity contributions to be computed from th
+e current data residuals within any given update.We show that in the presence o
+f pre-critical reflection data, the error in a second-order non-linear update t
+o a background of s0 is, in our scheme, proportional to at most ($\Delta$s/s0)3
+ in the actual parameter jump $\Delta$s causing the reflection. In contrast, th
+e error in a standard Gauss-Newton FWI update is proportional to ($\Delta$s/s0)
+2. For numerical implementation of more complex cases, we introduce a non-linea
+r frequency-domain scheme, with an inner and an outer loop. A perturbation is d
+etermined from the data residuals within the inner loop, and a descent directio
+n based on the resulting non-linear sensitivity kernel is computed in the outer
+ loop. We examine the response of this non-linear FWI using acoustic single-par
+ameter synthetics derived from the Marmousi model. The inverted results vary de
+pending on data frequency ranges and initial models, but we conclude that the n
+on-linear FWI has the capability to generate high-resolution model estimates in
+ both shallow and deep regions, and to converge rapidly, relative to a benchmar
+k FWI approach involving the standard gradient.},[] 
+ []
+
+
+Overfull \hbox (196.23032pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 keywords = {Inverse theory,Theoretical seismology,Wave scatt
+ering and diffraction,Waveform inversion},[] 
+ []
+
+
+Overfull \hbox (109.78027pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 title = {{Frequency-domain full-waveform inversion with non-
+linear descent directions}},[] 
+ []
+
+
+Overfull \hbox (4586.65749pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 abstract = {Nonlinear elastic waveform inversion has advance
+d to the point where it is now possible to invert real multiple-shot seismic da
+ta. The iterative gradient algorithm that we employ can readily accommodate rob
+ust minimization criteria which tend to handle many types of seismic noise bett
+er than the commonly used least-squares minimization criteria. Although there a
+re many robust criteria from which to choose, we have tested only a few. In par
+ticular, the Cauchy criterion and the hyperbolic secant criterion perform very 
+well. Although the real data set, which we invert using the sech criterion, is 
+marine (pressure sources and receivers) and is very much dominated by unconvert
+ed P waves, we can, for the most part, resolve the short wavelengths of both P 
+impedance and S impedance. -from Authors},[] 
+ []
+
+
+Overfull \hbox (78.90526pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 author = {Crase, E. and Pica, A. and Noble, M. and McDonald,
+ J. and Tarantola, A.},[] 
+ []
+
+[28]
+Overfull \hbox (72.73026pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 title = {{Robust elastic nonlinear waveform inversion: appli
+cation to real data}},[] 
+ []
+
+
+Overfull \hbox (3413.4069pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 abstract = {Inferring interior properties of the Sun from ph
+otospheric measurements of the seismic wavefield constitutes the helioseismic i
+nverse problem. Deviations in seismic measurements (such as wave travel times) 
+from their fiducial values estimated for a given model of the solar interior im
+ply that the model is inaccurate. In this section, we implement iterative inver
+sions to obtain the sub-surface structure of perturbations. The model can be su
+ccessively improved using either steepest descent or Krylov-subspace techniques
+ such as conjugate gradient, or limited-memory Broyden-Fletcher-Goldfarb-Shanno
+ method.},[] 
+ []
+
+
+Overfull \hbox (406.18042pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley
+ Desktop/Downloaded/Fitchner(ETH) - 2015 - Full waveform inversion.pdf:pdf},[] 
+
+ []
+
+
+Overfull \hbox (122.13028pt too wide) in paragraph at lines 319--319
+[]\OT1/cmtt/m/n/12 keywords = {Adjoint Method,Meridional Circulation,Solar Inte
+rior,Sound Speed,Travel Time},[] 
+ []
+
+[29] (./geophysics_paper.bbl [30] [31]
+Underfull \hbox (badness 2469) in paragraph at lines 210--214
 []\OT1/cmr/m/n/12 Gerard T. Schus-ter.  Seis-mic In-ver-sion.  \OT1/cmr/m/it/12
  Seis-mic In-ver-sion\OT1/cmr/m/n/12 , 2017.  doi:
  []
 
-[30]
-Underfull \hbox (badness 3364) in paragraph at lines 221--230
+
+Underfull \hbox (badness 3364) in paragraph at lines 257--266
 \OT1/cmr/m/n/12 sheng Duan, Yongfeng Zhu, Yongfu Cui, and Xingjun Wang.  Par-ti
 -
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 221--230
+Underfull \hbox (badness 1122) in paragraph at lines 257--266
 \OT1/cmr/m/n/12 cle swarm op-ti-miza-tion and its ap-pli-ca-tion to seis-mic in
 -ver-sion of ig-neous
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 221--230
+Underfull \hbox (badness 3240) in paragraph at lines 257--266
 \OT1/cmr/m/n/12 357, 2017.  ISSN 20952686.  doi: 10.1016/j.ijmst.2017.01.019.  
 URL
  []
 
-) [31] (./geophysics_paper.aux)
+) [32] (./geophysics_paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2095,13 +2247,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5253 strings out of 481239
- 92193 string characters out of 5920377
+ 5265 strings out of 481239
+ 92406 string characters out of 5920377
  354056 words of memory out of 5000000
- 20490 multiletter control sequences out of 15000+600000
+ 20502 multiletter control sequences out of 15000+600000
  539083 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,54p,2517b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,54p,2739b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
@@ -2116,10 +2268,10 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (31 pages, 264775 bytes).
+Output written on geophysics_paper.pdf (32 pages, 268905 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 175 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

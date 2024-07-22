@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{28}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -19,6 +19,15 @@ Mattia Aleardi and Alfredo Mazzotti.
 V[] {\SortNoop{Cerveny}}\v{C}erven\'{y}.
 \newblock \emph{Seismic Ray Method}.
 \newblock Cambridge University Press, 2000.
+
+\bibitem[Crase et~al.(1990)Crase, Pica, Noble, McDonald, and
+  Tarantola]{Crase1990}
+E.~Crase, A.~Pica, M.~Noble, J.~McDonald, and A.~Tarantola.
+\newblock {Robust elastic nonlinear waveform inversion: application to real
+  data}.
+\newblock \emph{Geophysics}, 55\penalty0 (5):\penalty0 527--538, 1990.
+\newblock ISSN 00168033.
+\newblock \doi{10.1190/1.1442864}.
 
 \bibitem[Datta and Sen(2016)]{Datta2016}
 Debanjan Datta and Mrinal~K. Sen.
@@ -61,6 +70,13 @@ Juan~Luis Fern{\'{a}}ndez-Mart{\'{i}}nez, Tapan Mukerji, Esperanza
   2334--2339, 2010.
 \newblock \doi{10.1190/1.3513319}.
 
+\bibitem[Fitchner(ETH)(2015)]{FitchnerETH2015}
+Fitchner(ETH).
+\newblock \emph{{Full waveform inversion}}.
+\newblock 2015.
+\newblock ISBN 9783642158063.
+\newblock \doi{https://doi.org/10.1007/978-3-642-15807-0}.
+
 \bibitem[Forgues(1996)]{forgues96}
 E.~Forgues.
 \newblock \emph{Inversion linearis\'ee multi-param\`etres via la th\'eorie des
@@ -74,12 +90,32 @@ Xin Fu, Kristopher~A Innanen, and Crewes Project.
   full-waveform inversion}.
 \newblock pages 1--3, 2021.
 
+\bibitem[Geng et~al.(2018)Geng, Pan, and Innanen]{Geng2018}
+Yu~Geng, Wenyong Pan, and Kristopher~A. Innanen.
+\newblock {Frequency-domain full-waveform inversion with non-linear descent
+  directions}.
+\newblock \emph{Geophysical Journal International}, 213\penalty0 (2):\penalty0
+  739--756, 2018.
+\newblock ISSN 1365246X.
+\newblock \doi{10.1093/gji/ggy002}.
+
 \bibitem[G{\'{o}}mez and Pestana*(2017)]{Gomez2017}
 Leonardo G{\'{o}}mez and Reynam~C. Pestana*.
 \newblock {Full-waveform inversion using alternative objective functions in the
   presence of noise and uncertainties of source signature}.
 \newblock \penalty0 (1):\penalty0 296--301, 2017.
 \newblock \doi{10.1190/sbgf2017-058}.
+
+\bibitem[Guo et~al.(2021)Guo, Singh, Vaddineni, Visser, Grevemeyer, and
+  Saygin]{Guo2021}
+Peng Guo, Satish~C. Singh, Venkata~A. Vaddineni, Gerhard Visser, Ingo
+  Grevemeyer, and Erdinc Saygin.
+\newblock {Nonlinear full waveform inversion of wide-aperture OBS data for Moho
+  structure using a trans-dimensional Bayesian method}.
+\newblock \emph{Geophysical Journal International}, 224\penalty0 (2):\penalty0
+  1056--1078, 2021.
+\newblock ISSN 1365246X.
+\newblock \doi{10.1093/gji/ggaa505}.
 
 \bibitem[Kaplanvural et~al.(2020)Kaplanvural, Pekşen, and
   {\"{O}}zkap]{Kaplanvural2020}
