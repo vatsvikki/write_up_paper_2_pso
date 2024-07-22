@@ -354,22 +354,92 @@
 	year = {2017}
 }
 
-@book{tarantola,
+@article{Tarantola1986,
+	abstract = {Three parameters are needed to describe a perfectly elastic, isotropic Earth. These may be the density $\rho$(x) and the Lame's parameters $\gamma$(x) and $\mu$(x), or the density $\rho$(x) and the P-wave and S-wave velocities $\alpha$(x) and $\beta$(x). The choice of parameters is not neutral in the sense that although theoretically equivalent, if they are not adequately chosen the numerical algorithms used in the inversion can be very inefficient. In the long spatial wavelengths of the model, adequate parameters are the P-wave and S-wave velocities, while in the short spatial wavelengths, P-wave impedance, 5-wave impedance, and density are adequate. The problem of inversion of waveforms is highly nonlinear for the long spatial wavelengths of the velocities, while it is reasonably linear for the short spatial wavelengths of the impedances and density. Furthermore, this parameterization defines a highly hierarchical problem: the long spatial wavelengths of the P-wave velocity and short spatial wavelengths of the P-wave impedance are much more important parameters than their counterparts for S-waves (in terms of interpreting observed amplitudes), and the latter are much more important than the density. This suggests solution of the general inverse problem (which must involve all the parameters) optimizing first for the P-wave velocity and impedance, then for the 5-wave velocity and impedance, and finally for density. As a by-product of the method proposed here, a generalization to the elastic case of the equations of multioffset acoustic migration is obtained.},
 	author = {Tarantola, Albert},
-	title = {Inverse Problem Theory and Methods for Model Parameter Estimation},
-	publisher = {Society for Industrial and Applied Mathematics},
-	year = {2005},
-	doi = {10.1137/1.9780898717921},
-	address = {},
-	edition   = {},
-	URL = {https://epubs.siam.org/doi/abs/10.1137/1.9780898717921},
-	eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9780898717921}
+	doi = {10.1190/1.1893017},
+	file = {:home/vikas/Downloads/tarantola-2012-a-strategy-for-nonlinear-elastic-inversion-of-seismic-reflection-data.pdf:pdf},
+	journal = {1986 SEG Annual Meeting, SEG 1986},
+	number = {10},
+	pages = {527--530},
+	title = {{A strategy for nonlinear elastic inversion of seismic reflection data}},
+	volume = {51},
+	year = {1986}
 }
 
-@book{Schuster,
-	author = {Schuster, Gerard T},
-	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Schuster - Unknown - Seismic Inversion.pdf:pdf},
-	isbn = {9780931830464},
-	number = {20},
+
+@article{Schuster2017,
+	abstract = {Fundamentals -- Deconvolution -- Velocity analysis, statics corrections, and stacking -- Migration -- Imaging beneath comples structures -- 3-D seismic exploration -- Slant stack and applications -- Special topics.},
+	author = {Schuster, Gerard T.},
+	doi = {10.1190/1.9781560803423},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Schuster - 2017 - Seismic Inversion.pdf:pdf},
+	journal = {Seismic Inversion},
+	mendeley-groups = {books,FWI},
 	title = {{Seismic Inversion}},
+	year = {2017}
+}
+
+@article{Virieux2009a,
+	abstract = {Full-waveform inversion (FWI) is a challenging data-fitting procedure based on full-wavefield modeling to extract quantitative information from seismograms. High-resolution imaging at half the propagated wavelength is expected. Recent advances in high-performance computing and multifold/multicomponent wide-aperture and wide-azimuth acquisitions make 3D acoustic FWI feasible today. Key ingredients of FWI are an efficient forward-modeling engine and a local differential approach, in which the gradient and the Hessian operators are efficiently estimated. Local optimization does not, however, prevent convergence of the misfit function toward local minima because of the limited accuracy of the starting model, the lack of low frequencies, the presence of noise, and the approximate modeling of thewave-physics complexity. Different hierarchical multiscale strategies are designed to mitigate the nonlinearity and ill-posedness of FWI by incorporating progressively shorter wavelengths in the parameter space. Synthetic and real-data case studies address reconstructing various parameters, from P and S velocities to density, anisotropy, and attenuation. This review attempts to illuminate the state of the art of FWI. Crucial jumps, however, remain necessary to make it as popular as migration techniques. The challenges can be categorized as (1) building accurate starting models with automatic procedures and/or recording low frequencies, (2) defining new minimization criteria to mitigate the sensitivity of FWI to amplitude errors and increasing the robustness of FWI when multiple parameter classes are estimated, and (3) improving computational efficiency by data-compression techniques to make 3D elastic FWI feasible. {\textcopyright} 2009 Society of Exploration Geophysicists.},
+	author = {Virieux, J. and Operto, S.},
+	doi = {10.1190/1.3238367},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Virieux, Operto - 2009 - An overview of full-waveform inversion in exploration geophysics.pdf:pdf},
+	issn = {00168033},
+	journal = {Geophysics},
+	mendeley-groups = {books/finite difference,numerical{\_}modelling},
+	number = {6},
+	title = {{An overview of full-waveform inversion in exploration geophysics}},
+	volume = {74},
+	year = {2009}
+}
+
+@article{Liu2017,
+	abstract = {In fullwaveforminversion (FWI) with the least-squares (L2) norm, the direct amplitude matching is never perfect and the accurate estimation of the seismic source strength is not always available. In contrast, the normalized zero-lag cross-correlation objective function relaxes on the amplitude constraints and emphasizes the phase information when measuring the closeness between the simulated and observed data. This FWI method becomes insensitive to differences in amplitude. Based on this property, we investigate the effectiveness and robustness of FWI with the normalized zero-lag cross-correlation function (CFWI) against the noise and unpredictable amplitude of the data that cannot be modelled by the wavefield extrapolation operator. The effectiveness is firstly tested by noise-free data and data contaminated by Gaussian white noise. In addition, CFWI can invert the data set with incorrect source strength when compared with the L2 norm. Moreover, the data set with incorrect source signature illustrates that CFWI is slightly more insensitive to the error in source signature than the L2 norm. However, a source inversion is still needed when the source signature is severely erroneous. With non-Gaussian noise data, such as contaminated by strong ground motion noise and even by spike-type noise, CFWI provides a comparable result with that of the robust Huber norm. Numerical experiments with non-Gaussian noise also indicate that CFWI can suppress noise in data to produce clearer images when compared with the Huber norm. Besides, CFWI is free of the threshold criterion that controls the transition between the L2 and L1 norms used with the Huber and Hybrid norms and therefore free from tedious trial-and-error tests. Several numerical examples support that CFWI is an alternative and reliable inversion method. However, a numerical test with a 1-D initial model confirms that CFWI is more sensitive to the cycle-skipping problem caused by less-accurate initial velocity model than the L2 norm, which is due to the wrong matched events contributing to spurious local minima of the objective function of CFWI, but to an increase in the objective function used with the L2 norm.},
+	author = {Liu, Youshan and Teng, Jiwen and Xu, Tao and Wang, Yanghua and Liu, Qinya and Badal, Jos{\'{e}}},
+	doi = {10.1093/gji/ggw485},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Liu et al. - 2017 - Robust time-domain full waveform inversion with normalized zero-lag cross-correlation objective function.pdf:pdf},
+	issn = {1365246X},
+	journal = {Geophysical Journal International},
+	keywords = {Inverse theory,Seismology,Waveform inversion},
+	number = {1},
+	pages = {106--122},
+	title = {{Robust time-domain full waveform inversion with normalized zero-lag cross-correlation objective function}},
+	volume = {209},
+	year = {2017}
+}
+
+@article{Metivier2018,
+	abstract = {Optimal transport distance has been recently promoted as a tool to measure the discrepancy between observed and seismic data within the full-waveform-inversion strategy. This high-resolution seismic imaging method, based on a data-fitting procedure, suffers from the nonconvexity of the standard least-squares discrepancy measure, an issue commonly referred to as cycle skipping. The convexity of the optimal transport distance with respect to time shifts makes it a good candidate to provide a more convex misfit function. However, the optimal transport distance is defined only for the comparison of positive functions, while seismic data are oscillatory. A review of the different attempts proposed in the literature to overcome this difficulty is proposed. Their limitations are illustrated: Basically, the proposed strategies are either not applicable to real data, or they lose the convexity property of optimal transport. On this basis, we introduce a novel strategy based on the interpretation of the seismic data in the graph space. Each individual trace is considered, after discretization, as a set of Dirac points in a 2D space, where the amplitude becomes a geometric attribute of the data. This ensures the positivity of the data, while preserving the geometry of the signal. The differentiability of the misfit function is obtained by approximating the Dirac distributions through 2D Gaussian functions. The interest of this approach is illustrated numerically by computing misfit-function maps in schematic examples before moving to more realistic synthetic full-waveform exercises, including the Marmousi model. The better convexity of the graph-based optimal transport distance is shown. On the Marmousi model, starting from a 1D linearly increasing initial model, with data without low frequencies (no energy less than 3Hz), a meaningful estimation of the P-wave velocity model is recovered, outperforming previously proposed optimal-transport-based misfit functions.},
+	author = {M{\'{e}}tivier, Ludovic and Allain, Aude and Brossier, Romain and M{\'{e}}rigot, Quentin and Oudet, Edouard and Virieux, Jean},
+	doi = {10.1190/geo2017-0807.1},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/M{\'{e}}tivier et al. - 2018 - Optimal transport for mitigating cycle skipping in full-waveform inversion A graph-space transform approach.pdf:pdf},
+	issn = {19422156},
+	journal = {Geophysics},
+	keywords = {Full-waveform inversion,Imaging,Inversion,Signal processing,Wave propagation},
+	mendeley-groups = {DAAD},
+	number = {5},
+	pages = {R515--R540},
+	title = {{Optimal transport for mitigating cycle skipping in full-waveform inversion: A graph-space transform approach}},
+	volume = {83},
+	year = {2018}
+}
+
+@article{Gomez2017,
+	author = {G{\'{o}}mez, Leonardo and Pestana*, Reynam C.},
+	doi = {10.1190/sbgf2017-058},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/G{\'{o}}mez, Pestana - 2017 - Full-waveform inversion using alternative objective functions in the presence of noise and uncertainties of sou.pdf:pdf},
+	number = {1},
+	pages = {296--301},
+	title = {{Full-waveform inversion using alternative objective functions in the presence of noise and uncertainties of source signature}},
+	year = {2017}
+}
+
+@article{Pratt1999,
+	author = {Pratt, R Gerhard and Shipp, Richard M},
+	file = {:home/vikas/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pratt, Shipp - 1999 - Seismic waveform inversion in the frequency domain , Part 2 Fault delineation in sediments using crosshole data.pdf:pdf},
+	number = {3},
+	pages = {902--914},
+	title = {{Seismic waveform inversion in the frequency domain , Part 2 : Fault delineation in sediments using crosshole data}},
+	volume = {64},
+	year = {1999}
 }
