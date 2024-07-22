@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{27}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -134,6 +134,15 @@ Oscar Mojica, Peterson Nogueira, Rodrigo Santana, and Daniel Relevo.
   genetic algorithm}.
 \newblock pages 1--4, 2019.
 \newblock \doi{10.22564/16cisbgf2019.078}.
+
+\bibitem[Plessix(2006)]{Plessix2006}
+Rene~Edouard Plessix.
+\newblock {A review of the adjoint-state method for computing the gradient of a
+  functional with geophysical applications}.
+\newblock \emph{Geophysical Journal International}, 167\penalty0 (2):\penalty0
+  495--503, 2006.
+\newblock ISSN 0956540X.
+\newblock \doi{10.1111/j.1365-246X.2006.02978.x}.
 
 \bibitem[Pratt and Shipp(1999)]{Pratt1999}
 R~Gerhard Pratt and Richard~M Shipp.
