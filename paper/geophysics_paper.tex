@@ -41,22 +41,23 @@ Austin, TX 78713-8924}
 \section{Introduction}
 
 FWI is most efficient seismic inversion method \citep{Pratt1999, Schuster2017, Tarantola1986, Virieux2009a} due to its ability to use all the seismic phases present in the seismic data. This involves the synthetic and observed data comparison \citep{Gomez2017, Liu2017, Metivier2018} known as objective function. The reate of change of objection fucntion with model parameters \citep{Plessix2006} help to update the model until the synthetic data corresponding to the updated model satisfy the stopping criteria. 
-\\
+\par
 The amount of data involving in this method ehich providing an advantage of getting a better image is also a reason for enhancing the nonlinear relation between the data and physical parameters of the subsurface, it means the objective function prepared for the minimization is a multimodal function having a large number of minima and maxima as shown in FIGURE. this s responsible for FWI to stuck in local minima if the starting model is not lie within the basin of attraction. FWI is based on caluclas based optimization mehtods which have the tendency to move towards the nearest extrema this make it imposible to converge to global minima if starting model is in local basin of attraction. This make it neccesary to start the inversion with a inital model located near to the global minima.
-\\
+\par
 Since the formulaisation of the FWI it have been gone through a long journey of developemnts to deal with challenges assiciated witht the nonlinearity such as multiscale focusing on low frequency data, normalized cros-corealtion obective function matching only the phases to mitigate the effect of amplitudes, and most recent optimal transport function to deal by increasing the convexity of the basin of attraction which increase the chance of falling the initial model in the basin of attraction of global minima. 
-\\
+\par
 This problem of stucking with the local minima is associated with the starting model. This problem can be dealt with preapring the initial model with the global optimization method becuase it have the ability to explore all the search space to find a optimal solution without the intervention of human being as required in ray based tomography metyhods for preapring the intial model by this it also reduce the chance of inclusion of human errors. this supermacy of global optimization motivated its utilization in prepasring the starting model for calculas based seismic inversion methods. The global optimization are inspired with the natural phenomina. the idea of preparing the initial model with the global optimization is because of the slow exploitation of these methods. once the initial model is prepared with the confidence that it lie in the basin of global minima then local optimization statred with this model because local minima methods have high exploitation rate.
-\\
+\par
 In geophysics, very fast simulated annealing (VFSA), genetic algorithm (GA), and particle swarm optimization (PSO) are most commonly used methods for seismic inversion. \cite{Datta2016} used the VFSA for preapring the initial model in this two step process, parameterization of model is accomplished by the zero offset section, \cite{Fu2021} proposed a paralled VFSA algorithm  for 1.5D acoustic FWI where model parameters are simultaneously updated across multiple threads, \cite{Shiba2005} implemented the VFSA algorithm to estimate earthquake displacement and demonstrated that VFSA outperforms the GA in this task, \cite{Mendes2024} used a training image to guide the generation of realistic velocity model samples and enhance the convergence, \cite{Datta2019} impliment the VFSA where the sedimentary layers and salt bodies are represented by set of interfaces and ellipses respectively, \cite{Mazzotti2016} proposed GA FWI method involves parametrizing the subsurface with two grids: a coarse grid for inversion and a fine grid for modeling, \cite{ktran2012} demonstrates the potential of GA  for improved characterization subsurface properties, \cite{Zeng2011} studied GA for Rayleigh wave inversion, \cite{Aleardi2017} proposed the seismic inversion with the GA with markov chain monte carlo (MCMC) method to deal with the uncertainties in the search space, \cite{Yang2017} developed a PSO based method for impedance inversion, \cite{Shaw2007} demonstrates the effectiveness of PSO in inverting geophysical data for natural resource exploration, \cite{Ding2015} focusing on the application of PSO to solve geophysical inverse problems, specifically a 1D-DC resistivity case, \cite{Kaplanvural2020} The research contributes to the literature by demonstrating the ability of PSO to invert common-offset ground penetrating (GPR) traces and estimate dielectric properties, including conductivity and relative magnetic permeability, \cite{Fernandez-Martinez2010} used PSO for reservoir characterization, and \cite{Fern2010} PSO algorithm's application to the SP inverse problem.
-\\
+\par
 An extensively work is also done for finding a better global optimization method. A comparison of the performance of GAs to Monte Carlo is studied which find that GAs can achieve better fits with fewer model parameters and are computationally efficient \citep{Sambridge1992}. A comparison between the GA, and PSO is also performed, conclude that PSO outperform the GA \citep{Ding2015, Mojica2019}. \cite{Sajeva2017} presents a comparative analysis of four stochastic optimization methods—adaptive simulated annealing (ASA), GA, neighborhood algorithm (NA), and PSO for 1D elastic full-waveform inversion and residual static computation, this study finds that the choice of method should be guided by the nature of the objective function and the dimensional of the model space.
-\\
+\par
 It is neccessary to use the parametriation to represent the model with limited number of parameters to reduce the complexity as well the computational time. we have implimented a parameterization strategy where a model can be defined with the depthof interface, reate of change of velocity between interface, and velocity of the interface. this reduce the number of paramters to multifolds to deal with the curse fo dimensionality associated with the number of parameters involved in the inversion.
+\par
 YOUR METHOD WHY
-\\ 
+\par
 WHAT NEW and ADVANTAGE
-\\
+\par
 PAPER BRIEF
 
 
