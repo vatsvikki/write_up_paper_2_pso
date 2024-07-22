@@ -2,6 +2,11 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
+\bibitem[Aleardi and Mazzotti, 2017]{Aleardi}
+Aleardi, M., and A. Mazzotti,  2017, 1d elastic full-waveform inversion and
+  uncertainty estimation by means of a hybrid genetic algorithm–gibbs sampler
+  approach: Geophysical Prospecting, {\bfseries 65}, 64--85.
+
 \bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}, 2000]{Cerveny}
 {\SortNoop{Cerveny}}\v{C}erven\'{y}, V.,  2000, Seismic ray method: Cambridge
   University Press.
@@ -16,6 +21,22 @@ Datta, D., M.~K. Sen, F. Liu, and S. Morton,  2019, {Full-waveform inversion of
   salt models using shape optimization and simulated annealing}: Geophysics,
   {\bfseries 84}, R793--R804.
 
+\bibitem[Ding et~al., 2015]{Ding2015}
+Ding, K., Y. Chen, Y. Wang, and Y. Tan,  2015, {Regional seismic waveform
+  inversion using swarm intelligence algorithms}: 2015 IEEE Congress on
+  Evolutionary Computation, CEC 2015 - Proceedings,  1235--1241.
+
+\bibitem[Fern and Garc, 2010]{Fern2010}
+Fern, J.~L., and E. Garc,  2010, {Appraising the Streaming-Potential Inverse
+  Problem}: Geophysics, {\bfseries 75}.
+
+\bibitem[Fern{\'{a}}ndez-Mart{\'{i}}nez et~al., 2010]{Fernandez-Martinez2010}
+Fern{\'{a}}ndez-Mart{\'{i}}nez, J.~L., T. Mukerji, E. Garc{\'{i}}a-Gonzalo, and
+  A. Suman,  2010, {Reservoir characterization and inversion uncertainty via a
+  family of particle swarm optimizers}: Society of Exploration Geophysicists
+  International Exposition and 80th Annual Meeting 2010, SEG 2010, {\bfseries
+  77}, 2334--2339.
+
 \bibitem[Forgues, 1996]{forgues96}
 Forgues, E.,  1996, Inversion linearis\'ee multi-param\`etres via la th\'eorie
   des rais: PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
@@ -25,20 +46,45 @@ Forgues, E.,  1996, Inversion linearis\'ee multi-param\`etres via la th\'eorie
 Fu, X., K.~A. Innanen, and C. Project,  2021, {A new parallel simulated
   annealing algorithm for 1 . 5D acoustic full-waveform inversion}:  1--3.
 
+\bibitem[Kaplanvural et~al., 2020]{Kaplanvural2020}
+Kaplanvural, I., E. Pekşen, and K. {\"{O}}zkap,  2020, {1D waveform inversion
+  of GPR trace by particle swarm optimization}: Journal of Applied Geophysics,
+  {\bfseries 181}.
+
+\bibitem[Mazzotti et~al., 2016]{Mazzotti2016}
+Mazzotti, A., N. Bienati, E. Stucchi, A. Tognarelli, M. Aleardi, and A. Sajeva,
+   2016, {Two-grid genetic algorithm full-waveform inversion}: Leading Edge,
+  {\bfseries 35}, 1068--1075.
+
 \bibitem[Mendes et~al., 2024]{Mendes2024}
 Mendes, R., B. Kaelin, A. Mart{\'{i}}nez-Sansigre, Barbosa, C. Bentes, and
   Amorim,  2024, {Faster determination of an initial velocity model for
   full-waveform inversion based on simulated annealing}: Geophysics, {\bfseries
   89}, R187--R198.
 
+\bibitem[Shaw and Srivastava, 2007]{Shaw2007}
+Shaw, R., and S. Srivastava,  2007, {Particle swarm optimization: A new tool to
+  invert geophysical data}: Geophysics, {\bfseries 72}.
+
 \bibitem[Shiba and Irikura, 2005]{Shiba2005}
 Shiba, Y., and K. Irikura,  2005, {Rupture process by waveform inversion using
   simulated annealing and simulation of broadband ground motions}: Earth,
   Planets and Space, {\bfseries 57}, 571--590.
 
-\bibitem[Tran and Hiltunen, 2012]{Tran2012}
+\bibitem[Tran and Hiltunen, 2012]{ktran2012}
 Tran, K.~T., and D.~R. Hiltunen,  2012, {One-Dimensional Inversion of Full
   Waveforms using a Genetic Algorithm}: Journal of Environmental and
   Engineering Geophysics, {\bfseries 17}, 197--213.
+
+\bibitem[Yang et~al., 2017]{Yang2017}
+Yang, H., Y. Xu, G. Peng, G. Yu, M. Chen, W. Duan, Y. Zhu, Y. Cui, and X. Wang,
+   2017, {Particle swarm optimization and its application to seismic inversion
+  of igneous rocks}: International Journal of Mining Science and Technology,
+  {\bfseries 27}, 349--357.
+
+\bibitem[Zeng et~al., 2011]{Zeng2011}
+Zeng, C., J. Xia, R.~D. Miller, and G.~P. Tsoflias,  2011, {Feasibility of
+  waveform inversion of Rayleigh waves for shallow shear-wave velocity using a
+  genetic algorithm}: Journal of Applied Geophysics, {\bfseries 75}, 648--655.
 
 \end{thebibliography}

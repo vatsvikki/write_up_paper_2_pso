@@ -4,45 +4,45 @@ The top-level auxiliary file: geophysics_paper.aux
 The style file: seg.bst
 Database file #1: geophysics_reference.bib
 Warning--empty journal in Fu2021
-You've used 8 entries,
+You've used 17 entries,
             2639 wiz_defined-function locations,
-            757 strings with 7575 characters,
-and the built_in function-call counts, 3280 in all, are:
-= -- 359
-> -- 127
-< -- 6
-+ -- 42
-- -- 42
-* -- 284
-:= -- 568
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 61
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 113
-empty$ -- 230
-format.name$ -- 56
-if$ -- 667
+            828 strings with 9862 characters,
+and the built_in function-call counts, 7371 in all, are:
+= -- 804
+> -- 334
+< -- 10
++ -- 114
+- -- 114
+* -- 654
+:= -- 1271
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 142
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 247
+empty$ -- 484
+format.name$ -- 143
+if$ -- 1500
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 29
-num.names$ -- 24
-pop$ -- 50
+missing$ -- 17
+newline$ -- 56
+num.names$ -- 51
+pop$ -- 113
 preamble$ -- 2
-purify$ -- 61
+purify$ -- 142
 quote$ -- 0
-skip$ -- 85
+skip$ -- 193
 stack$ -- 0
-substring$ -- 255
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 530
+swap$ -- 29
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
+type$ -- 100
 warning$ -- 1
-while$ -- 29
+while$ -- 59
 width$ -- 0
-write$ -- 90
+write$ -- 189
 (There was 1 warning)
