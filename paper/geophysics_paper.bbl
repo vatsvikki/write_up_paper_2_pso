@@ -11,6 +11,11 @@ Datta, D., and M.~K. Sen,  2016, {Estimating a starting model for full-waveform
   inversion using a global optimization method}: Geophysics, {\bfseries 81},
   R211--R223.
 
+\bibitem[Datta et~al., 2019]{Datta2019}
+Datta, D., M.~K. Sen, F. Liu, and S. Morton,  2019, {Full-waveform inversion of
+  salt models using shape optimization and simulated annealing}: Geophysics,
+  {\bfseries 84}, R793--R804.
+
 \bibitem[Forgues, 1996]{forgues96}
 Forgues, E.,  1996, Inversion linearis\'ee multi-param\`etres via la th\'eorie
   des rais: PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
@@ -19,5 +24,21 @@ Forgues, E.,  1996, Inversion linearis\'ee multi-param\`etres via la th\'eorie
 \bibitem[Fu et~al., 2021]{Fu2021}
 Fu, X., K.~A. Innanen, and C. Project,  2021, {A new parallel simulated
   annealing algorithm for 1 . 5D acoustic full-waveform inversion}:  1--3.
+
+\bibitem[Mendes et~al., 2024]{Mendes2024}
+Mendes, R., B. Kaelin, A. Mart{\'{i}}nez-Sansigre, Barbosa, C. Bentes, and
+  Amorim,  2024, {Faster determination of an initial velocity model for
+  full-waveform inversion based on simulated annealing}: Geophysics, {\bfseries
+  89}, R187--R198.
+
+\bibitem[Shiba and Irikura, 2005]{Shiba2005}
+Shiba, Y., and K. Irikura,  2005, {Rupture process by waveform inversion using
+  simulated annealing and simulation of broadband ground motions}: Earth,
+  Planets and Space, {\bfseries 57}, 571--590.
+
+\bibitem[Tran and Hiltunen, 2012]{Tran2012}
+Tran, K.~T., and D.~R. Hiltunen,  2012, {One-Dimensional Inversion of Full
+  Waveforms using a Genetic Algorithm}: Journal of Environmental and
+  Engineering Geophysics, {\bfseries 17}, 197--213.
 
 \end{thebibliography}

@@ -46,35 +46,23 @@ Since the formulaisation of the FWI it have been gone through a long journey of 
 \\
 This problem of stucking with the local minima is associated with the starting model. This problem can be dealt with preapring the initial model with the global optimization method becuase it have the ability to explore all the search space to find a optimal solution without the intervention of human being as required in ray based tomography metyhods for preapring the intial model by this it also reduce the chance of inclusion of human errors. this supermacy of global optimization motivated its utilization in prepasring the starting model for calculas based seismic inversion methods. The global optimization are inspired with the natural phenomina. the idea of preparing the initial model with the global optimization is because of the slow exploitation of these methods. once the initial model is prepared with the confidence that it lie in the basin of global minima then local optimization statred with this model because local minima methods have high exploitation rate.
 \\
-In geophysics, many authors proposed global optimization methods for geophysical data inversion such as \cite{Datta2016} used the VFSA for preapring the initial model in this two step process parameterization of model is accomplished by the zero offset section, \cite{Fu2021} proposed a paralled VFSA algorithm  for 1.5D acoustic FWI where model parameters are simultaneously updated across multiple threads.
+In geophysics, many authors proposed global optimization methods for geophysical data inversion such as \cite{Datta2016} used the VFSA for preapring the initial model in this two step process parameterization of model is accomplished by the zero offset section, \cite{Fu2021} proposed a paralled VFSA algorithm  for 1.5D acoustic FWI where model parameters are simultaneously updated across multiple threads, \cite{Shiba2005} implemented the Very Fast Simulated Annealing (VFSA) algorithm to estimate earthquake displacement and demonstrated that VFSA outperforms the Genetic Algorithm (GA) in this task, R\cite{Mendes2024} used a training image to guide the generation of realistic velocity model samples and enhance the convergence, \cite{Datta2019} impliment the VFSA where the sedimentary layers and salt bodies are represented by set of interfaces and ellipses respectively, \cite{Mazzotti2016} proposed GA FWI method involves parametrizing the subsurface with two grids: a coarse grid for inversion and a fine grid for modeling, \cite{ktran2012} demonstrates the potential of GA  for improved characterization subsurface properties, \cite{Zeng2011} studied GA for Rayleigh wave inversion, \cite{Aleardi} proposed the seismic inversion with the GA with MCMC method to deal with the ucertainities in the search space, \cite{Yang2017} developed a PSO based method for impedance inversion, \cite{Shaw2007} demonstrates the effectiveness of Particle Swarm Optimization (PSO) in inverting geophysical data for natural resource exploration, \\
+\cite{Ding2015} focusing on the application of Particle Swarm Optimization (PSO) to solve geophysical inverse problems, specifically a 1D-DC resistivity case.
+
+\\
+
 
 The most commonly used global optimization methods in seismic data inversion are simulated annealing (SA) (refernce), genetic algorithm (GA) (reference), and particle swarm optimization (PSO) (references).
 \\
 these methods are compared by Angleo Sajeva et al., 2017 to check the ability to deal the cases having large number of parameters
 \\
-Y. Shiba and K. Irikura implemented the Very Fast Simulated Annealing (VFSA) algorithm to estimate earthquake displacement and demonstrated that VFSA outperforms the Genetic Algorithm (GA) in this task.
-\\
-Rafael mendes et al. 2024, used a training image to guide the generation of realistic velocity model samples and enhance the convergence.
-\\
-Datta et al., 2019 impliment the VFSA where the sedimentary layers and salt bodies are represnted by set of interfaces and ellipses respectively.
-\\
-K Tran et al., 2012 used SA for inverting 2d shear wave velocity.
-\\
-Alfredo Mazzotti et al., 2016 proposed GA FWI method involves parametrizing the subsurface with two grids: a coarse grid for inversion and a fine grid for modeling.
-\\
+
 Malcolm Sambridge et al., 1992 compare the performance of GAs to Monte Carlo and  find that GAs can achieve better fits with fewer model parameters and are computationally efficient.
-\\
-Khiem T. Tran et al., 2012 demonstrates the potential of GA  for improved characterization subsurface properties.
-\\
-Chong Zeng wt al., 2011 studied GA for Rayleigh wave inversion
-\\
-MattiaAleardi and Alferdo Mazzotti 2017 et al. proposed the seismic inversion with the GA with MCMC method to deal with the ucertainities in the search space.
-\\
-Yang Haijun et al., 2017 developed a PSO based method for impedance inversion.
-\\
-Ranjit Shaw et al., 2007 demonstrates the effectiveness of Particle Swarm Optimization (PSO) in inverting geophysical data for natural resource exploration.
-\\
-K. Ding et al., 2015 focusing on the application of Particle Swarm Optimization (PSO) to solve geophysical inverse problems, specifically a 1D-DC resistivity case.
+
+
+
+
+
 \\
 İsmail Kaplanvural et al., 2020 The research contributes to the literature by demonstrating the ability of PSO to invert common-offset GPR traces and estimate dielectric properties, including conductivity and relative magnetic permeability. 
 \\
