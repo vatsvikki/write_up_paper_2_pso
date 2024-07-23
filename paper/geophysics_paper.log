@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  23 JUL 2024 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.16)  23 JUL 2024 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,7 +346,7 @@ ting model is in localized basin of attraction. This make it necessary to start
  []
 
 
-Overfull \hbox (22759.69147pt too wide) in paragraph at lines 311--311
+Overfull \hbox (22605.31639pt too wide) in paragraph at lines 311--311
 []\OT1/cmtt/m/n/12 Since the formulaisation of the FWI it have been gone throug
 h a long journey of developemnts to deal with challenges assiciated with the no
 n-linearity by moodifynig the objective funtion such as multiscale strategy \ci
@@ -359,42 +359,42 @@ and most recent optimal transport function \citep{Brossier2016, Metivier2016, M
 etivier2018} increases the convexity of the basin of attraction which increase 
 the chance of falling the initial model in the basin of attraction of global mi
 nima. Global optimization methods \citep{Arora1995, Locatelli2021, Torn1989} ar
-e also proposed to deal with non-linearity by preapring the initial model.  the
+e also proposed to deal with non-linearity by preapring the initial model.  The
 se methods are inspired with the natural phenomina. In geophysics, very fast si
 mulated annealing (VFSA), genetic algorithm (GA), and particle swarm optimizati
-on (PSO) are most commonly used methods for seismic inversion. The global optim
-ization  these methods have the ability to explore all the available search spa
-ce to find a optimal solution this supermacy of global optimization motivated i
-ts utilization in prepasring the starting model for calculas based seismic inve
-rsion methods. the idea of preparing the initial model with the global optimiza
-tion is because of the high exploration and slow exploitation of these methods.
- once the initial model is prepared with the confidence that it lie in the basi
-n of global minima then local optimization statred with this model because loca
-l minima methods have high exploitation rate. \cite{Datta2016} used the VFSA fo
-r preapring the initial model in this two step process, parameterization of mod
-el is accomplished by the zero offset section, \cite{Fu2021} proposed a paralle
-d VFSA algorithm  for 1.5D acoustic FWI where model parameters are simultaneous
-ly updated across multiple threads, \cite{Shiba2005} implemented the VFSA algor
-ithm to estimate earthquake displacement and demonstrated that VFSA outperforms
- the GA in this task, \cite{Mendes2024} used a training image to guide the gene
-ration of realistic velocity model samples and enhance the convergence, \cite{D
-atta2019} impliment the VFSA where the sedimentary layers and salt bodies are r
-epresented by set of interfaces and ellipses respectively, \cite{Mazzotti2016} 
-proposed GA FWI method involves parametrizing the subsurface with two grids: a 
-coarse grid for inversion and a fine grid for modeling, \cite{ktran2012} demons
-trates the potential of GA  for improved characterization subsurface properties
-, \cite{Zeng2011} studied GA for Rayleigh wave inversion, \cite{Aleardi2017} pr
-oposed the seismic inversion with the GA with markov chain monte carlo (MCMC) m
-ethod to deal with the uncertainties in the search space, \cite{Yang2017} devel
-oped a PSO based method for impedance inversion, \cite{Shaw2007} demonstrates t
-he effectiveness of PSO in inverting geophysical data for natural resource expl
-oration, \cite{Ding2015} focusing on the application of PSO to solve geophysica
-l inverse problems, specifically a 1D-DC resistivity case, \cite{Kaplanvural202
-0} The research contributes to the literature by demonstrating the ability of P
-SO to invert common-offset ground penetrating (GPR) traces and estimate dielect
-ric properties, including conductivity and relative magnetic permeability, \cit
-e{Fernandez-Martinez2010} used PSO for reservoir characterization, and \cite{Fe
-rn2010} PSO algorithm's application to the SP inverse problem.[] 
+on (PSO) are most commonly used methods for seismic inversion. These methods ha
+ve the ability to explore all the available search space to find a optimal solu
+tion this supermacy of global optimization motivated its utilization in prepasr
+ing the starting model for calculas based seismic inversion methods. the idea o
+f preparing the initial model with the global optimization is because of the hi
+gh exploration and slow exploitation of these methods. once the initial model i
+s prepared with the confidence that it lie in the basin of global minima then l
+ocal optimization statred with this model because local minima methods have hig
+h exploitation rate. \cite{Datta2016} used the VFSA for preapring the initial m
+odel in this two step process, parameterization of model is accomplished by the
+ zero offset section, \cite{Fu2021} proposed a paralled VFSA algorithm  for 1.5
+D acoustic FWI where model parameters are simultaneously updated across multipl
+e threads, \cite{Shiba2005} implemented the VFSA algorithm to estimate earthqua
+ke displacement and demonstrated that VFSA outperforms the GA in this task, \ci
+te{Mendes2024} used a training image to guide the generation of realistic veloc
+ity model samples and enhance the convergence, \cite{Datta2019} impliment the V
+FSA where the sedimentary layers and salt bodies are represented by set of inte
+rfaces and ellipses respectively, \cite{Mazzotti2016} proposed GA FWI method in
+volves parametrizing the subsurface with two grids: a coarse grid for inversion
+ and a fine grid for modeling, \cite{ktran2012} demonstrates the potential of G
+A  for improved characterization subsurface properties, \cite{Zeng2011} studied
+ GA for Rayleigh wave inversion, \cite{Aleardi2017} proposed the seismic invers
+ion with the GA with markov chain monte carlo (MCMC) method to deal with the un
+certainties in the search space, \cite{Yang2017} developed a PSO based method f
+or impedance inversion, \cite{Shaw2007} demonstrates the effectiveness of PSO i
+n inverting geophysical data for natural resource exploration, \cite{Ding2015} 
+focusing on the application of PSO to solve geophysical inverse problems, speci
+fically a 1D-DC resistivity case, \cite{Kaplanvural2020} The research contribut
+es to the literature by demonstrating the ability of PSO to invert common-offse
+t ground penetrating (GPR) traces and estimate dielectric properties, including
+ conductivity and relative magnetic permeability, \cite{Fernandez-Martinez2010}
+ used PSO for reservoir characterization, and \cite{Fern2010} PSO algorithm's a
+pplication to the SP inverse problem.[] 
  []
 
 
@@ -2781,7 +2781,7 @@ Here is how much of TeX's memory you used:
  20544 multiletter control sequences out of 15000+600000
  539083 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,54p,3816b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,54p,3791b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
@@ -2796,7 +2796,7 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on geophysics_paper.pdf (39 pages, 290313 bytes).
+Output written on geophysics_paper.pdf (39 pages, 290235 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams
