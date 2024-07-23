@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{32}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,10 +15,31 @@ Mattia Aleardi and Alfredo Mazzotti.
 \newblock ISSN 13652478.
 \newblock \doi{10.1111/1365-2478.12397}.
 
+\bibitem[Brossier et~al.(2016)Brossier, Oudet, and Virieux]{Brossier2016}
+R~Brossier, E~Oudet, and J~Virieux.
+\newblock {Measuring the misfit between seismograms using an optimal transport
+  distance : application to full waveform inversion}.
+\newblock pages 345--377, 2016.
+\newblock \doi{10.1093/gji/ggw014}.
+
+\bibitem[Bunks et~al.(1995)Bunks, Saleck, Zaleski, and Chavent]{Bunks1995a}
+C.~Bunks, F.~M. Saleck, S.~Zaleski, and G.~Chavent.
+\newblock {Multiscale seismic waveform inversion}.
+\newblock \emph{Geophysics}, 60\penalty0 (5):\penalty0 1457--1473, 1995.
+\newblock ISSN 00168033.
+\newblock \doi{10.1190/1.1443880}.
+
 \bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}(2000)]{Cerveny}
 V[] {\SortNoop{Cerveny}}\v{C}erven\'{y}.
 \newblock \emph{Seismic Ray Method}.
 \newblock Cambridge University Press, 2000.
+
+\bibitem[Chi et~al.(2015)Chi, Dong, and Liu]{Chi2015}
+Benxin Chi, Liangguo Dong, and Yuzhu Liu.
+\newblock {Correlation-based reflection full-waveform inversion}.
+\newblock \emph{Geophysics}, 80\penalty0 (4):\penalty0 R189--R202, 2015.
+\newblock ISSN 19422156.
+\newblock \doi{10.1190/GEO2014-0345.1}.
 
 \bibitem[Crase et~al.(1990)Crase, Pica, Noble, McDonald, and
   Tarantola]{Crase1990}
@@ -153,6 +174,15 @@ Rafael Mendes, Bruno Kaelin, Alejo Mart{\'{i}}nez-Sansigre, Barbosa, Cristiana
 \newblock ISSN 19422156.
 \newblock \doi{10.1190/GEO2023-0140.1}.
 
+\bibitem[M{\'{e}}tivier et~al.(2016)M{\'{e}}tivier, Brossier, M{\'{e}}rigot,
+  Oudet, and Virieux]{Metivier2016}
+L.~M{\'{e}}tivier, R.~Brossier, Q.~M{\'{e}}rigot, E.~Oudet, and J.~Virieux.
+\newblock {An optimal transport approach for seismic tomography: Application to
+  3D full waveform inversion}.
+\newblock \emph{Inverse Problems}, 32\penalty0 (11), 2016.
+\newblock ISSN 13616420.
+\newblock \doi{10.1088/0266-5611/32/11/115008}.
+
 \bibitem[M{\'{e}}tivier et~al.(2018)M{\'{e}}tivier, Allain, Brossier,
   M{\'{e}}rigot, Oudet, and Virieux]{Metivier2018}
 Ludovic M{\'{e}}tivier, Aude Allain, Romain Brossier, Quentin M{\'{e}}rigot,
@@ -186,6 +216,17 @@ R~Gerhard Pratt and Richard~M Shipp.
   delineation in sediments using crosshole data}.
 \newblock 64\penalty0 (3):\penalty0 902--914, 1999.
 
+\bibitem[Ravaut et~al.(2004)Ravaut, Operto, Improta, Virieux, Herrero, and
+  Dell'Aversana]{Ravaut2004}
+C.~Ravaut, S.~Operto, L.~Improta, J.~Virieux, A.~Herrero, and P.~Dell'Aversana.
+\newblock {Multiscale imaging of complex structures from multifold
+  wide-aperture seismic data by frequency-domain full-waveform tomography:
+  Application to a thrust belt}.
+\newblock \emph{Geophysical Journal International}, 159\penalty0 (3):\penalty0
+  1032--1056, 2004.
+\newblock ISSN 0956540X.
+\newblock \doi{10.1111/j.1365-246X.2004.02442.x}.
+
 \bibitem[Sajeva et~al.(2017)Sajeva, Aleardi, Galuzzi, Stucchi, Spadavecchia,
   and Mazzotti]{Sajeva2017}
 Angelo Sajeva, Mattia Aleardi, Bruno Galuzzi, Eusebio Stucchi, Emmanuel
@@ -205,6 +246,16 @@ Malcolm Sambridge and Guy Drijkoningen.
   323--342, 1992.
 \newblock ISSN 1365246X.
 \newblock \doi{10.1111/j.1365-246X.1992.tb00100.x}.
+
+\bibitem[Sch{\"{a}}fer et~al.(2014)Sch{\"{a}}fer, Groos, Forbriger, and
+  Bohlen]{Schafer2014}
+M.~Sch{\"{a}}fer, L.~Groos, T.~Forbriger, and T.~Bohlen.
+\newblock {Line-source simulation for shallow-seismic data. Part 2:
+  Full-waveform inversion-a synthetic 2-D case study}.
+\newblock \emph{Geophysical Journal International}, 198\penalty0 (3):\penalty0
+  1405--1418, 2014.
+\newblock ISSN 1365246X.
+\newblock \doi{10.1093/gji/ggu171}.
 
 \bibitem[Schuster(2017)]{Schuster2017}
 Gerard~T. Schuster.
@@ -228,6 +279,14 @@ Yoshiaki Shiba and Kojiro Irikura.
 \newblock ISSN 18805981.
 \newblock \doi{10.1186/BF03351837}.
 
+\bibitem[Sirgue and Pratt(2004)]{Sirgue2004}
+Laurent Sirgue and R.~Gerhard Pratt.
+\newblock {Efficient waveform inversion and imaging: A strategy for selecting
+  temporal frequencies}.
+\newblock \emph{Geophysics}, 69\penalty0 (1):\penalty0 231--248, 2004.
+\newblock ISSN 00168033.
+\newblock \doi{10.1190/1.1649391}.
+
 \bibitem[Tarantola(1986)]{Tarantola1986}
 Albert Tarantola.
 \newblock {A strategy for nonlinear elastic inversion of seismic reflection
@@ -235,6 +294,15 @@ Albert Tarantola.
 \newblock \emph{1986 SEG Annual Meeting, SEG 1986}, 51\penalty0 (10):\penalty0
   527--530, 1986.
 \newblock \doi{10.1190/1.1893017}.
+
+\bibitem[ten Kroode et~al.(2013)ten Kroode, Bergler, Corsten, de~Maag,
+  Strijbos, and Tijhof]{TenKroode2013}
+Fons ten Kroode, Steffen Bergler, Cees Corsten, Jan~Willem de~Maag, Floris
+  Strijbos, and Henk Tijhof.
+\newblock {Broadband seismic data-The importance of low frequencies}.
+\newblock \emph{Geophysics}, 78\penalty0 (2):\penalty0 WA3--WA14, 2013.
+\newblock ISSN 19422156.
+\newblock \doi{10.1190/GEO2012-0294.1}.
 
 \bibitem[Tran and Hiltunen(2012)]{ktran2012}
 Khiem~T. Tran and Dennis~R. Hiltunen.

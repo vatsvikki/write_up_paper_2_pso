@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: geophysics_paper.aux
 The style file: plainnat.bst
-Illegal, another \bibstyle command---line 67 of file geophysics_paper.aux
+Illegal, another \bibstyle command---line 71 of file geophysics_paper.aux
  : \bibstyle
  :          {seg}
 I'm skipping whatever remains of this command
@@ -19,51 +19,60 @@ Repeated entry---line 325 of file geophysics_reference.bib
  : @article{Sajeva2017
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 595 of file geophysics_reference.bib
+ : @article{Liu2017
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 624 of file geophysics_reference.bib
+ : @article{Metivier2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Brossier2016
 Warning--empty publisher in FitchnerETH2015
 Warning--empty journal in Fu2021
 Warning--empty journal in Gomez2017
 Warning--there's a number but no volume in Gomez2017
 Warning--empty journal in Mojica2019
 Warning--empty journal in Pratt1999
-You've used 32 entries,
+You've used 40 entries,
             2773 wiz_defined-function locations,
-            853 strings with 12038 characters,
-and the built_in function-call counts, 16772 in all, are:
-= -- 1573
-> -- 1029
-< -- 19
-+ -- 347
-- -- 315
-* -- 1479
-:= -- 2641
-add.period$ -- 145
-call.type$ -- 32
-change.case$ -- 198
-chr.to.int$ -- 32
-cite$ -- 70
-duplicate$ -- 668
-empty$ -- 1234
-format.name$ -- 367
-if$ -- 3456
+            915 strings with 13788 characters,
+and the built_in function-call counts, 21560 in all, are:
+= -- 2023
+> -- 1350
+< -- 21
++ -- 454
+- -- 414
+* -- 1931
+:= -- 3388
+add.period$ -- 184
+call.type$ -- 40
+change.case$ -- 255
+chr.to.int$ -- 40
+cite$ -- 87
+duplicate$ -- 843
+empty$ -- 1566
+format.name$ -- 476
+if$ -- 4443
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 218
-num.names$ -- 128
-pop$ -- 322
+missing$ -- 41
+newline$ -- 273
+num.names$ -- 160
+pop$ -- 409
 preamble$ -- 2
-purify$ -- 169
+purify$ -- 218
 quote$ -- 0
-skip$ -- 535
+skip$ -- 679
 stack$ -- 0
-substring$ -- 697
-swap$ -- 49
-text.length$ -- 3
+substring$ -- 922
+swap$ -- 65
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
-warning$ -- 6
-while$ -- 147
+type$ -- 430
+warning$ -- 7
+while$ -- 186
 width$ -- 0
-write$ -- 514
-(There were 4 error messages)
+write$ -- 647
+(There were 6 error messages)
