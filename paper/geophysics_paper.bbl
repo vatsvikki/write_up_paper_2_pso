@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{40}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,14 @@ Mattia Aleardi and Alfredo Mazzotti.
   2017.
 \newblock ISSN 13652478.
 \newblock \doi{10.1111/1365-2478.12397}.
+
+\bibitem[Borisov et~al.(2018)Borisov, Modrak, Gao, and Tromp]{Borisov2018}
+Dmitry Borisov, Ryan Modrak, Fuchun Gao, and Jeroen Tromp.
+\newblock {3D elastic full-waveform inversion of surface waves in the presence
+  of irregular topography using an envelope-based misfit function}.
+\newblock \emph{Geophysics}, 83\penalty0 (1):\penalty0 R1--R11, 2018.
+\newblock ISSN 19422156.
+\newblock \doi{10.1190/GEO2017-0081.1}.
 
 \bibitem[Brossier et~al.(2016)Brossier, Oudet, and Virieux]{Brossier2016}
 R~Brossier, E~Oudet, and J~Virieux.
@@ -33,6 +41,15 @@ C.~Bunks, F.~M. Saleck, S.~Zaleski, and G.~Chavent.
 V[] {\SortNoop{Cerveny}}\v{C}erven\'{y}.
 \newblock \emph{Seismic Ray Method}.
 \newblock Cambridge University Press, 2000.
+
+\bibitem[Chi et~al.(2014)Chi, Dong, and Liu]{Chi2014}
+Benxin Chi, Liangguo Dong, and Yuzhu Liu.
+\newblock {Full waveform inversion method using envelope objective function
+  without low frequency data}.
+\newblock \emph{Journal of Applied Geophysics}, 109:\penalty0 36--46, 2014.
+\newblock ISSN 09269851.
+\newblock \doi{10.1016/j.jappgeo.2014.07.010}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jappgeo.2014.07.010}.
 
 \bibitem[Chi et~al.(2015)Chi, Dong, and Liu]{Chi2015}
 Benxin Chi, Liangguo Dong, and Yuzhu Liu.
