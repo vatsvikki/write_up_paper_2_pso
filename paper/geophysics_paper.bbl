@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{42}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,12 @@ Mattia Aleardi and Alfredo Mazzotti.
   2017.
 \newblock ISSN 13652478.
 \newblock \doi{10.1111/1365-2478.12397}.
+
+\bibitem[Arora et~al.(1995)Arora, Elwakeil, Chahande, and Hsieh]{Arora1995}
+J~S Arora, O.A. Elwakeil, A.I. Chahande, and C.C. Hsieh.
+\newblock {Review Paper Global optimization m e t h o d s for engineering
+  applications : a review}.
+\newblock \emph{Structural Optimization 9,}, 9:\penalty0 137--159, 1995.
 
 \bibitem[Borisov et~al.(2018)Borisov, Modrak, Gao, and Tromp]{Borisov2018}
 Dmitry Borisov, Ryan Modrak, Fuchun Gao, and Jeroen Tromp.
@@ -172,6 +178,15 @@ Youshan Liu, Jiwen Teng, Tao Xu, Yanghua Wang, Qinya Liu, and Jos{\'{e}} Badal.
 \newblock ISSN 1365246X.
 \newblock \doi{10.1093/gji/ggw485}.
 
+\bibitem[Locatelli and Schoen(2021)]{Locatelli2021}
+Marco Locatelli and Fabio Schoen.
+\newblock {(Global) Optimization: Historical notes and recent developments}.
+\newblock \emph{EURO Journal on Computational Optimization}, 9\penalty0
+  (October 2020):\penalty0 100012, 2021.
+\newblock ISSN 21924414.
+\newblock \doi{10.1016/j.ejco.2021.100012}.
+\newblock URL \url{https://doi.org/10.1016/j.ejco.2021.100012}.
+
 \bibitem[Mazzotti et~al.(2016)Mazzotti, Bienati, Stucchi, Tognarelli, Aleardi,
   and Sajeva]{Mazzotti2016}
 Alfredo Mazzotti, Nicola Bienati, Eusebio Stucchi, Andrea Tognarelli, Mattia
@@ -320,6 +335,14 @@ Fons ten Kroode, Steffen Bergler, Cees Corsten, Jan~Willem de~Maag, Floris
 \newblock \emph{Geophysics}, 78\penalty0 (2):\penalty0 WA3--WA14, 2013.
 \newblock ISSN 19422156.
 \newblock \doi{10.1190/GEO2012-0294.1}.
+
+\bibitem[T{\"{o}}rn and {\v{Z}}ilinskas(1989)]{Torn1989}
+Aimo T{\"{o}}rn and Antanas {\v{Z}}ilinskas.
+\newblock \emph{{Lecture Notes in Computer Science: Global Optimization}},
+  volume 245.
+\newblock 1989.
+\newblock ISBN 3540508716.
+\newblock URL \url{https://link.springer.com/10.1007/3-540-50871-6{\_}1}.
 
 \bibitem[Tran and Hiltunen(2012)]{ktran2012}
 Khiem~T. Tran and Dennis~R. Hiltunen.
