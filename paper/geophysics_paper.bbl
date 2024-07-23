@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{45}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -161,6 +161,14 @@ Peng Guo, Satish~C. Singh, Venkata~A. Vaddineni, Gerhard Visser, Ingo
 \newblock ISSN 1365246X.
 \newblock \doi{10.1093/gji/ggaa505}.
 
+\bibitem[Ingber(1989)]{Ingber1989}
+L.~Ingber.
+\newblock {Very fast simulated re-annealing}.
+\newblock \emph{Mathematical and Computer Modelling}, 12\penalty0 (8):\penalty0
+  967--973, 1989.
+\newblock ISSN 08957177.
+\newblock \doi{10.1016/0895-7177(89)90202-1}.
+
 \bibitem[Kaplanvural et~al.(2020)Kaplanvural, Pekşen, and
   {\"{O}}zkap]{Kaplanvural2020}
 Ismail Kaplanvural, Ertan Pekşen, and Kerem {\"{O}}zkap.
@@ -168,6 +176,14 @@ Ismail Kaplanvural, Ertan Pekşen, and Kerem {\"{O}}zkap.
 \newblock \emph{Journal of Applied Geophysics}, 181, 2020.
 \newblock ISSN 09269851.
 \newblock \doi{10.1016/j.jappgeo.2020.104157}.
+
+\bibitem[Kirkpatrick et~al.(1983)Kirkpatrick, Gelatt, and
+  Vecchi]{Kirkpatrick1983}
+S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi.
+\newblock {Optimization by simulated annealing}.
+\newblock \emph{Science}, 220\penalty0 (4598):\penalty0 671--680, 1983.
+\newblock ISSN 00368075.
+\newblock \doi{10.1126/science.220.4598.671}.
 
 \bibitem[Liu et~al.(2017)Liu, Teng, Xu, Wang, Liu, and Badal]{Liu2017}
 Youshan Liu, Jiwen Teng, Tao Xu, Yanghua Wang, Qinya Liu, and Jos{\'{e}} Badal.
