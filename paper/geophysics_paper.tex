@@ -48,22 +48,17 @@ Since the formulaisation of the FWI it have been gone through a long journey of 
 \par
 An extensively work is also done for finding a better global optimization method. A comparison of the performance of GAs to Monte Carlo is studied which find that GAs can achieve better fits with fewer model parameters and are computationally efficient \citep{Sambridge1992}. A comparison between the GA, and PSO is also performed, conclude that PSO outperform the GA \citep{Ding2015, Mojica2019}. \cite{Sajeva2017} presents a comparative analysis of four stochastic optimization methods—adaptive simulated annealing (ASA), GA, neighborhood algorithm (NA), and PSO for 1D elastic full-waveform inversion and residual static computation, this study finds that the choice of method should be guided by the nature of the objective function and the dimensional of the model space.
 \par
-It is neccessary to use the parametriation to represent the model with limited number of parameters to reduce the complexity as well the computational time. we have implimented a parameterization strategy where a model can be defined with the depthof interface, reate of change of velocity between interface, and velocity of the interface. this reduce the number of paramters to multifolds to deal with the curse fo dimensionality associated with the number of parameters involved in the inversion.
-\par
-YOUR METHOD WHY
-\par
-WHAT NEW and ADVANTAGE
+In this article, we present the application of PSO for generating an initial model for FWI,due to its ability to effectively balance exploration and exploitation within the solution space. The implementation of global optimization methods in seismic inversion faces the challenge of the curse of dimensionality due to the large number of model parameters involved \citep{nirmit2024}. This necessitates defining the model with a reduced number of parameters. To address this, we have defined the model in terms of depth and velocity at the interfaces, as well as the rate of change of velocity between these interfaces. The number of interfaces to be inverted is determined solely by the selected number of breaks. The depth and number of interfaces are constrained by the arrival times of major breaks observed in near-offset seismic trace, respectively. Meanwhile, the velocity at each interface and the rate of change of velocity are limited by realistic subsurface velocity values. For near-offset receivers, these major breaks are most likely caused by reflections. This inversion begins with a uniform 1D velocity-depth model and sources positioned at various horizontal locations. Using this method, the interfaces are inverted progressively from the surface to depth. The data inverted for a particular interface serves as the initial model for the inversion of the subsequent interface. This process is repeated for all shots, with 1D velocity-depth profiles interpolated to prepare a 2D initial model for FWI. We also conducted experiments to find the optimal combination of parameters. A multi-threaded computation is also implemented to simultaneously invert data for multiple shots.
+
+
+
+
 \par
 PAPER BRIEF
 
 
-
- in this both are used together because both have advantages and disadvantages global is best in exploration and local is best in exploitation. PSO is easily parallelized.
-Some of the appealing facts of PSO are its convenience, simplicity and easiness of implementation requiring.
-The prominent features of PSO are its easy implementation, robustness to control parameters and computation efficiency compared with other existing heuristic algorithms such as genetic algorithm in a continuous problem.
 method \ref{method}
 \section{Methodology}
-\label{method}
 This approach involves two steps. First, a coarse velocity model is prepared using PSO by optimizing the depth, interface velocity, and the rate of change of velocity between interfaces. This model serves as an initial model for conventional gradient-based FWI in the second step.
 \subsection{Particle Swarm Optimization}
 Particle Swarm Optimization (PSO) is a stochastic method developed by James Kennedy and Russell Eberhart in 1995. Inspired by the social behavior of birds flocking to find food, they formulated a mathematical model to simulate this behavior. This model is widely applied to solve various optimization problems. They identified that the fundamental principle guiding birds' food-finding behavior is their ability to communicate with each other. Each bird in the process knows its current position \((\mathbf{x}_i(t))\) and best position \((\mathbf{p}_i(t))\), determined by evaluating the fitness using a cost function. Additionally, each bird shares its best position with others, contributing to the collective knowledge of the flock's best position \((\mathbf{g}(t))\). Each bird's next movement is adjusted by its own best, the flock's best, and its current position. This iterative process continues at each step, ultimately converging towards a globally optimal position through the collaborative effort of all birds.This natural phenomenon is mathematically described by the velocity update equation \ref{eqn:pso_1} and the position update equation \ref{eqn:pso_2}.
@@ -207,6 +202,7 @@ Where \(obs^k\) and \(syn^k\) indicate the observed data and synthetic data gene
 
 \subsection{Full Waveform Inversion}
 The model prepared using PSO serves as an initial model for FWI. Synthetic data is generated with this model and compared with the observed data, a process known as misfit calculation. Common methods for this calculation include the L2 norm, normalized cross-correlation function, Huber norm, and optimal transport function. The gradient of the objective function with respect to the model parameters is then calculated, which aids in updating the model. This iterative process ultimately leads to the recovery of velocity model.
+\label{method}
 \section*{Theory}
 
 This is another section. 

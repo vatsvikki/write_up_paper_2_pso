@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -94,6 +94,16 @@ Debanjan Datta, Mrinal~K. Sen, Faqi Liu, and Scott Morton.
 \newblock \emph{Geophysics}, 84\penalty0 (5):\penalty0 R793--R804, 2019.
 \newblock ISSN 19422156.
 \newblock \doi{10.1190/geo2018-0175.1}.
+
+\bibitem[Dhabaria and Singh(2024)]{nirmit2024}
+Nirmit Dhabaria and Satish~C Singh.
+\newblock {Hamiltonian Monte Carlo based elastic full-waveform inversion of
+  wide-angle seismic data}.
+\newblock \emph{Geophysical Journal International}, 237\penalty0 (3):\penalty0
+  1384--1399, 03 2024.
+\newblock ISSN 1365-246X.
+\newblock \doi{10.1093/gji/ggae112}.
+\newblock URL \url{https://doi.org/10.1093/gji/ggae112}.
 
 \bibitem[Ding et~al.(2015)Ding, Chen, Wang, and Tan]{Ding2015}
 Ke~Ding, Yanyang Chen, Yanbin Wang, and Ying Tan.
