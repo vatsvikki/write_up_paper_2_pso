@@ -27,9 +27,9 @@ University Station, Box X \\
 Austin, TX 78713-8924}
 \author{Joe Dellinger\footnotemark[1] and Sergey Fomel\footnotemark[2]}
 
-\footer{Example}
-\lefthead{Dellinger \& Fomel}
-\righthead{\emph{Geophysics} example}
+\footer{Paper}
+\lefthead{Vikas \& Vikas}
+\righthead{\emph{Geophysics}}
 
 \maketitle
 
@@ -42,7 +42,13 @@ Austin, TX 78713-8924}
 
 Full Waveform Inversion (FWI) is considered one of the most efficient seismic imaging methods due to its ability to utilize all seismic phases present in the data \citep{Pratt1999, Schuster2017, Tarantola1986, Virieux2009a}. This involves comparing synthetic data with observed data \citep{Gomez2017, Liu2017, Metivier2018}, where the difference between them is known as the objective function. The rate of change of the objective function with respect to model parameters \citep{Plessix2006} is used to iteratively update the model until the synthetic data from the updated model matches the observed data.
 \par
-The nonlinear relationship between synthetic data and model parameters \citep{Crase1990, Geng2018, Guo2021} leads to a multimodal nonlinear objective function, characterized by multiple local minima and maxima \citep{TenKroode2013}, as shown in FIGURE. FWI utilizes calculus-based optimization methods, such as gradient descent, BFGS, and conjugate gradient, which typically direct the solution towards the nearest extrema. This can lead to FWI becoming trapped in local minima if the starting model is not within the basin of attraction \citep{FitchnerETH2015}. Consequently, if the starting model is in a localized basin of attraction, achieving convergence to the global minimum becomes impossible. Therefore, it is crucial to initialize the inversion with a model that is close to the global minimum.
+The nonlinear relationship between synthetic data and model parameters \citep{Crase1990, Geng2018, Guo2021} leads to a multimodal nonlinear objective function, characterized by multiple local minima and maxima \citep{TenKroode2013}, as shown in \ref{fig:nonlinear_func}. FWI utilizes calculus-based optimization methods, such as gradient descent, BFGS, and conjugate gradient, which typically direct the solution towards the nearest extrema. This can lead to FWI becoming trapped in local minima if the starting model is not within the basin of attraction \citep{FitchnerETH2015}. Consequently, if the starting model is in a localized basin of attraction, achieving convergence to the global minimum becomes impossible. Therefore, it is crucial to initialize the inversion with a model that is close to the global minimum.
+%\begin{figure}	
+%	\centering
+%	\includegraphics[width=0.5\paperwidth]{Fig/nonlinear_func.jpg}
+%	\caption{Nonlinear multi-modal function.}
+%	\label{fig:nonlinear_func}
+%\end{figure} 
 \par
 FWI has undergone extensive research to address nonlinearity, focusing on both modifying the objective function and developing effective methods for preparing initial models through global optimization. Approaches to modifying the objective function include multiscale strategies \citep{Bunks1995a, Ravaut2004, Schafer2014, Sirgue2004}, which start with low-frequency data for initial inversions and gradually incorporate higher frequencies. The normalized cross-correlation objective function \citep{Chi2015, Liu2017} emphasizes phase matching to mitigate amplitude variations, while the envelope-based objective function \citep{Borisov2018, Chi2014} is used for updating long-wavelength models. More recent methods, such as the optimal transport function \citep{Brossier2016, Metivier2016, Metivier2018}, enhance the convexity of the basin of attraction, thereby increasing the likelihood that the initial model will fall within the basin of attraction for the global minimum.
 
@@ -96,7 +102,7 @@ Where:
 \subsection{Optimization Parameters}
 The updates in the Particle Swarm Optimization (PSO) algorithm are influenced by several controlling parameters, including the inertia weight \((w)\), acceleration coefficients \((c_1\) and \(c_2)\), population size of the swarm, and the number of iterations. Among these, the inertia weight is the most critical tuning parameter as it balances the exploration and exploitation capabilities of PSO by adjusting the contribution of the particle's previous velocity. An inertia weight value between 0.4 and 0.9 is generally found to provide good convergence. The cognitive and social coefficients \((c_1\) and \(c_2)\) represent the confidence in a particle's own best position and the swarm's best position, respectively, and they influence the updated velocity of the particles. The number of particles in the swarm also affects convergence; as the number of particles increases, the search space expands, potentially leading to better convergence. Experimental studies have shown that a swarm size of around 30 particles is generally effective for finding solutions within optimal iterations. The number of iterations, as with all iterative optimization algorithms, significantly impacts the performance of PSO.
 \\
-This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function shown in figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski} respectively. These experiments are performed to determine the optimal value of the optimization coefficient and examine the relationship between the number of iterations and swarm size. Since both swarm size and iteration count impact computational time, it is essential to balance these factors to achieve effective optimization while minimizing computational costs. To fairly compare the effects of swarm size and the number of iterations, the rate of increase for both parameters is kept consistent. Following this, PSO is applied to the Schwefel function using the parameters chosen from the previous experiment to achieve the parameters that lead to the best convergence. To analyze performance, accuracy is evaluated based on the maximum deviation using equation \ref{eqn:accuracy}. Further details of these experiments are outlined below.
+This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function shown in Figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski} respectively. These experiments are performed to determine the optimal value of the optimization coefficient and examine the relationship between the number of iterations and swarm size. Since both swarm size and iteration count impact computational time, it is essential to balance these factors to achieve effective optimization while minimizing computational costs. To fairly compare the effects of swarm size and the number of iterations, the rate of increase for both parameters is kept consistent. Following this, PSO is applied to the Schwefel function using the parameters chosen from the previous experiment to achieve the parameters that lead to the best convergence. To analyze performance, accuracy is evaluated based on the maximum deviation using equation \ref{eqn:accuracy}. Further details of these experiments are outlined below.
 \begin{equation}
 	Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluated \ value}{optimal \ value - maximum \ deviation} \right| \times 100
 	\label{eqn:accuracy}
@@ -110,22 +116,26 @@ Where:
 \begin{enumerate}
 	\item Accuracy with Parameters: In this experiment, optimization is conducted for all specified test functions using varying values of \(c_1\), \(c_2\), and inertia weights, as illustrated in figures \ref{fig:acc_ackley}, \ref{fig:acc_griewank}, \ref{fig:acc_rastrigin}, and \ref{fig:acc_styblinski}. To address the inherent randomness of this stochastic method, we perform 50 runs with 1000 iterations and calculate the average of these results as the final optimized values. 
 %\begin{figure}	
-%	\includegraphics[width=\paperwidth]{Fig/ackley.png}
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/ackley.png}
 %	\caption{Ackley function.}
 %	\label{fig:ackley}
 %\end{figure} 
 %\begin{figure}	
-%	\includegraphics[width=\paperwidth]{Fig/griewank.png}
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/griewank.png}
 %	\caption{Griewank function.}
 %	\label{fig:griewank}
 %\end{figure}
 %\begin{figure}	
-%	\includegraphics[width=\paperwidth]{Fig/rastrigin.png}
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/rastrigin.png}
 %	\caption{Rastrigin function.}
 %	\label{fig:rastrigin}
 %\end{figure}
-%\begin{figure}	
-%	\includegraphics[width=\paperwidth]{Fig/styblinski.png}
+%\begin{figure}
+%	\centering	
+%	\includegraphics[width=0.8\paperwidth]{Fig/styblinski.png}
 %	\caption{Styblinski-Tang function.}
 %	\label{fig:styblinski}
 %\end{figure}
@@ -154,7 +164,8 @@ This experiment concludes that a combination of inertia weights between 0.5 and 
 
 	\item Accuracy with iterations: Here, accuracy is assessed while maintaining a constant swarm size of 30 and an initial iteration count of 1000, which is then increased by factors of 1.67, 2.0, 2.67, 3.00, 5, and 10, to examine how the number of iterations impacts accuracy across all test functions. The results indicate that as the number of iterations increases, accuracy improves, reaching a maximum close to 100 \% when iterations are increased to 10 times, as illustrated in figure \ref{fig:acc_itr}.
 %	\begin{figure}	
-%		\includegraphics[width=0.8\paperwidth]{Fig/iteration_vs_accuracy.jpeg}
+%		\centering
+%		\includegraphics[width=0.7\paperwidth]{Fig/iteration_vs_accuracy.jpeg}
 %		\caption{Accuracy variation with iterations keeping the swarm size at 30 for all test functions.}
 %		\label{fig:acc_itr}
 %	\end{figure}
@@ -163,13 +174,13 @@ This experiment concludes that a combination of inertia weights between 0.5 and 
 \end{enumerate}
 From these experiments for finding the optimization parameters, it is concluded that an optimal combination of inertia weights between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6 and 1.8 leads to enhanced accuracy. Additionally, increasing the number of iterations relative to the number of particles is beneficial, as it provide improved accuracy while maintaining similar computational costs.
 \\
-The parameters that performed well in the previous experiments with test functions are used to evaluate the rate of convergence for the Schwefel function, as shown in figure \ref{fig:schwefel}. This additional test function focuses solely on the objective function with respect to the number of iterations, as illustrated in figure \ref{fig:con_schwefel}. The aim of this study is to identify a combination of optimization parameters that achieve a better rate of convergence, enabling optimized results to be obtained within fewer iterations. Figure \ref{fig:con_schwefel} illustrates that higher values of inertia do not show convergence, while lower values of inertia exhibit a high rate of convergence but fail to reach the optimized value. An inertia value of 0.6 demonstrates good convergence with different \(c_1\) and \(c_2\) values. This analysis reveals that \(c_1\) at 1.8 and \(c_2\) at both 1.8 and 2.4 converge to zero, albeit slowly. In contrast, \(c_1\) at 2.4 and \(c_2\) ranging from 1.2 to 1.8 exhibit a good rate of convergence, reaching near zero within 100 iterations. Based on this analysis, the optimal parameters for further seismic inversion are set as inertia at 0.6, \(c_1\) at 2.4, and \(c_2\) between 1.2 and 1.8.
+The parameters that performed well in the previous experiments with test functions are used to evaluate the rate of convergence for the Schwefel function, as shown in Figure \ref{fig:schwefel}. This additional test function focuses solely on the objective function with respect to the number of iterations, as illustrated in figure \ref{fig:con_schwefel}. The aim of this study is to identify a combination of optimization parameters that achieve a better rate of convergence, enabling optimized results to be obtained within fewer iterations. Figure \ref{fig:con_schwefel} illustrates that higher values of inertia do not show convergence, while lower values of inertia exhibit a high rate of convergence but fail to reach the optimized value. An inertia value of 0.6 demonstrates good convergence with different \(c_1\) and \(c_2\) values. This analysis reveals that \(c_1\) at 1.8 and \(c_2\) at both 1.8 and 2.4 converge to zero, albeit slowly. In contrast, \(c_1\) at 2.4 and \(c_2\) ranging from 1.2 to 1.8 exhibit a good rate of convergence, reaching near zero within 100 iterations. Based on this analysis, the optimal parameters for further seismic inversion are set as inertia at 0.6, \(c_1\) at 2.4, and \(c_2\) between 1.2 and 1.8.
 %\begin{figure}	
 %	\includegraphics[width=0.8\paperwidth]{Fig/schwefel.png}
 %	\caption{Schwefel function.}
 %	\label{fig:schwefel}
 %\end{figure}
-
+%
 %\begin{figure}	
 %	\includegraphics[width=0.8\paperwidth]{Fig/con_vs_itr.jpg}
 %	\caption{Objective function versus iteration for Schwefel function.}
@@ -179,7 +190,7 @@ The parameters that performed well in the previous experiments with test functio
 \subsection{Model Parameterization}
 The seismic model includes physical parameters defined at densely packed grid points, often in the thousands, leading to an exponentially expanding search space that complicates the implementation of PSO. Therefore, it is essential to create a method for defining these velocity models with fewer parameters before implementing PSO, ensuring that the resulting output model can effectively serve as an initial model for FWI. 
 \\
-We propose a technique to define model with 1D depth-velocity profiles at sparse horizontal positions, as illustrated in Figure \ref{fig:parameterization.jpg} with white vertical lines. This model is representing a layered marine environment, where the velocity gradually increases with depth, ranging from 1500 to 4700 m/s. Additionally, it features a low-velocity layer situated between two high-velocity layers. The depth of interface in terms of grid point (\(d_i^k\)), where \(i\) represents the \(i^{th}\) interface for the \(k^{th}\) depth-velocity profile, (\(g_i^k\)) denotes the rate of change of velocity between the \((i - 1)^{th}\) and \(i^{th}\) interfaces, and (\(v_i^k\)) indicates the velocity of the model at the \(i^{th}\) interface.  These multiple, sparsely located depth-velocity profiles are interpolated using cubic splines to create an initial model. It is also assumed that no two interfaces intersect, as this is geologically implausible. Furthermore, the search space is restricted to feasible physical parameters. With these constraints, PSO is employed to optimize the three parameters for each layer in the development of the initial model.
+We propose a technique to define model with 1D depth-velocity profiles at sparse horizontal positions, as illustrated in Figure \ref{fig:parameterization} with white vertical lines. This model is representing a layered marine environment, where the velocity gradually increases with depth, ranging from 1500 to 4700 m/s. Additionally, it features a low-velocity layer situated between two high-velocity layers. The depth of interface in terms of grid point (\(d_i^k\)), where \(i\) represents the \(i^{th}\) interface for the \(k^{th}\) depth-velocity profile, (\(g_i^k\)) denotes the rate of change of velocity between the \((i - 1)^{th}\) and \(i^{th}\) interfaces, and (\(v_i^k\)) indicates the velocity of the model at the \(i^{th}\) interface.  These multiple, sparsely located depth-velocity profiles are interpolated using cubic splines to create an initial model. It is also assumed that no two interfaces intersect, as this is geologically implausible. Furthermore, the search space is restricted to feasible physical parameters. With these constraints, PSO is employed to optimize the three parameters for each layer in the development of the initial model.
 
 %\begin{figure}	
 %	\includegraphics[width=0.8\paperwidth]{Fig/parameterization.jpg}
@@ -192,6 +203,7 @@ The workflow of this implementation is illustrated in Figure \ref{fig:work_flow}
 We sparsely select the shot locations and repeat this process for all chosen shots. Using the inverted reflectors from these shots, we create an initial model through interpolation and smoothing. This serves as the initial model for FWI.
 
 %\begin{figure}	
+%	\centering
 %	\includegraphics[width=0.5\paperwidth]{Fig/flow_chart.png}
 %	\caption{Work-flow.}
 %	\label{fig:work_flow}
@@ -210,22 +222,17 @@ The model prepared using PSO serves as an initial model for FWI. Synthetic data 
 
 
 \begin{acknowledgments}
-I wish to thank Ivan P\v{s}en\v{c}\'{\i}k and Fr\'ed\'eric Billette
-for having names with non-English letters in them.  I wish to thank
-\cite{Cerveny} for providing an example of how to make a bib file that
-includes an author whose name begins with a non-English character and
-\cite{forgues96} for providing both an example of referencing a Ph.D.
-thesis and yet more non-English characters.
+
 \end{acknowledgments}
 
 \append{Appendix example}
 
 
-\verbatiminput{geophysics_paper.tex}
+%\verbatiminput{geophysics_paper.tex}
 
 \append{The source of the bibliography}
 
-\verbatiminput{geophysics_reference.bib}
+%\verbatiminput{geophysics_reference.bib}
 
 \newpage
 
