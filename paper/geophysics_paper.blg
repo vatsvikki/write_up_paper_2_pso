@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: geophysics_paper.aux
 The style file: plainnat.bst
-Illegal, another \bibstyle command---line 78 of file geophysics_paper.aux
+Illegal, another \bibstyle command---line 52 of file geophysics_paper.aux
  : \bibstyle
  :          {seg}
 I'm skipping whatever remains of this command
@@ -34,46 +34,45 @@ Warning--empty journal in Gomez2017
 Warning--there's a number but no volume in Gomez2017
 Warning--empty journal in Mojica2019
 Warning--empty journal in Pratt1999
-Warning--empty publisher in Torn1989
-You've used 57 entries,
+You've used 54 entries,
             2773 wiz_defined-function locations,
-            1056 strings with 17474 characters,
-and the built_in function-call counts, 30039 in all, are:
-= -- 2836
-> -- 1793
-< -- 35
-+ -- 603
-- -- 546
-* -- 2653
-:= -- 4694
-add.period$ -- 264
-call.type$ -- 57
-change.case$ -- 347
-chr.to.int$ -- 57
-cite$ -- 122
-duplicate$ -- 1205
-empty$ -- 2245
-format.name$ -- 639
-if$ -- 6231
+            1031 strings with 16792 characters,
+and the built_in function-call counts, 28617 in all, are:
+= -- 2705
+> -- 1712
+< -- 32
++ -- 576
+- -- 522
+* -- 2531
+:= -- 4470
+add.period$ -- 250
+call.type$ -- 54
+change.case$ -- 331
+chr.to.int$ -- 54
+cite$ -- 115
+duplicate$ -- 1144
+empty$ -- 2134
+format.name$ -- 608
+if$ -- 5936
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 60
-newline$ -- 387
-num.names$ -- 228
-pop$ -- 563
+missing$ -- 56
+newline$ -- 367
+num.names$ -- 216
+pop$ -- 535
 preamble$ -- 2
-purify$ -- 296
+purify$ -- 282
 quote$ -- 0
-skip$ -- 962
+skip$ -- 914
 stack$ -- 0
-substring$ -- 1302
-swap$ -- 103
-text.length$ -- 9
+substring$ -- 1253
+swap$ -- 99
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 602
-warning$ -- 8
-while$ -- 262
+type$ -- 574
+warning$ -- 7
+while$ -- 250
 width$ -- 0
-write$ -- 926
+write$ -- 878
 (There were 6 error messages)
