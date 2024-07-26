@@ -102,7 +102,7 @@ Where:
 \subsection{Optimization Parameters}
 The updates in the Particle Swarm Optimization (PSO) algorithm are influenced by several controlling parameters, including the inertia weight \((w)\), acceleration coefficients \((c_1\) and \(c_2)\), population size of the swarm, and the number of iterations. Among these, the inertia weight is the most critical tuning parameter as it balances the exploration and exploitation capabilities of PSO by adjusting the contribution of the particle's previous velocity. An inertia weight value between 0.4 and 0.9 is generally found to provide good convergence. The cognitive and social coefficients \((c_1\) and \(c_2)\) represent the confidence in a particle's own best position and the swarm's best position, respectively, and they influence the updated velocity of the particles. The number of particles in the swarm also affects convergence; as the number of particles increases, the search space expands, potentially leading to better convergence. Experimental studies have shown that a swarm size of around 30 particles is generally effective for finding solutions within optimal iterations. The number of iterations, as with all iterative optimization algorithms, significantly impacts the performance of PSO.
 \\
-This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function shown in Figure \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, and \ref{fig:styblinski} respectively. These experiments are performed to determine the optimal value of the optimization coefficient and examine the relationship between the number of iterations and swarm size. Since both swarm size and iteration count impact computational time, it is essential to balance these factors to achieve effective optimization while minimizing computational costs. To fairly compare the effects of swarm size and the number of iterations, the rate of increase for both parameters is kept consistent. Following this, PSO is applied to the Schwefel function using the parameters chosen from the previous experiment to achieve the parameters that lead to the best convergence. To analyze performance, accuracy is evaluated based on the maximum deviation using equation \ref{eqn:accuracy}. Further details of these experiments are outlined below.
+This contribution of different parameters for succes of PSO make it is necessary to decide the combination of these parameters precisely. we have performed experiments to find the optimal combination of this values, for these experiment we have choose four nonlinear multi-modal functions Ackley, Griewank, Rastrigin, and Styblinski-Tang function details of these functions are given in Appendix \cref{appendix_1} These experiments are performed to determine the optimal value of the optimization coefficient and examine the relationship between the number of iterations and swarm size. Since both swarm size and iteration count impact computational time, it is essential to balance these factors to achieve effective optimization while minimizing computational costs. To fairly compare the effects of swarm size and the number of iterations, the rate of increase for both parameters is kept consistent. Following, PSO is applied to the Schwefel function described in \ref{appendix_1} using the parameters selected from the previous experiment to identify those that yield optimal convergence. To analyze performance, accuracy is evaluated based on the maximum deviation using equation \ref{eqn:accuracy}. Further details of these experiments are outlined below.
 \begin{equation}
 	Accuracy (\%) = 100 - \left| \frac{optimal \ value - evaluated \ value}{optimal \ value - maximum \ deviation} \right| \times 100
 	\label{eqn:accuracy}
@@ -115,30 +115,6 @@ Where:
 \end{itemize}
 \begin{enumerate}
 	\item Accuracy with Parameters: In this experiment, optimization is conducted for all specified test functions using varying values of \(c_1\), \(c_2\), and inertia weights, as illustrated in figures \ref{fig:acc_ackley}, \ref{fig:acc_griewank}, \ref{fig:acc_rastrigin}, and \ref{fig:acc_styblinski}. To address the inherent randomness of this stochastic method, we perform 50 runs with 1000 iterations and calculate the average of these results as the final optimized values. 
-%\begin{figure}	
-%	\centering
-%	\includegraphics[width=0.8\paperwidth]{Fig/ackley.png}
-%	\caption{Ackley function.}
-%	\label{fig:ackley}
-%\end{figure} 
-%\begin{figure}	
-%	\centering
-%	\includegraphics[width=0.8\paperwidth]{Fig/griewank.png}
-%	\caption{Griewank function.}
-%	\label{fig:griewank}
-%\end{figure}
-%\begin{figure}	
-%	\centering
-%	\includegraphics[width=0.8\paperwidth]{Fig/rastrigin.png}
-%	\caption{Rastrigin function.}
-%	\label{fig:rastrigin}
-%\end{figure}
-%\begin{figure}
-%	\centering	
-%	\includegraphics[width=0.8\paperwidth]{Fig/styblinski.png}
-%	\caption{Styblinski-Tang function.}
-%	\label{fig:styblinski}
-%\end{figure}
 	
 This experiment concludes that a combination of inertia weights between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6 and 1.8 results in improved accuracy. 
 %	\begin{sidewaysfigure}	
@@ -175,12 +151,7 @@ This experiment concludes that a combination of inertia weights between 0.5 and 
 From these experiments for finding the optimization parameters, it is concluded that an optimal combination of inertia weights between 0.5 and 0.8, \(c_1\) values ranging from 0.6 to 2.0, and \(c_2\) values between 0.6 and 1.8 leads to enhanced accuracy. Additionally, increasing the number of iterations relative to the number of particles is beneficial, as it provide improved accuracy while maintaining similar computational costs.
 \\
 The parameters that performed well in the previous experiments with test functions are used to evaluate the rate of convergence for the Schwefel function, as shown in Figure \ref{fig:schwefel}. This additional test function focuses solely on the objective function with respect to the number of iterations, as illustrated in figure \ref{fig:con_schwefel}. The aim of this study is to identify a combination of optimization parameters that achieve a better rate of convergence, enabling optimized results to be obtained within fewer iterations. Figure \ref{fig:con_schwefel} illustrates that higher values of inertia do not show convergence, while lower values of inertia exhibit a high rate of convergence but fail to reach the optimized value. An inertia value of 0.6 demonstrates good convergence with different \(c_1\) and \(c_2\) values. This analysis reveals that \(c_1\) at 1.8 and \(c_2\) at both 1.8 and 2.4 converge to zero, albeit slowly. In contrast, \(c_1\) at 2.4 and \(c_2\) ranging from 1.2 to 1.8 exhibit a good rate of convergence, reaching near zero within 100 iterations. Based on this analysis, the optimal parameters for further seismic inversion are set as inertia at 0.6, \(c_1\) at 2.4, and \(c_2\) between 1.2 and 1.8.
-%\begin{figure}	
-%	\includegraphics[width=0.8\paperwidth]{Fig/schwefel.png}
-%	\caption{Schwefel function.}
-%	\label{fig:schwefel}
-%\end{figure}
-%
+
 %\begin{figure}	
 %	\includegraphics[width=0.8\paperwidth]{Fig/con_vs_itr.jpg}
 %	\caption{Objective function versus iteration for Schwefel function.}
@@ -225,7 +196,77 @@ The model prepared using PSO serves as an initial model for FWI. Synthetic data 
 
 \end{acknowledgments}
 
-\append{Appendix example}
+\append{Nonlinear Multimodal Functions} \label{appendix_1}
+The Ackley, Griewank, Rastrigin, Styblinski-Tang, and Schwefel functions, illustrated in Figures \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, \ref{fig:styblinski}, and \ref{fig:schwefel} respectively, are characterized by their nonlinear relationships with independent variables and multiple local minima and maxima. These functions are commonly used to assess the performance of optimization algorithms. These functions are used to test becuase of large number of local minima and nearly flat region near to global minima, increse in challenge of optimization when the number of varibles are incresed to large number,  having where complex topography which compicated the search of soltion. 
+Their mathematical expressions are provided in Equations \ref{eqn:ackley}, \ref{eqn:griewank}, \ref{eqn:rastrigin}, \ref{eqn:styblinski}, and \ref{eqn:schwefel}.
+
+{\bf{Ackley Function}}
+\begin{equation}
+	f(x) = -a \exp\left(-b \sqrt{\frac{1}{n} \sum_{i=1}^{n} x_i^2}\right) - \exp\left(\frac{1}{n} \sum_{i=1}^{n} \cos(c x_i)\right) + a + \exp(1)
+\end{equation}
+where \( a = 20 \), \( b = 0.2 \), and \( c = 2\pi \).\\
+Global Minimum: \(f(x)=0\)\\
+Location: \(x=0\)
+
+{\bf{Griewank Function}}
+\begin{equation}
+	f(x) = 1 + \frac{1}{4000} \sum_{i=1}^{n} x_i^2 - \prod_{i=1}^{n} \cos\left(\frac{x_i}{\sqrt{i}}\right)
+\end{equation}
+Global Minimum: \(f(x)=0\)\\
+Location: \(x=0\)\\
+
+{\bf{Rastrigin Function}}
+\begin{equation}
+	f(x) = A n + \sum_{i=1}^{n} \left[ x_i^2 - A \cos(2 \pi x_i) \right]
+\end{equation}
+where \( A = 10 \).\\
+Global Minimum: \(f(x)=0\)\\
+Location: \(x=0\)
+
+{\bf{Styblinski-Tang Function}}
+\begin{equation}
+	f(x) = \frac{1}{2} \sum_{i=1}^{n} \left( x_i^4 - 16x_i^2 + 5x_i \right)
+\end{equation}
+Global Minimum: \(f(x) = -39.16599n\)\\
+Location: \(x_i = -2.903534\)\\
+
+{\bf{Schwefel Function}}
+\begin{equation}
+	f(x) = 418.9829n - \sum_{i=1}^{n} x_i \sin(\sqrt{|x_i|})
+\end{equation}
+Global Minimum: \(f(x) = 0\)\\
+Location: \(x_i = 420.9687\)\\
+where \(n\) is the number of variables.
+%\begin{figure}	
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/ackley.png}
+%	\caption{Ackley function.}
+%	\label{fig:ackley}
+%\end{figure} 
+%\begin{figure}	
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/griewank.png}
+%	\caption{Griewank function.}
+%	\label{fig:griewank}
+%\end{figure}
+%\begin{figure}	
+%	\centering
+%	\includegraphics[width=0.8\paperwidth]{Fig/rastrigin.png}
+%	\caption{Rastrigin function.}
+%	\label{fig:rastrigin}
+%\end{figure}
+%\begin{figure}
+%	\centering	
+%	\includegraphics[width=0.8\paperwidth]{Fig/styblinski.png}
+%	\caption{Styblinski-Tang function.}
+%	\label{fig:styblinski}
+%\end{figure}
+%\begin{figure}	
+%	\includegraphics[width=0.8\paperwidth]{Fig/schwefel.png}
+%	\caption{Schwefel function.}
+%	\label{fig:schwefel}
+%\end{figure}
+%
 
 
 %\verbatiminput{geophysics_paper.tex}
