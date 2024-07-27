@@ -191,13 +191,14 @@ Where \(obs^k\) and \(syn^k\) indicate the observed data and synthetic data gene
 The model prepared using PSO serves as an initial model for FWI. Synthetic data is generated with this model and compared with the observed data, a process known as misfit calculation. Common methods for this calculation include the L2 norm, normalized cross-correlation function, Huber norm, and optimal transport function. The gradient of the objective function with respect to the model parameters is then calculated, which aids in updating the model. This iterative process ultimately leads to the recovery of velocity model.
 \label{method}
 
+\section{Results}
 
 \begin{acknowledgments}
 
 \end{acknowledgments}
 
 \append{Nonlinear Multimodal Functions} \label{appendix_1}
-The Ackley, Griewank, Rastrigin, Styblinski-Tang, and Schwefel functions, illustrated in Figures \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, \ref{fig:styblinski}, and \ref{fig:schwefel} respectively, are characterized by their nonlinear relationships with independent variables and multiple local minima and maxima. These functions are commonly used to assess the performance of optimization algorithms. These functions are used to test becuase of large number of local minima and nearly flat region near to global minima, increse in challenge of optimization when the number of varibles are incresed to large number,  having where complex topography which compicated the search of soltion. 
+The Ackley, Griewank, Rastrigin, Styblinski-Tang, and Schwefel functions, illustrated in Figures \ref{fig:ackley}, \ref{fig:griewank}, \ref{fig:rastrigin}, \ref{fig:styblinski}, and \ref{fig:schwefel} respectively, are nonlinear multi-modal functions. These functions are commonly used to assess the performance of optimization algorithms due to their large number of local minima and nearly flat regions near the global minima. As the number of variables increases, the complexity of these functions also grows significantly, and their intricate topographies further complicate the search for solutions. This combination of features presents substantial challenges, making these functions ideal for testing optimization methods.
 Their mathematical expressions are provided in Equations \ref{eqn:ackley}, \ref{eqn:griewank}, \ref{eqn:rastrigin}, \ref{eqn:styblinski}, and \ref{eqn:schwefel}.
 
 {\bf{Ackley Function}}
@@ -236,7 +237,7 @@ Location: \(x_i = -2.903534\)\\
 \end{equation}
 Global Minimum: \(f(x) = 0\)\\
 Location: \(x_i = 420.9687\)\\
-where \(n\) is the number of variables.
+where \(n\) is the number of independent variables.
 %\begin{figure}	
 %	\centering
 %	\includegraphics[width=0.8\paperwidth]{Fig/ackley.png}
