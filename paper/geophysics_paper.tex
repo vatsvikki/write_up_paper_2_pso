@@ -191,7 +191,29 @@ The model prepared using PSO serves as an initial model for FWI. Synthetic data 
 \label{method}
 
 \section{Results}
-
+this proposed method is tested on benchmark models  X, Y, and Z these model have different complexity in structure and geological settings. intial model for these models is for implimentation of FWI is computed with our technique.  for preparing the initial model, 1D velocity depth slices for sparsely located shots at regular interval is selected for inversion of the near offset data. The initial velocity of the model used by global optimization is uniform and same as the velocity of the upper layer which is water for marine enviornment. Synthetic field for these model is prepared by numerically solving the acoustic wave equation with the finitie difference scheme, the source signautre is of 10 Hz frequency where the grid size is 10 m with temopral discretization of 1 ms. then FWI in time domain is performed using Shavi-1.0 (ref). a multiscale strategy is used in FWi where the inversion is started from a low frequncy whihc grdually increaed to recover the fine structure of model.
+\\
+parameter selection for intial model
+\subsection{X}
+\begin{itemize}
+	\item model description
+	\item model dimension
+	\item discretization
+	\item source and receiver information
+	\item source and reciver selection for initla model preparation
+	\item explain the initial model prepared
+	\item FWi implementation
+	\item explain 1D slice
+	\item explain the seismogram
+\end{itemize}
+\subsection{Y}
+\subsection{Z}
+\section{Discussion}
+\section{Conclusion}
+we have demonstrated a new approach of implimentation of PSO for preparing an initial model for FWI. In this technique, the employed parametrization technique sucessfuly define  the model which reduce the computational burden on algorithm significantly. 1D depth-velocity profile is inverted which also make the implimentation of PSO easy by reducing the computational cost involving in forward modeling.
+\begin{itemize}
+	\item 
+\end{itemize}
 \begin{acknowledgments}
 
 \end{acknowledgments}
