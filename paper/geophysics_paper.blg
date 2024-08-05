@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: geophysics_paper.aux
 The style file: plainnat.bst
@@ -7,23 +7,23 @@ Illegal, another \bibstyle command---line 52 of file geophysics_paper.aux
  :          {seg}
 I'm skipping whatever remains of this command
 Database file #1: geophysics_reference.bib
-Repeated entry---line 269 of file geophysics_reference.bib
+Repeated entry---line 537 of file geophysics_reference.bib
  : @article{Sajeva2017
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 301 of file geophysics_reference.bib
+Repeated entry---line 601 of file geophysics_reference.bib
  : @article{Ding2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 325 of file geophysics_reference.bib
+Repeated entry---line 649 of file geophysics_reference.bib
  : @article{Sajeva2017
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 595 of file geophysics_reference.bib
+Repeated entry---line 1189 of file geophysics_reference.bib
  : @article{Liu2017
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 624 of file geophysics_reference.bib
+Repeated entry---line 1247 of file geophysics_reference.bib
  : @article{Metivier2018
  :                      ,
 I'm skipping whatever remains of this entry
@@ -34,45 +34,45 @@ Warning--empty journal in Gomez2017
 Warning--there's a number but no volume in Gomez2017
 Warning--empty journal in Mojica2019
 Warning--empty journal in Pratt1999
-You've used 54 entries,
+You've used 52 entries,
             2773 wiz_defined-function locations,
-            1031 strings with 16792 characters,
-and the built_in function-call counts, 28617 in all, are:
-= -- 2705
-> -- 1712
-< -- 32
-+ -- 576
-- -- 522
-* -- 2531
-:= -- 4470
-add.period$ -- 250
-call.type$ -- 54
-change.case$ -- 331
-chr.to.int$ -- 54
-cite$ -- 115
-duplicate$ -- 1144
-empty$ -- 2134
-format.name$ -- 608
-if$ -- 5936
+            1021 strings with 16548 characters,
+and the built_in function-call counts, 28048 in all, are:
+= -- 2656
+> -- 1692
+< -- 30
++ -- 568
+- -- 516
+* -- 2500
+:= -- 4372
+add.period$ -- 244
+call.type$ -- 52
+change.case$ -- 325
+chr.to.int$ -- 52
+cite$ -- 111
+duplicate$ -- 1108
+empty$ -- 2080
+format.name$ -- 600
+if$ -- 5821
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 56
-newline$ -- 367
-num.names$ -- 216
-pop$ -- 535
+missing$ -- 54
+newline$ -- 357
+num.names$ -- 208
+pop$ -- 517
 preamble$ -- 2
-purify$ -- 282
+purify$ -- 276
 quote$ -- 0
-skip$ -- 914
+skip$ -- 890
 stack$ -- 0
-substring$ -- 1253
-swap$ -- 99
+substring$ -- 1249
+swap$ -- 97
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 574
+type$ -- 557
 warning$ -- 7
-while$ -- 250
+while$ -- 244
 width$ -- 0
-write$ -- 878
+write$ -- 853
 (There were 6 error messages)

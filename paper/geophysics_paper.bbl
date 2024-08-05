@@ -1,5 +1,5 @@
 \newcommand{\SortNoop}[1]{}
-\begin{thebibliography}{54}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -36,11 +36,6 @@ C.~Bunks, F.~M. Saleck, S.~Zaleski, and G.~Chavent.
 \newblock \emph{Geophysics}, 60\penalty0 (5):\penalty0 1457--1473, 1995.
 \newblock ISSN 00168033.
 \newblock \doi{10.1190/1.1443880}.
-
-\bibitem[{\SortNoop{Cerveny}}\v{C}erven\'{y}(2000)]{Cerveny}
-V[] {\SortNoop{Cerveny}}\v{C}erven\'{y}.
-\newblock \emph{Seismic Ray Method}.
-\newblock Cambridge University Press, 2000.
 
 \bibitem[Chi et~al.(2014)Chi, Dong, and Liu]{Chi2014}
 Benxin Chi, Liangguo Dong, and Yuzhu Liu.
@@ -139,13 +134,6 @@ Fitchner(ETH).
 \newblock 2015.
 \newblock ISBN 9783642158063.
 \newblock \doi{https://doi.org/10.1007/978-3-642-15807-0}.
-
-\bibitem[Forgues(1996)]{forgues96}
-E.~Forgues.
-\newblock \emph{Inversion linearis\'ee multi-param\`etres via la th\'eorie des
-  rais}.
-\newblock PhD thesis, Institut Fran\c{c}ais du P\'etrole - University Paris
-  VII, 1996.
 
 \bibitem[Fu et~al.(2021)Fu, Innanen, and Project]{Fu2021}
 Xin Fu, Kristopher~A Innanen, and Crewes Project.
